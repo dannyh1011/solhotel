@@ -24,8 +24,8 @@
 <body>
 
   <div class="slideshow-container">
-    <img class="slides" src="https://example.com/photo1.jpg" alt="圖1">
-    <img class="slides" src="https://example.com/photo2.jpg" alt="圖2">
+    <img class="slides" src="Garden.jpg" alt="圖1">
+    <img class="slides" src="bf.jpg" alt="圖2">
   </div>
 
   <script>
