@@ -43,7 +43,7 @@
       slideIndex++;
       if (slideIndex > slides.length) { slideIndex = 1; }
       slides[slideIndex - 1].style.display = "block";
-      setTimeout(showSlides, 10000); // 每5秒切換
+      setTimeout(showSlides, 10000); 
     }
 
     showSlides();
