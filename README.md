@@ -16,7 +16,7 @@
       display: none;
       width: 100%;
       height: 100%;
-      object-fit: contain; /* 若希望圖片完整顯示，改用 contain；若希望裁切充滿畫面，用 cover */
+      object-fit: cover
       background: black;
     }
   </style>
