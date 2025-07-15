@@ -8,10 +8,14 @@
   <style>
     html, body { margin: 0; padding: 0; height: 100%; background: black; }
     .slideshow-container {
-      width: 100vw;
-      height: 100vh;
-      overflow: hidden;
-    }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: black;
+}
     .slides {
       display: none;
       width: 100%;
@@ -39,7 +43,7 @@
       slideIndex++;
       if (slideIndex > slides.length) { slideIndex = 1; }
       slides[slideIndex - 1].style.display = "block";
-      setTimeout(showSlides, 5000); // 每5秒切換
+      setTimeout(showSlides, 10000); // 每5秒切換
     }
 
     showSlides();
