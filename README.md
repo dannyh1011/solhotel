@@ -26,7 +26,6 @@
   <div class="slideshow-container">
     <img class="slides" src="https://example.com/photo1.jpg" alt="圖1">
     <img class="slides" src="https://example.com/photo2.jpg" alt="圖2">
-    <img class="slides" src="https://example.com/photo3.jpg" alt="圖3">
   </div>
 
   <script>
