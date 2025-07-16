@@ -1,4 +1,4 @@
-# solhotel
+<!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8" />
@@ -24,7 +24,7 @@
       display: none;
       width: 100%;
       height: 100%;
-      object-fit: cover; 
+      object-fit: cover;
       background: black;
     }
     iframe.slide-frame {
@@ -37,10 +37,14 @@
 </head>
 <body>
 
-   <div class="slideshow-container">
+  <div class="slideshow-container">
     <img class="slides" src="Garden.jpg" alt="圖1">
     <img class="slides" src="bf.jpg" alt="圖2">
     <img class="slides" src="SolHotel_M_02.jpg" alt="圖3">  
+    <iframe class="slide-frame"
+            src="weather.html"  <!-- 這裡放你的天氣 widget 頁面路徑 -->
+            title="新竹市天氣">
+    </iframe>
   </div>
 
   <script>
