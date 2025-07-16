@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8" />
@@ -20,17 +20,12 @@
       overflow: hidden;
       background: black;
     }
-    .slides {
+    .slides, iframe.slide-frame {
       display: none;
       width: 100%;
       height: 100%;
       object-fit: cover;
       background: black;
-    }
-    iframe.slide-frame {
-      display: none;
-      width: 100vw;
-      height: 100vh;
       border: none;
     }
   </style>
@@ -40,8 +35,16 @@
   <div class="slideshow-container">
     <img class="slides" src="Garden.jpg" alt="圖1">
     <img class="slides" src="bf.jpg" alt="圖2">
-    <img class="slides" src="SolHotel_M_02.jpg" alt="圖3">  
-  
+    <img class="slides" src="SolHotel_M_02.jpg" alt="圖3">
+    <!--Begin Weather Widget -->
+    <iframe class="slide-frame"
+            src="https://taiwanweather.org/widget/embed/hsinchu?style=1&day=3&td=%23003870&ntd=%23ff0000&mvb=%23959dad&mv=%23ff0000&mdk=%23dddddd&htd=true"
+            id="widgeturl"
+            scrolling="no"
+            frameborder="0"
+            allowtransparency="true">
+    </iframe>
+    <!-- End Widget -->
   </div>
 
   <script>
