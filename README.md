@@ -38,13 +38,12 @@
 </head>
 <body>
 
-  <div class="slideshow-container">
+   <div class="slideshow-container">
     <img class="slides" src="Garden.jpg" alt="圖1">
     <img class="slides" src="bf.jpg" alt="圖2">
     <img class="slides" src="SolHotel_M_02.jpg" alt="圖3">
-    <a class="weatherwidget-io"
+  </div>
 
-</a>
 <script>
 !function(d,s,id){
   var js,fjs=d.getElementsByTagName(s)[0];
