@@ -44,9 +44,10 @@
     <img class="slides" src="SolHotel_M_02.jpg" alt="圖3">
     <iframe class="slide-frame"
         src="https://www.cwa.gov.tw/V8/C/SimplePlugin.html?style=W2&cid=10018"
-        width="100%" height="100%" frameborder="0" scrolling="no">
+        title="氣象署天氣"
+        frameborder="0"
+        width="100%" height="100%" scrolling="no">
 </iframe>
-
   </div>
 
   <script>
