@@ -42,7 +42,11 @@
     <img class="slides" src="Garden.jpg" alt="圖1">
     <img class="slides" src="bf.jpg" alt="圖2">
     <img class="slides" src="SolHotel_M_02.jpg" alt="圖3">
-    <iframe class="slide-frame" src="https://www.windy.com/zh-TW/-%E9%99%8D%E9%9B%A8%E3%80%81%E9%9B%B7%E6%9A%B4-rain?rain,26.372,138.120,5" title="圖4"></iframe>
+    <iframe class="slide-frame"
+        src="https://www.cwa.gov.tw/V8/C/SimplePlugin.html?style=W2&cid=10018"
+        width="100%" height="100%" frameborder="0" scrolling="no">
+</iframe>
+
   </div>
 
   <script>
