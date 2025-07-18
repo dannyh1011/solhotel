@@ -40,6 +40,7 @@
     <img class="slides" src="Garden.jpg" alt="圖1">
     <img class="slides" src="bf.jpg" alt="圖2">
     <img class="slides" src="SolHotel_M_02.jpg" alt="圖3">
+    <img class="slides" src="railbike3.jpg" alt="圖4">
   </div>
 
   <div class="weather-widget-container">
