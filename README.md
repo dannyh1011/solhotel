@@ -40,14 +40,7 @@
     <img class="slides" src="Garden.jpg" alt="圖1">
     <img class="slides" src="bf.jpg" alt="圖2">
     <img class="slides" src="SolHotel_M_02.jpg" alt="圖3">
-    <img class="slides" src="railbike3.jpg" alt="圖4">
-  </div>
-
-  <div class="weather-widget-container">
-    <div id="ww_838231a3dcea4" v='1.3' loc='id' a='{"t":"responsive","lang":"ja","sl_lpl":1,"ids":["wl9238"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","sl_tof":"3","cl_odd":"#0000000a"}'>
-      <a href="https://weatherwidget.org/" id="ww_838231a3dcea4_u" target="_blank">Widget weather</a>
-    </div>
-    <script async src="https://app3.weatherwidget.org/js/?id=ww_838231a3dcea4"></script>
+  
   </div>
 
   <script>
