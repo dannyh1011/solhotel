@@ -35,10 +35,6 @@
   <div class="slideshow-container">
     <img class="slides" src="Garden.jpg" alt="圖1">
     <img class="slides" src="bf.jpg" alt="圖2">
-    <a class="weatherwidget-io" href="https://forecast7.com/ja/24d81120d97/hsinchu-city/" data-label_1="HSINCHU CITY" data-label_2="WEATHER" data-font="ヒラギノ角ゴ Pro W3" data-icons="Climacons" data-days="5" data-theme="weather_one" >HSINCHU CITY WEATHER</a>
-<script>
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-</script>
     <img class="slides" src="SolHotel_M_02.jpg" alt="圖3">
     <!--Begin Weather Widget -->
     <iframe class="slide-frame"
