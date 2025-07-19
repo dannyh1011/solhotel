@@ -1,146 +1,89 @@
+@@ -1,50 +1,53 @@
 
+<html lang="en">
+# solhotel
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>飯店大廳公佈欄輪播</title>
+  <title>Two Full Screen Weather Widgets</title>
+  <title>飯店大廳輪播</title>
   <style>
     html, body {
       margin: 0;
       padding: 0;
       height: 100%;
       width: 100%;
-      overflow: hidden;
-      background: black;
-    }
-    body::before {
-      content: "";
-      position: absolute;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
-      background-size: 400% 400%;
-      animation: neon 10s linear infinite;
-      opacity: 0.3;
-      z-index: 0;
-    }
-    @keyframes neon {
-      0% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
-    }
-    .slide {
-      position: absolute;
-      top: 0; left: 0;
-      width: 100vw;
-      height: 100vh;
-      display: none;
-      justify-content: center;
-      align-items: center;
+      background: #222;
+      display: flex;
       flex-direction: column;
-      font-size: 48px;
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 20px;
-      box-sizing: border-box;
-      color: white;
-      z-index: 1;
+      align-items: center;
+      justify-content: center;
     }
-    .slide img {
-      max-width: 80%;
-      max-height: 80%;
-      object-fit: contain;
-      margin-bottom: 20px;
-      filter: drop-shadow(0 0 20px white);
-    }
-    .slide-heart {
-      background: black;
-    }
-    .heart {
-      font-size: 200px;
-      color: pink;
-      text-shadow: 0 0 20px hotpink, 0 0 40px hotpink;
-      animation: pulse 2s infinite;
-    }
-    @keyframes pulse {
-      0% { transform: scale(1); }
-      50% { transform: scale(1.2); }
-      100% { transform: scale(1); }
-    }
-    .marquee {
-      position: absolute;
-      bottom: 20px;
+    .widget {
+    html, body { margin: 0; padding: 0; height: 100%; background: black; }
+    .slideshow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: black;
+}
+    .slides {
+      display: none;
       width: 100%;
-      white-space: nowrap;
-      overflow: hidden;
-      z-index: 2;
+      max-width: 1200px;
+      flex: 1;
     }
-    .marquee span {
-      display: inline-block;
-      padding-left: 100%;
-      animation: marquee 10s linear infinite;
-      font-size: 36px;
-      background: linear-gradient(45deg, red, orange, yellow, green, blue, purple, red);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-shadow: 0 0 10px rgba(255,255,255,0.8);
-    }
-    @keyframes marquee {
-      from { transform: translateX(0%); }
-      to { transform: translateX(-100%); }
+    @media (max-width: 2800px) {
+      .widget {
+        max-width: 100%;
+      }
+      height: 100%;
+      object-fit: cover;
+      background: black;
     }
   </style>
 </head>
 <body>
-
-  <!-- Slide 1: 圖片公告 -->
-  <div class="slide">
-    <img src="Garden.jpg" alt="圖1">
-    <div></div>
+  <!-- Widget 1 -->
+  <div class="widget">
+    <div id="ww_527aa936a9ba0" v='1.3' loc='auto' a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl9238"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
+      <a href="https://weatherwidget.org/" id="ww_527aa936a9ba0_u" target="_blank">Widget weather HTML</a>
+    </div>
   </div>
 
-  <!-- Slide 2: 粉紅大愛心 -->
-  <div class="slide slide-heart">
-    <div class="heart">❤</div>
-        <div>心跳100</div>
+  <!-- Widget 2 -->
+  <div class="widget">
+    <div id="ww_5c1e90e7842" v='1.3' loc='auto' a='{"t":"responsive","lang":"en","sl_lpl":1,"ids":["wl9238"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
+      <a href="https://weatherwidget.org/" id="ww_5c1e90e7842_u" target="_blank">HTML Weather widgets</a>
+    </div>
+  <div class="slideshow-container">
+    <img class="slides" src="r健康訂房" alt="圖1">
+    <img class="slides" src="bf.jpg" alt="圖2">
+    <img class="slides" src="SolHotel_M_02.jpg" alt="圖3">
   </div>
 
-  <!-- Slide 3: 圖片公告 -->
-  <div class="slide">
-    <img src="bf.jpg" alt="圖2">
-    <div></div>
-  </div>
-
-  <!-- 跑馬燈 -->
-  <div class="marquee">
-    <span>迎曦大飯店歡迎您 ✨ 早餐供應至上午10點 ✨ 本館全面禁菸 ✨</span>
-  </div>
-
-  <!-- 台語歌曲背景音樂 -->
-  <audio id="bgm" src="your-taiwanese-song.mp3" autoplay loop></audio>
-
+  <!-- Scripts -->
+  <script async src="https://app3.weatherwidget.org/js/?id=ww_527aa936a9ba0"></script>
+  <script async src="https://app3.weatherwidget.org/js/?id=ww_5c1e90e7842"></script>
   <script>
-    const slides = document.querySelectorAll('.slide');
-    let current = 0;
+    let slideIndex = 0;
+    const slides = document.getElementsByClassName("slides");
 
-    function showSlide(index) {
-      slides.forEach(s => s.style.display = 'none');
-      slides[index].style.display = 'flex';
+    function showSlides() {
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1; }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 10000); 
     }
 
-    function nextSlide() {
-      current = (current + 1) % slides.length;
-      showSlide(current);
-    }
-
-    showSlide(current);
-    setInterval(nextSlide, 10000); // 每10秒切換
-
-    // 自動播放背景音樂（避免 Chrome 阻擋）
-    const bgm = document.getElementById('bgm');
-    document.addEventListener('click', () => {
-      bgm.play();
-    });
+    showSlides();
   </script>
 
 </body>
