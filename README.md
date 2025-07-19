@@ -1,57 +1,22 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>飯店大廳輪播</title>
+  <title>Windy 測試</title>
   <style>
     html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      background: black;
+      margin: 0; padding: 0;
+      width: 100%; height: 100%;
     }
-    .slideshow-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100vw;
-      height: 100vh;
-      overflow: hidden;
-      background: black;
-    }
-    .slides {
-      display: none;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+    iframe {
+      width: 100%; height: 100%;
+      border: none;
     }
   </style>
 </head>
 <body>
 
-  <div class="slideshow-container">
-    <img class="slides" src="r健康訂房.jpg" alt="圖1">
-    <img class="slides" src="bf.jpg" alt="圖2">
-    <img class="slides" src="SolHotel_M_02.jpg" alt="圖3">
-  </div>
-
-  <script>
-    let slideIndex = 0;
-    const slides = document.getElementsByClassName("slides");
-
-    function showSlides() {
-      for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      slideIndex++;
-      if (slideIndex > slides.length) { slideIndex = 1; }
-      slides[slideIndex - 1].style.display = "block";
-      setTimeout(showSlides, 10000); // 每10秒切換
-    }
-
-    showSlides();
-  </script>
+  <iframe src="https://embed.windy.com/embed2.html?lat=24.8&lon=121&zoom=8&level=surface&overlay=wind"></iframe>
 
 </body>
 </html>
