@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8" />
@@ -82,18 +82,18 @@
   <!-- Slide 1: 圖片公告 -->
   <div class="slide">
     <img src="Garden.jpg" alt="圖1">
-    <div>歡迎入住迎曦大飯店</div>
+    <div></div>
   </div>
 
   <!-- Slide 2: 純文字公告 -->
   <div class="slide" style="background: rgba(0,0,0,0.5);">
-    <div>早餐供應時間：06:30 - 10:00</div>
+    <div></div>
   </div>
 
   <!-- Slide 3: 圖片公告 -->
   <div class="slide">
     <img src="bf.jpg" alt="圖2">
-    <div>本館全面禁菸，敬請配合</div>
+    <div></div>
   </div>
 
   <!-- 跑馬燈 -->
