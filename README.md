@@ -1,5 +1,4 @@
 
-<!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8" />
@@ -103,6 +102,7 @@
   <!-- Slide 2: 粉紅大愛心 -->
   <div class="slide slide-heart">
     <div class="heart">❤</div>
+        <div>心跳100</div>
   </div>
 
   <!-- Slide 3: 圖片公告 -->
