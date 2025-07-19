@@ -1,4 +1,5 @@
 
+<!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8" />
@@ -53,6 +54,20 @@
       margin-bottom: 20px;
       filter: drop-shadow(0 0 20px white);
     }
+    .slide-heart {
+      background: black;
+    }
+    .heart {
+      font-size: 200px;
+      color: pink;
+      text-shadow: 0 0 20px hotpink, 0 0 40px hotpink;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
     .marquee {
       position: absolute;
       bottom: 20px;
@@ -85,9 +100,9 @@
     <div></div>
   </div>
 
-  <!-- Slide 2: 純文字公告 -->
-  <div class="slide" style="background: rgba(0,0,0,0.5);">
-    <div></div>
+  <!-- Slide 2: 粉紅大愛心 -->
+  <div class="slide slide-heart">
+    <div class="heart">❤</div>
   </div>
 
   <!-- Slide 3: 圖片公告 -->
