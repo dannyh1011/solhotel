@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
@@ -11,11 +10,17 @@
       padding: 0;
       height: 100%;
       width: 100%;
-      background: black;
       overflow: hidden;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    }
+    body {
+      animation: flash 5s infinite alternate;
+    }
+    @keyframes flash {
+      0% { background: red; }
+      25% { background: orange; }
+      50% { background: yellow; }
+      75% { background: green; }
+      100% { background: blue; }
     }
     .slide {
       position: absolute;
@@ -26,15 +31,39 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      color: white;
       font-size: 48px;
       font-family: Arial, sans-serif;
       text-align: center;
+      padding: 20px;
+      box-sizing: border-box;
+      color: white;
     }
     .slide img {
       max-width: 80%;
       max-height: 80%;
       object-fit: contain;
+      margin-bottom: 20px;
+    }
+    /* 跑馬燈樣式 */
+    .marquee {
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+    .marquee span {
+      display: inline-block;
+      padding-left: 100%;
+      animation: marquee 10s linear infinite;
+      font-size: 36px;
+      background: linear-gradient(45deg, red, orange, yellow, green, blue, purple, red);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    @keyframes marquee {
+      from { transform: translateX(0%); }
+      to { transform: translateX(-100%); }
     }
   </style>
 </head>
@@ -47,7 +76,7 @@
   </div>
 
   <!-- Slide 2: 純文字公告 -->
-  <div class="slide" style="background: #333;">
+  <div class="slide" style="background: rgba(0,0,0,0.5);">
     <div>早餐供應時間：06:30 - 10:00</div>
   </div>
 
@@ -55,6 +84,11 @@
   <div class="slide">
     <img src="bf.jpg" alt="圖2">
     <div>本館全面禁菸，敬請配合</div>
+  </div>
+
+  <!-- 跑馬燈 -->
+  <div class="marquee">
+    <span>迎曦大飯店歡迎您 ✨ 早餐供應至上午10點 ✨ 本館全面禁菸 ✨</span>
   </div>
 
   <script>
