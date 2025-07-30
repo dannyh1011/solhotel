@@ -16,8 +16,8 @@
     }
 
     .inner-box {
-      width: 90%;
-      height: 90%;
+      width: 99%;
+      height: 99%;
       background-color: #1a1616; /* 中間黑色 */
       display: flex;
       justify-content: center;
