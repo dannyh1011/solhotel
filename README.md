@@ -1,39 +1,39 @@
-<!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>QA 自動回覆</title>
   <style>
-    body {
+    html, body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #1a1616;
-      color: white;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #1a1616; /* 黑色背景 */
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
     }
 
     .qa-container {
       background-color: #333;
-      border: 5px solid #a67c52;
+      border: 6px solid #a67c52; /* 棕色邊框 */
       border-radius: 12px;
-      padding: 30px 40px;
+      padding: 30px 20px;
       width: 90%;
       max-width: 600px;
+      box-sizing: border-box;
     }
 
     .qa-item {
-      margin-bottom: 20px;
+      margin-bottom: 25px;
     }
 
     .question {
       cursor: pointer;
-      font-size: 1.5rem;
-      margin-bottom: 5px;
+      font-size: 1.4rem;
       color: #FFC107;
+      margin-bottom: 8px;
     }
 
     .answer {
@@ -45,6 +45,18 @@
 
     .question:hover {
       text-decoration: underline;
+    }
+
+    @media (max-width: 480px) {
+      .qa-container {
+        padding: 20px 15px;
+      }
+      .question {
+        font-size: 1.2rem;
+      }
+      .answer {
+        font-size: 1rem;
+      }
     }
   </style>
 </head>
