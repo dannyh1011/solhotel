@@ -64,7 +64,7 @@
 
   <div class="qa-container">
     <div class="qa-item">
-      <div class="question" onclick="toggleAnswer(0)">1. 請問是否可以寄放行李？請問是否可以寄放行李？</div>
+      <div class="question" onclick="toggleAnswer(0)">1. 請問是否可以寄放行李？請問是否可以寄放行李？請問是否可以寄放行李？請問是否可以寄放行李？</div>
       <div class="answer">可以的</div>
     </div>
     <div class="qa-item">
