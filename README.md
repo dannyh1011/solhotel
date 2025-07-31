@@ -18,10 +18,10 @@
     .qa-container {
       background-color: #333;
       border: 6px solid #a67c52; /* 棕色邊框 */
-      border-radius: 12px;
+      border-radius: 18px;
       padding: 30px 20px;
       width: 90%;
-      max-width: 600px;
+      max-width: 1000px;
       box-sizing: border-box;
     }
 
