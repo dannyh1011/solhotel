@@ -20,8 +20,8 @@
       border: 6px solid #a67c52; /* 棕色邊框 */
       border-radius: 18px;
       padding: 30px 20px;
-      width: 90%;
-      max-width: 1000px;
+      width: 100%;
+      max-width: 1200px;
       box-sizing: border-box;
     }
 
@@ -64,7 +64,7 @@
 
   <div class="qa-container">
     <div class="qa-item">
-      <div class="question" onclick="toggleAnswer(0)">1. 請問是否可以寄放行李？</div>
+      <div class="question" onclick="toggleAnswer(0)">1. 請問是否可以寄放行李？請問是否可以寄放行李？</div>
       <div class="answer">可以的</div>
     </div>
     <div class="qa-item">
