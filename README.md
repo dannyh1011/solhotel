@@ -1,25 +1,26 @@
-<!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
-  <title>大廳衛星雲圖</title>
-  <meta http-equiv="refresh" content="600"> <!-- 每10分鐘自動刷新 -->
+  <title>新竹科學園區 路況圖</title>
+  <meta http-equiv="refresh" content="600"> <!-- 每10分鐘刷新 -->
   <style>
     html, body {
       margin: 0;
       padding: 0;
-      background: black;
+      background-color: black;
+      height: 100%;
+      width: 100%;
     }
     img {
       width: 100vw;
       height: 100vh;
-      object-fit: contain;
+      object-fit: cover;
       display: block;
-      margin: auto;
     }
   </style>
 </head>
 <body>
-  <img src="https://www.cwa.gov.tw/Data/satellite/LCC_IR1_RGB_1024.jpg" alt="中央氣象署衛星雲圖">
+  <img src="https://maps.googleapis.com/maps/api/staticmap?center=24.789,120.993&zoom=14&size=1920x1080&maptype=roadmap&style=feature:road|element:geometry|color:0x00000000&style=feature:all|element:labels|visibility:off&traffic=on"
+       alt="新竹科學園區路況圖">
 </body>
 </html>
