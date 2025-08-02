@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>新竹站台鐵即時列車動態</title>
-  <meta http-equiv="refresh" content="300" />
+  <meta http-equiv="refresh" content="180" />
   <style>
     html, body {
       margin: 0;
