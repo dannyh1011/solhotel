@@ -1,22 +1,24 @@
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8">
-  <title>高鐵列車運行狀況</title>
-  <meta http-equiv="refresh" content="300"> <!-- 每5分鐘自動刷新 -->
+  <meta charset="UTF-8" />
+  <title>新竹站台鐵即時列車動態</title>
+  <meta http-equiv="refresh" content="300" />
   <style>
     html, body {
-      margin: 0; padding: 0;
-      height: 100%; width: 100%;
+      margin: 0; padding: 0; height: 100%; width: 100%;
+      background: #000;
       overflow: hidden;
     }
     iframe {
-      width: 100vw; height: 100vh;
       border: none;
+      width: 100vw;
+      height: 100vh;
+      display: block;
     }
   </style>
 </head>
 <body>
-  <iframe src="https://www.thsrc.com.tw/ArticleContent/3ec1c04f-d3de-45b1-becc-cba412d55123"
-          title="高鐵運行狀況"></iframe>
+  <iframe src="https://railway.chienwen.net/taiwan/station/TRA-1210-%E6%96%B0%E7%AB%B9/live" 
+          title="新竹站台鐵即時列車動態"></iframe>
 </body>
 </html>
