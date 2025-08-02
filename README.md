@@ -1,26 +1,22 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
-  <title>新竹科學園區 路況圖</title>
-  <meta http-equiv="refresh" content="600"> <!-- 每10分鐘刷新 -->
+  <title>高鐵列車運行狀況</title>
+  <meta http-equiv="refresh" content="300"> <!-- 每5分鐘自動刷新 -->
   <style>
     html, body {
-      margin: 0;
-      padding: 0;
-      background-color: black;
-      height: 100%;
-      width: 100%;
+      margin: 0; padding: 0;
+      height: 100%; width: 100%;
+      overflow: hidden;
     }
-    img {
-      width: 100vw;
-      height: 100vh;
-      object-fit: cover;
-      display: block;
+    iframe {
+      width: 100vw; height: 100vh;
+      border: none;
     }
   </style>
 </head>
 <body>
-  <img src="https://maps.googleapis.com/maps/api/staticmap?center=24.789,120.993&zoom=14&size=1920x1080&maptype=roadmap&style=feature:road|element:geometry|color:0x00000000&style=feature:all|element:labels|visibility:off&traffic=on"
-       alt="新竹科學園區路況圖">
+  <iframe src="https://www.thsrc.com.tw/ArticleContent/3ec1c04f-d3de-45b1-becc-cba412d55123"
+          title="高鐵運行狀況"></iframe>
 </body>
 </html>
