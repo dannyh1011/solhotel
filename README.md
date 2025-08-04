@@ -64,16 +64,15 @@
 
   <div class="qa-container">
     <div class="qa-item">
-      <div class="question" onclick="toggleAnswer(0)">1.是否有停車位、充電設施</div>
+      <div class="question" onclick="toggleAnswer(0)">・是否有停車位、充電設施</div>
       <div class="answer">飯店提供住客免費汽車平面停車場於地下一樓（限高2.2米），您可於入住當日直接進入地下一樓停放再搭乘電梯至一樓櫃檯登記入住，因車位有限，無法預做保留。
 若館內停車場停滿，您可自行停放至近飯店步行5分鐘的二個公有停車場，東大路橋下(入口在中央路)或府後停車場，飯店將會支付您的停車費(請於退房１１：００前於櫃檯索取停車時數抵用後再行取車)。謝謝您。
-停車資訊：https://www.solhotel.com.tw/location/index.php?index_id=27
-★新春其週末尖峰時段，停車需求量大，如遇等待狀況，造成您的不便，敬請見諒。
-★本館停車場無附設充電設施。
+<br>★新春其週末尖峰時段，停車需求量大，如遇等待狀況，造成您的不便，敬請見諒。
+<br>★本館停車場無附設充電設施。
 </div>
     </div>
     <div class="qa-item">
-      <div class="question" onclick="toggleAnswer(1)">2. 請問早餐時間？</div>
+      <div class="question" onclick="toggleAnswer(1)"> ・早餐供應時間？</div>
       <div class="answer">6:30 ~ 10:00</div>
     </div>
   </div>
