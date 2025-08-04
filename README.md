@@ -77,6 +77,18 @@
     </div>
   </div>
 
+</div>
+    </div>
+    <div class="qa-item">
+      <div class="question" onclick="toggleAnswer(1)"> ・是否可提供嬰兒床、床圍。？</div>
+      <div class="answer">您好，本飯店備有嬰兒床、床圍免費租用，如需預訂使用請注意以下事項：
+<br>￭	因安全考慮，嬰兒床僅限1歲以下幼兒使用。一歲以上幼童建議在爸媽監護下使用床圍，且須入住前安裝。
+<br>￭ 數量不多，請於訂房同時提前告知此需求。謝謝您！
+<br>￭ 由於房型空間限制，精緻客房（標準雙人房），無法提供嬰兒床服務。
+</div>
+    </div>
+  </div>
+  
   <script>
     function toggleAnswer(index) {
       const answers = document.querySelectorAll('.answer');
