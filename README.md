@@ -124,12 +124,12 @@
 
     <div class="qa-item">
       <div class="question" onclick="toggleAnswer(7)">・詢問大眾交通、步行、接駁服務？</div>
-      <div class="answer">♦ 台鐵→迎曦大飯店
+      <div class="answer">￭ 台鐵→迎曦大飯店
         <br>新竹火車站→步行約8分鐘→抵達迎曦飯店 (東門國小後門)
-        <br><br>♦ 高鐵→迎曦大飯店
+        <br><br>￭ 高鐵→迎曦大飯店
         <br>於新竹高鐵站(竹北.六家)下車→轉乘台鐵六家站→至新竹終點站→
         步行約8分鐘→抵達迎曦飯店 (東門國小後門)
-        <br><br>♦飯店無免費接駁服務。
+        <br><br>￭ 飯店無免費接駁服務。
       </div>
     </div>
 
