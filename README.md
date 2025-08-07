@@ -76,8 +76,8 @@
     </div>
 
     <div class="qa-item">
-      <div class="question" onclick="toggleAnswer(1)">・早餐供應時間？</div>
-      <div class="answer">6:30 ~ 10:00，核對房號及用餐人數即可用餐。遇年節尖峰用餐時間限時1小時。</div>
+      <div class="question" onclick="toggleAnswer(1)">・早餐內容、供應時間？</div>
+      <div class="answer">歐式Buffet，提供中式、西式與日式餐 點。用餐時間6:30 ~ 10:00，核對房號及用餐人數即可用餐。遇年節尖峰用餐時間限時1小時。</div>
     </div>
 
     <div class="qa-item">
