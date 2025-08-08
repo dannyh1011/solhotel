@@ -131,6 +131,7 @@
         {
           q: "推薦景點1？",
           a: `巨城購物中心：<a href="https://www.google.com/maps?q=巨城購物中心" target="_blank" style="color: #00bcd4;">點我查看地圖</a>`
+            a: `城隍廟：<a href="https://www.google.com/maps?q=新竹城隍廟" target="_blank" style="color: #00bcd4;">點我查看地圖</a>`
         },
         {
           q: "推薦景點2？",
