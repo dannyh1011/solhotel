@@ -94,68 +94,67 @@
 
   <script>
     const qaData = [
-      {
-    q: "駐車場や電気自動車の充電設備はありますか？",
-    a: `当ホテルでは、地下1階に高さ制限2.2mの無料平面駐車場を提供しております。ご到着後、直接地下に駐車し、エレベーターで1階フロントへお越しください。駐車スペースには限りがあるため、予約は承っておりません。<br>
-        満車の場合は、徒歩5分圏内の公営駐車場（東大路橋下・府後駐車場）をご利用ください。チェックアウト当日の11:00までにフロントで駐車券をご提示いただければ、駐車料金を当ホテルが負担いたします。<br><br>
-        ★旧正月や週末など混雑時にはお待たせする場合がございます。あらかじめご了承ください。<br>
-        ★館内にはEV充電設備はございません。`
+     {
+    q: "Is there parking and EV charging available?",
+    a: `Free flat parking is available for hotel guests on B1 (height limit 2.2m). You may park directly upon arrival and take the elevator to the lobby for check-in. Parking is limited and cannot be reserved in advance.<br>
+        If full, you can park at two nearby public lots within 5 minutes' walk: under Dongda Rd. Bridge (東大路橋下停車場-entrance on Zhongyang Rd.) or Fu-hou Parking Lot(府後停車場). The hotel will cover the parking fee (please request a parking voucher at the front desk before 11:00 on checkout day).<br><br>
+        ★ Parking is in high demand during Chinese New Year and weekends. We apologize for any inconvenience caused by delays.<br>
+        ★ No EV charging station available in the hotel.`
   },
   {
-    q: "朝食の内容と提供時間を教えてください。",
-    a: `▪ ビュッフェ形式で中華・洋食・和食をご用意しております。<br>
-        ▪ 時間：6:30〜10:00、部屋番号と人数を確認後ご利用可能です。<br>
-        繁忙期（年末年始など）は利用時間を1時間に制限する場合があります。`
+    q: "What is the breakfast menu and service time?",
+    a: `▪ Buffet with Chinese, Western, and Japanese selections.<br>
+        ▪ Served 6:30 ~ 10:00. Please provide your room number and number of guests.<br>
+        During peak holiday periods, dining time may be limited to 1 hour.`
   },
   {
-    q: "ベビーベッドやベッドガードの貸し出しはありますか？",
-    a: `無料でベビーベッドやベッドガードの貸し出しを行っております。<br>
-        ▪ 安全面から、ベビーベッドは1歳未満のお子様に限ります。<br>
-        ▪ 1歳以上のお子様にはベッドガードをおすすめします（チェックイン前に設置が必要）。<br>
-        ▪ 数に限りがありますので、ご予約時にお申し付けください。<br>
-        ▪ スタンダードダブルルームにはベビーベッドを設置できません。`
+    q: "Do you provide baby cots and bed guards?",
+    a: `We offer free rental of baby cots and bed guards. Please note:<br>
+        ▪ Baby cots are for infants under 1 year old only, for safety reasons.<br>
+        ▪ Children over 1 year are advised to use bed guards (must be installed before check-in).<br>
+        ▪ Limited availability – please request at time of booking.<br>
+        ▪ Baby cots are not available in Standard Double Rooms.`
   },
   {
-    q: "ベビーバスや哺乳瓶の消毒器はありますか？",
-    a: `ベビーバス（小さな椅子付き）と哺乳瓶消毒器を無料で貸し出しております。<br>
-        数に限りがあるため、事前のご予約をおすすめします。`
+    q: "Do you offer baby bathtubs and bottle sterilizers?",
+    a: `Yes, baby bathtubs (with small stool) and bottle sterilizers are available for free rental.<br>
+        Quantities are limited – please reserve in advance.`
   },
   {
-    q: "バスルームに浴槽はありますか？",
-    a: `▪ スタンダードダブルルーム：小型座浴槽のみ<br>
-        ▪ デラックスルーム以上：標準サイズの一人用浴槽あり`
+    q: "Do bathrooms have bathtubs?",
+    a: `▪ Standard Double Rooms: Small seated bathtubs only.<br>
+        ▪ Deluxe Rooms and above: Standard single bathtubs included.`
   },
   {
-    q: "子どもの宿泊料金は？",
-    a: `▪ 1歳未満はベビーベッド利用可（要予約）<br>
-        ▪ 110cm未満：無料<br>
-        ▪ 110～140cm：NT$220<br>
-        ▪ 140cm以上：大人料金、エキストラベッド推奨<br>
-        ▪ エキストラベッド朝食付き：NT$880（旧正月はNT$1200）<br>
-           朝食なし：NT$550（旧正月はNT$1000）`
+    q: "What are the child surcharges?",
+    a: `▪ Infants under 1 may use baby cots (limited, by request).<br>
+        ▪ Under 110 cm: Free of charge<br>
+        ▪ 110–140 cm: NT$220<br>
+        ▪ Over 140 cm: Charged as adult, extra bed recommended<br>
+        ▪ Extra bed with breakfast: NT$880 (NT$1200 during Chinese New Year), without breakfast: NT$550 (NT$1000 during CNY)`
   },
   {
-    q: "大人の追加料金は？",
-    a: `▪ 朝食付きエキストラベッド：NT$880（旧正月はNT$1200）<br>
-        ベッドなし追加宿泊：NT$500（旧正月はNT$800）<br><br>
-        ▪ 朝食なしエキストラベッド：NT$550（旧正月はNT$1000）<br>
-        ベッドなし追加宿泊：NT$400（旧正月はNT$500）<br>
-        ★ スタンダードダブルルームではエキストラベッドの提供はできません。`
+    q: "What are the charges for additional adults?",
+    a: `▪ With breakfast: NT$880 per person (NT$1200 during CNY)<br>
+        Without extra bed: NT$500 (NT$800 during CNY)<br><br>
+        ▪ Without breakfast: NT$550 (NT$1000 during CNY)<br>
+        Without extra bed: NT$400 (NT$500 during CNY)<br>
+        ★ Standard Double Rooms do not support extra beds.`
   },
   {
-    q: "平日と休日の定義は？",
-    a: `▪ 平日：日曜〜金曜<br>▪ 休日：土曜および祝日`
+    q: "What is the definition of weekday and weekend rates?",
+    a: `▪ Weekdays: Sunday to Friday<br>▪ Weekends: Saturday and public holidays`
   },
   {
-    q: "公共交通機関や送迎サービスについて教えてください。",
-    a: `▪ 台鉄・新竹駅から徒歩約8分（東門国小裏門経由）<br>
-        ▪ 高鉄・新竹駅 → 徒歩2分で空中通路を通り六家駅 → 台鉄で新竹駅へ → 徒歩8分で当ホテルへ<br>
-        ▪ 無料送迎サービスは行っておりません。`
+    q: "How to get there by public transportation? Is there shuttle service?",
+    a: `▪ 8-minute walk from Hsinchu TRA Station (via Dong Men Elementary School rear gate)<br>
+        ▪ From HSR Hsinchu Station → 2-min walk over the skybridge to Liujia TRA Station → transfer to Hsinchu TRA Station → 8-min walk to hotel<br>
+        ▪ No shuttle service provided.`
   },
   {
-    q: "チェックイン・チェックアウト時間、荷物預かりについて",
-    a: `チェックイン：15:00以降、チェックアウト：翌日11:00まで。<br>
-        チェックイン前およびチェックアウト後の荷物預かり可能です。`
+    q: "What are the check-in/out times and luggage storage policy?",
+    a: `Check-in: after 15:00; Check-out: before 11:00.<br>
+        Luggage storage available at the front desk before check-in and after check-out.`
   }
 
     ];
