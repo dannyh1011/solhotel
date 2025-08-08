@@ -131,7 +131,7 @@
         {
           q: "新竹夜市 : 樹林頭夜市、後火車站夜市？",
           a: `週三、週五樹林頭夜市：<a href="https://www.google.com/maps?q=樹林頭夜市" target="_blank" style="color: #00bcd4;">點我查看地圖</a><br>
-            週二、週四新竹後站夜市：<a href="https://www.google.com/maps?q=新竹後站夜市" target="_blank" style="color: #00bcd4;">點我查看地圖</a>`
+              週二、週四新竹後站夜市：<a href="https://www.google.com/maps?q=新竹後站夜市" target="_blank" style="color: #00bcd4;">點我查看地圖</a>`
         },
         {
           q: "推薦景點2？",
@@ -140,20 +140,20 @@
       ],
       en: [
         {
-          q: "Recommended Spot 1?",
-          a: `Wed & Fri. Shulintou Night Market：<a href="https://www.google.com/maps?q=樹林頭夜市" target="_blank" style="color: #00bcd4;">點我查看地圖</a><br>
-            Tue & Thu. Hsinchu Back Station Night Market：<a href="https://www.google.com/maps?q=新竹後站夜市" target="_blank" style="color: #00bcd4;">點我查看地圖</a>`
+          q: "Night Markets in Hsinchu?",
+          a: `Wed & Fri – Shulintou Night Market: <a href="https://www.google.com/maps?q=樹林頭夜市" target="_blank" style="color: #00bcd4;">View on Google Maps</a><br>
+              Tue & Thu – Hsinchu Back Station Night Market: <a href="https://www.google.com/maps?q=新竹後站夜市" target="_blank" style="color: #00bcd4;">View on Google Maps</a>`
         },
         {
           q: "Recommended Spot 2?",
-          a: `Chenghuang Temple: <a href="https://www.google.com/maps?q=Chenghuang Temple" target="_blank" style="color: #00bcd4;">View on Google Maps</a>`
+          a: `Chenghuang Temple: <a href="https://www.google.com/maps?q=新竹城隍廟" target="_blank" style="color: #00bcd4;">View on Google Maps</a>`
         }
       ],
       ja: [
         {
-          q: "新竹夜市 :？",
-         `水曜日と金曜日樹林頭夜市：<a href="https://www.google.com/maps?q=樹林頭夜市" target="_blank" style="color: #00bcd4;">Googleマップで見る</a><br>
-            火曜日と木曜日新竹後駅夜市：<a href="https://www.google.com/maps?q=新竹後站夜市" target="_blank" style="color: #00bcd4;">Googleマップで見る</a>`
+          q: "新竹の夜市は？",
+          a: `水・金：樹林頭夜市 – <a href="https://www.google.com/maps?q=樹林頭夜市" target="_blank" style="color: #00bcd4;">Googleマップで見る</a><br>
+              火・木：新竹後駅夜市 – <a href="https://www.google.com/maps?q=新竹後站夜市" target="_blank" style="color: #00bcd4;">Googleマップで見る</a>`
         },
         {
           q: "おすすめスポット2は？",
@@ -202,7 +202,7 @@
       renderQA(lang);
     }
 
-    // 預設語言
+    // 預設語言為中文
     window.onload = () => renderQA('zh');
   </script>
 </body>
