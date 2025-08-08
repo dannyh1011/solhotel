@@ -140,21 +140,21 @@
       en: [
         {
           q: "Recommended Spot 1?",
-          a: `Big City Shopping Mall: <a href="https://maps.app.goo.gl/ZGFdxkC6ZZBUWAV96" target="_blank">View on Google Maps</a>`
+          a: `Big City Shopping Mall: <a href="https://www.google.com/maps?q=Big City Shopping Mall" target="_blank" style="color: #00bcd4;">View on Google Maps</a>`
         },
         {
           q: "Recommended Spot 2?",
-          a: `Chenghuang Temple: <a href="https://maps.app.goo.gl/JHym4kpXUj7L4cXr9" target="_blank">View on Google Maps</a>`
+          a: `Chenghuang Temple: <a href="https://www.google.com/maps?q=Chenghuang Temple" target="_blank" style="color: #00bcd4;">View on Google Maps</a>`
         }
       ],
       ja: [
         {
           q: "おすすめスポット1は？",
-          a: `ビッグシティモール：<a href="https://maps.app.goo.gl/ZGFdxkC6ZZBUWAV96" target="_blank">Googleマップで見る</a>`
+          a: `ビッグシティモール：<a href="https://www.google.com/maps?q=ビッグシティモール" target="_blank" style="color: #00bcd4;">Googleマップで見る</a>`
         },
         {
           q: "おすすめスポット2は？",
-          a: `城隍廟：<a href="https://maps.app.goo.gl/JHym4kpXUj7L4cXr9" target="_blank">Googleマップで見る</a>`
+          a: `城隍廟：<a href="https://www.google.com/maps?q=新竹城隍廟" target="_blank" style="color: #00bcd4;">Googleマップで見る</a>`
         }
       ]
     };
