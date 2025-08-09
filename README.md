@@ -146,7 +146,7 @@
         {
           q: "Ubike在哪裡？",
           a: `
-▪ 新竹市政府Ubike站：<a href="https://maps.example.com/ubike" target="_blank">地圖</a>`
+▪ 新竹市政府Ubike站：<a href="https://www.google.com/maps?q=YouBike 新竹市政府" target="_blank">地圖</a>`
         },
         {
           q: "早餐推薦？",
@@ -273,7 +273,7 @@
         {
           q: "Where is the Ubike station?",
           a: `
-▪ Hsinchu City Hall Ubike Station: <a href="https://maps.example.com/ubike" target="_blank">Map</a>`
+▪ Hsinchu City Hall Ubike Station: <a href="https://www.google.com/maps?q=YouBike 新竹市政府" target="_blank">Map</a>`
         },
         {
           q: "Where can I have breakfast?",
@@ -400,7 +400,7 @@
         {
           q: "Ubikeの場所は？",
           a: `
-▪ 新竹市政府Ubikeステーション：<a href="https://maps.example.com/ubike" target="_blank">地図</a>`
+▪ 新竹市政府Ubikeステーション：<a href="https://www.google.com/maps?q=YouBike 新竹市政府" target="_blank">地図</a>`
         },
         {
           q: "朝食のおすすめは？",
