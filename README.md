@@ -229,11 +229,11 @@
         {
           q: "伴手禮推薦？",
           a: `
-▪ 福源花生醬：<a href="https://maps.example.com/gift1" target="_blank">地圖</a><br>
-▪ 新復珍：<a href="https://maps.example.com/gift2" target="_blank">地圖</a><br>
-▪ 淵明餅舖：<a href="https://maps.example.com/gift3" target="_blank">地圖</a><br>
-▪ 進益貢丸：<a href="https://maps.example.com/gift4" target="_blank">地圖</a><br>
-▪ 海瑞貢丸：<a href="https://maps.example.com/gift5" target="_blank">地圖</a>`
+▪ 福源花生醬：<a href="https://www.google.com/maps?q=福源花生醬 新竹市東區東大路一段" target="_blank">地圖</a><br>
+▪ 新復珍商行(竹塹餅)：<a href="https://www.google.com/maps?q=新復珍商行" target="_blank">地圖</a><br>
+▪ 淵明餅舖(水蒸蛋糕)：<a href="https://www.google.com/maps?q=淵明餅舖" target="_blank">地圖</a><br>
+▪ 進益貢丸：<a href="https://www.google.com/maps?q=進益貢丸新竹市北區北門街"_blank">地圖</a><br>
+▪ 海瑞貢丸：<a href="https://www.google.com/maps?q=海瑞貢丸新竹西門總店"_blank">地圖</a>`
         }
       ],
       en: [
@@ -360,11 +360,11 @@
         {
           q: "Souvenir recommendations?",
           a: `
-▪ Fuyuan Peanut Butter: <a href="https://maps.example.com/gift1" target="_blank">Map</a><br>
-▪ Xin Fuzhen: <a href="https://maps.example.com/gift2" target="_blank">Map</a><br>
-▪ Yuanming Bakery: <a href="https://maps.example.com/gift3" target="_blank">Map</a><br>
-▪ Jinyi Meatballs: <a href="https://maps.example.com/gift4" target="_blank">Map</a><br>
-▪ Hairui Meatballs: <a href="https://maps.example.com/gift5" target="_blank">Map</a>`
+▪ Fuyuan Peanut Butter: <a href="https://www.google.com/maps?q=福源花生醬 新竹市東區東大路一段" target="_blank">Map</a><br>
+▪ Xin Fuzhen-Zhujian Cake: <a href="https://www.google.com/maps?q=新復珍商行" target="_blank">Map</a><br>
+▪ Yuanming Bakery-Steamed Sponge Cake: <a href="https://www.google.com/maps?q=淵明餅舖" target="_blank">Map</a><br>
+▪ Jinyi Meatballs: <a href="https://www.google.com/maps?q=進益貢丸新竹市北區北門街"_blank">Map</a><br>
+▪ Hairui Meatballs: <a href="https://www.google.com/maps?q=海瑞貢丸新竹西門總店" target="_blank">Map</a>`
         }
       ],
       ja: [
@@ -478,7 +478,7 @@
           a: `
 ▪ 段純貞牛肉麺：<a href="https://www.google.com/maps?q=段純貞牛肉麵新竹市北區武陵路" target="_blank">地図</a><br>
 ▪ 熊川牛肉麺：<a href="https://www.google.com/maps?q=熊川牛肉麵" target="_blank">地図</a><br>
-▪ 璽子牛肉麺（博愛店）：<a href="https://maps.example.com/beefnoodle3" target="_blank">地図</a><br>
+▪ 璽子牛肉麺：<a href="https://maps.example.com/beefnoodle3" target="_blank">地図</a><br>
 ▪ 貳壹村精緻麺点：<a href="https://www.google.com/maps?q=貳壹村精緻麵點" target="_blank">地図</a>`
         },
         {
@@ -491,11 +491,11 @@
         {
           q: "お土産のおすすめは？",
           a: `
-▪ 福源ピーナッツバター：<a href="https://maps.example.com/gift1" target="_blank">地図</a><br>
-▪ 新復珍：<a href="https://maps.example.com/gift2" target="_blank">地図</a><br>
-▪ 淵明餅舗：<a href="https://maps.example.com/gift3" target="_blank">地図</a><br>
-▪ 進益貢丸：<a href="https://maps.example.com/gift4" target="_blank">地図</a><br>
-▪ 海瑞貢丸：<a href="https://maps.example.com/gift5" target="_blank">地図</a>`
+▪ 福源ピーナッツバター：<a href="https://www.google.com/maps?q=福源花生醬 新竹市東區東大路一段" target="_blank">地図</a><br>
+▪ 新復珍商行-竹塹餅：<a href="https://www.google.com/maps?q=新復珍商行"_blank">地図</a><br>
+▪ 淵明餅舗-蒸しカステラ：<a href="https://www.google.com/maps?q=淵明餅舖""_blank">地図</a><br>
+▪ 進益貢丸：<a href="https://www.google.com/maps?q=進益貢丸新竹市北區北門街"_blank">地図</a><br>
+▪ 海瑞貢丸：<a href="https://www.google.com/maps?q=海瑞貢丸新竹西門總店"_blank">地図</a>`
         }
       ]
     };
