@@ -129,8 +129,9 @@
     const qaData = {
       zh: [
         {
-          q: "新竹夜市 : 樹林頭夜市、後火車站夜市？",
-          a: `週三、週五樹林頭夜市：<a href="https://www.google.com/maps?q=樹林頭夜市" target="_blank" style="color: #00bcd4;">點我查看地圖</a><br>
+          q: "新竹是否有夜市？",
+          a: `每日-城隍廟夜市：<a href="https://www.google.com/maps?q=新竹市城隍廟夜市" target="_blank" style="color: #00bcd4;">點我查看地圖</a><br>
+          週三、週五樹林頭夜市：<a href="https://www.google.com/maps?q=樹林頭夜市" target="_blank" style="color: #00bcd4;">點我查看地圖</a><br>
               週二、週四新竹後站夜市：<a href="https://www.google.com/maps?q=新竹後站夜市" target="_blank" style="color: #00bcd4;">點我查看地圖</a>`
         },
         {
@@ -141,7 +142,8 @@
       en: [
         {
           q: "Night Markets in Hsinchu?",
-          a: `Wed & Fri – Shulintou Night Market: <a href="https://www.google.com/maps?q=樹林頭夜市" target="_blank" style="color: #00bcd4;">View on Google Maps</a><br>
+          a: `Daily – Chenghuang Temple Night Market：<a href="https://www.google.com/maps?q=新竹市城隍廟夜市" target="_blank" style="color: #00bcd4;">點我查看地圖</a><br>
+          Wed & Fri – Shulintou Night Market: <a href="https://www.google.com/maps?q=樹林頭夜市" target="_blank" style="color: #00bcd4;">View on Google Maps</a><br>
               Tue & Thu – Hsinchu Back Station Night Market: <a href="https://www.google.com/maps?q=新竹後站夜市" target="_blank" style="color: #00bcd4;">View on Google Maps</a>`
         },
         {
@@ -152,7 +154,8 @@
       ja: [
         {
           q: "新竹の夜市は？",
-          a: `水・金：樹林頭夜市 – <a href="https://www.google.com/maps?q=樹林頭夜市" target="_blank" style="color: #00bcd4;">Googleマップで見る</a><br>
+          a: `毎日 – 城隍廟夜市（チョンホアンミャオ夜市）：<a href="https://www.google.com/maps?q=新竹市城隍廟夜市" target="_blank" style="color: #00bcd4;">點我查看地圖</a><br>
+          水・金：樹林頭夜市 – <a href="https://www.google.com/maps?q=樹林頭夜市" target="_blank" style="color: #00bcd4;">Googleマップで見る</a><br>
               火・木：新竹後駅夜市 – <a href="https://www.google.com/maps?q=新竹後站夜市" target="_blank" style="color: #00bcd4;">Googleマップで見る</a>`
         },
         {
