@@ -107,7 +107,7 @@
     const qaData = {
       zh: [
         {
-          q: "飯店周邊是否有夜市？",
+          q: "飯店周邊是否有夜市？                                                                                  ",
           a: `▪ 每日：城隍廟夜市：<a href="https://www.google.com/maps?q=新竹市城隍廟夜市" target="_blank">地圖</a><br>
            ▪ 週二、週四：新竹後站夜市：<a href="https://www.google.com/maps?q=新竹後站夜市" target="_blank">地圖</a><br>
           ▪ 週三、週五：樹林頭夜市：<a href="https://www.google.com/maps?q=樹林頭夜市" target="_blank">地圖</a>`
@@ -238,7 +238,7 @@
       ],
       en: [
         {
-          q: "Are there any night markets near the hotel?",
+          q: "Are there any night markets near the hotel?                                                                                  ",
           a:  `▪ Daily – Chenghuang Temple Night Market – <a href="https://www.google.com/maps?q=新竹市城隍廟夜市" target="_blank">Map</a><br>
            ▪ Tue & Thu – Hsinchu Back Station Night Market: <a href="https://www.google.com/maps?q=新竹後站夜市"  target="_blank">Map</a><br>
           ▪ Wed & Fri – Shulintou Night Market: <a href="https://www.google.com/maps?q=樹林頭夜市" target="_blank">Map</a>`
@@ -369,7 +369,7 @@
       ],
       ja: [
         {
-          q: "ホテルの周辺に夜市はありますか？",
+          q: "ホテルの周辺に夜市はありますか？                                                                                              ",
           a: `▪ 毎日・城隍廟夜市（チョンホアンミャオ夜市）– <a href="https://www.google.com/maps?q=新竹市城隍廟夜市"  target="_blank">地図</a><br>
           ▪ 火・木：新竹後駅夜市 – <a href="https://www.google.com/maps?q=新竹後站夜市"  target="_blank">地図</a><br>
           ▪ 水・金：樹林頭夜市 – <a href="https://www.google.com/maps?q=樹林頭夜市"  target="_blank">地図</a>`
