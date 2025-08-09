@@ -129,7 +129,7 @@
     const qaData = {
       zh: [
         {
-          q: "新竹是否有夜市？",
+          q: "飯店周邊是否有夜市？",
           a: `▪ 每日：城隍廟夜市：<a href="https://www.google.com/maps?q=新竹市城隍廟夜市" target="_blank" style="color: #00bcd4;">點我查看地圖</a><br>
            ▪ 週二、週四：新竹後站夜市：<a href="https://www.google.com/maps?q=新竹後站夜市" target="_blank" style="color: #00bcd4;">點我查看地圖</a><br> 
           ▪ 週三、週五：樹林頭夜市：<a href="https://www.google.com/maps?q=樹林頭夜市" target="_blank" style="color: #00bcd4;">點我查看地圖</a>`
@@ -166,7 +166,7 @@
       ],
       en: [
         {
-          q: "Night Markets in Hsinchu?",
+          q: "Are there any night markets near the hotel?",
           a: `▪ Daily – Chenghuang Temple Night Market – <a href="https://www.google.com/maps?q=新竹市城隍廟夜市" target="_blank" style="color: #00bcd4;">View on Google Maps</a><br>
            ▪ Tue & Thu – Hsinchu Back Station Night Market: <a href="https://www.google.com/maps?q=新竹後站夜市" target="_blank" style="color: #00bcd4;">View on Google Maps</a><br>
           ▪ Wed & Fri – Shulintou Night Market: <a href="https://www.google.com/maps?q=樹林頭夜市" target="_blank" style="color: #00bcd4;">View on Google Maps</a>`
@@ -175,11 +175,35 @@
         {
           q: "Recommended Spot 2?",
           a: `Chenghuang Temple: <a href="https://www.google.com/maps?q=新竹城隍廟" target="_blank" style="color: #00bcd4;">View on Google Maps</a>`
-        }
+        },
+         {
+          q: "Recommended Spot 3?",
+          a: `Chenghuang Temple: <a href="https://www.google.com/maps?q=新竹城隍廟" target="_blank" style="color: #00bcd4;">View on Google Maps</a>`
+        },
+         {
+          q: "Recommended Spot 4?",
+          a: `Chenghuang Temple: <a href="https://www.google.com/maps?q=新竹城隍廟" target="_blank" style="color: #00bcd4;">View on Google Maps</a>`
+        },
+         {
+          q: "Recommended Spot 5?",
+          a: `Chenghuang Temple: <a href="https://www.google.com/maps?q=新竹城隍廟" target="_blank" style="color: #00bcd4;">View on Google Maps</a>`
+        },
+         {
+          q: "Recommended Spot 6?",
+          a: `Chenghuang Temple: <a href="https://www.google.com/maps?q=新竹城隍廟" target="_blank" style="color: #00bcd4;">View on Google Maps</a>`
+        },
+         {
+          q: "Recommended Spot 7?",
+          a: `Chenghuang Temple: <a href="https://www.google.com/maps?q=新竹城隍廟" target="_blank" style="color: #00bcd4;">View on Google Maps</a>`
+        },
+         {
+          q: "Recommended Spot 8?",
+          a: `Chenghuang Temple: <a href="https://www.google.com/maps?q=新竹城隍廟" target="_blank" style="color: #00bcd4;">View on Google Maps</a>`
+        },
       ],
       ja: [
         {
-          q: "新竹の夜市は？",
+          q: "ホテルの周辺に夜市はありますか？",
           a: `▪ 毎日・城隍廟夜市（チョンホアンミャオ夜市）– <a href="https://www.google.com/maps?q=新竹市城隍廟夜市" target="_blank" style="color: #00bcd4;">Googleマップで見る</a><br>
           ▪ 火・木：新竹後駅夜市 – <a href="https://www.google.com/maps?q=新竹後站夜市" target="_blank" style="color: #00bcd4;">Googleマップで見る</a><br>
           ▪ 水・金：樹林頭夜市 – <a href="https://www.google.com/maps?q=樹林頭夜市" target="_blank" style="color: #00bcd4;">Googleマップで見る</a>`
@@ -188,7 +212,31 @@
         {
           q: "おすすめスポット2は？",
           a: `城隍廟：<a href="https://www.google.com/maps?q=新竹城隍廟" target="_blank" style="color: #00bcd4;">Googleマップで見る</a>`
-        }
+        },
+         {
+          q: "おすすめスポット3は？",
+          a: `城隍廟：<a href="https://www.google.com/maps?q=新竹城隍廟" target="_blank" style="color: #00bcd4;">Googleマップで見る</a>`
+        },
+         {
+          q: "おすすめスポット4は？",
+          a: `城隍廟：<a href="https://www.google.com/maps?q=新竹城隍廟" target="_blank" style="color: #00bcd4;">Googleマップで見る</a>`
+        },
+         {
+          q: "おすすめスポット5は？",
+          a: `城隍廟：<a href="https://www.google.com/maps?q=新竹城隍廟" target="_blank" style="color: #00bcd4;">Googleマップで見る</a>`
+        },
+         {
+          q: "おすすめスポット6は？",
+          a: `城隍廟：<a href="https://www.google.com/maps?q=新竹城隍廟" target="_blank" style="color: #00bcd4;">Googleマップで見る</a>`
+        },
+         {
+          q: "おすすめスポット7は？",
+          a: `城隍廟：<a href="https://www.google.com/maps?q=新竹城隍廟" target="_blank" style="color: #00bcd4;">Googleマップで見る</a>`
+        },
+         {
+          q: "おすすめスポット8は？",
+          a: `城隍廟：<a href="https://www.google.com/maps?q=新竹城隍廟" target="_blank" style="color: #00bcd4;">Googleマップで見る</a>`
+        },
       ]
     };
 
