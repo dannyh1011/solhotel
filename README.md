@@ -205,7 +205,7 @@
           a: `
 ▪ 點22港式點心：<a href="https://www.google.com/maps?q=點22港式點心-新竹東門店" target="_blank">地圖</a><br>
 ▪ 132官舍餐酒館Bistro：<a href="https://www.google.com/maps?q=132官舍/新竹州警務部部長官舍(餐酒館Bistro)" target="_blank">地圖</a><br>
-▪ 艷麗Pondok Sunny：<a href="https://www.google.com/maps?q=艷麗Pondok Sunny" target="_blank">地圖</a><br>
+▪ 艷麗Pondok Sunny(星馬料理)：<a href="https://www.google.com/maps?q=艷麗Pondok Sunny" target="_blank">地圖</a><br>
 ▪ El Mundo墨多：<a href="https://www.google.com/maps?q=El Mundo墨多" target="_blank">地圖</a><br>
 ▪ 蘇丹土耳其廚房：<a href="https://www.google.com/maps?q=蘇丹土耳其廚房" target="_blank">地圖</a><br>
 ▪ 達達印度料理：<a href="https://www.google.com/maps?q=達達印度料理(新竹店)(原 印度小鎮)Burans Indian Kitchen in Hsinchu (Indian Town)" target="_blank">地圖</a><br>
@@ -336,8 +336,8 @@
           a: `
 ▪ Dim 22 Hong Kong Dim Sum：<a href="https://www.google.com/maps?q=點22港式點心-新竹東門店" target="_blank">Map</a><br>
 ▪ 132 Officer’s Residence Bistro：<a href="https://www.google.com/maps?q=132官舍/新竹州警務部部長官舍(餐酒館Bistro)" target="_blank">Map</a><br>
-▪ Yanli Pondok Sunny：<a href="https://www.google.com/maps?q=艷麗Pondok Sunny" target="_blank">Map</a><br>
-▪ El Mundo墨多：<a href="https://www.google.com/maps?q=El Mundo墨多" target="_blank">Map</a><br>
+▪ Yanli Pondok Sunny Singaporean and Malaysian Cuisine：<a href="https://www.google.com/maps?q=艷麗Pondok Sunny" target="_blank">Map</a><br>
+▪ El Mundo Mexican Cuisine：<a href="https://www.google.com/maps?q=El Mundo墨多" target="_blank">Map</a><br>
 ▪ Sultan Turkish Kitchen: <a href="https://maps.example.com/foreign2" target="_blank">Map</a><br>
 ▪ Dada Indian Cuisine: <a href="https://maps.example.com/foreign3" target="_blank">Map</a><br>
 ▪ MAS India Restaurant: <a href="https://www.google.com/maps?q=MAS India Restaurant 媽媽印度料理" target="_blank">Map</a>`
@@ -467,8 +467,8 @@
           a: `
 ▪ 点22 香港飲茶：<a href="https://www.google.com/maps?q=點22港式點心-新竹東門店" target="_blank">地図</a><br>
 ▪ 132官舎ビストロ：<a href="https://www.google.com/maps?q=132官舍/新竹州警務部部長官舍(餐酒館Bistro)" target="_blank">地図</a><br>
-▪ 艷麗ポンドック・サニー：<a href="https://www.google.com/maps?q=艷麗Pondok Sunny" target="_blank">地図</a><br>
-▪ エル・ムンド墨多(El Mundo)：<a href="https://www.google.com/maps?q=El Mundo墨多" target="_blank">地図</a><br>
+▪ 艷麗ポンドック・サニー(シンガポール・マレーシア料理)：<a href="https://www.google.com/maps?q=艷麗Pondok Sunny" target="_blank">地図</a><br>
+▪ エル・ムンド墨多(El Mundo)メキシコ料理：<a href="https://www.google.com/maps?q=El Mundo墨多" target="_blank">地図</a><br>
 ▪ スルタン・トルコ料理店：<a href="https://maps.example.com/foreign2" target="_blank">地図</a><br>
 ▪ ダダ・インド料理：<a href="https://maps.example.com/foreign3" target="_blank">地図</a><br>
 ▪ MASインドレストラン：<a href="https://maps.example.com/foreign4" target="_blank">地図</a>`
