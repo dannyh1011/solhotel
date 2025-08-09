@@ -96,7 +96,6 @@
   </style>
 </head>
 <body>
-   <div class="header">Welcome to Solhotel</div>
   <div class="lang-switcher">
     <button onclick="switchLang('zh')">中文</button>
     <button onclick="switchLang('en')">English</button>
