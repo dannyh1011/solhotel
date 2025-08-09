@@ -152,7 +152,7 @@
           q: "早餐推薦？",
           a: `
 ▪ 義式屋古拉爵：<a href="https://www.google.com/maps?q=義式屋古拉爵 新竹迎曦店" target="_blank">地圖</a><br>
-▪ 山東早點：<a href="https://www.google.com/maps?q=山東早點"target="_blank">地圖</a><br>
+▪ 山東早點-眷村龎：<a href="https://www.google.com/maps?q=眷村龎"target="_blank">地圖</a><br>
 ▪ 星巴克-新竹州圖門市：<a href="https://www.google.com/maps?q=星巴克-新竹州圖門市" target="_blank">地圖</a>`
         },
         {
@@ -168,18 +168,18 @@
         {
           q: "中式餐廳推薦？",
           a: `
-▪ 菜園上海餐廳：<a href="https://maps.example.com/chinese1" target="_blank">地圖</a><br>
-▪ 享鴨烤鴨：<a href="https://maps.example.com/chinese2" target="_blank">地圖</a><br>
-▪ 西市汕頭館：<a href="https://maps.example.com/chinese3" target="_blank">地圖</a><br>
-▪ 新橋弄堂：<a href="https://maps.example.com/chinese4" target="_blank">地圖</a>`
+▪ 菜園上海餐廳：<a href="https://www.google.com/maps?q=菜園上海餐廳" target="_blank">地圖</a><br>
+▪ 享鴨烤鴨：<a href="https://www.google.com/maps?q=享鴨 烤鴨與中華料理 新竹北大店" target="_blank">地圖</a><br>
+▪ 西市汕頭館：<a href="https://www.google.com/maps?q=西市汕頭館 北大店" target="_blank">地圖</a><br>
+▪ 新橋弄堂：<a href="https://www.google.com/maps?q=新橋弄堂" target="_blank">地圖</a>`
         },
         {
           q: "西式餐廳推薦？",
           a: `
-▪ 冪2 La Miette Kitchen：<a href="https://maps.example.com/western1" target="_blank">地圖</a><br>
-▪ TABLE JOE 喬桌子廚房：<a href="https://maps.example.com/western2" target="_blank">地圖</a><br>
-▪ 史坦利美式牛排：<a href="https://maps.example.com/western3" target="_blank">地圖</a><br>
-▪ 金色三麥 新竹巨城店PARK15：<a href="https://maps.example.com/western4" target="_blank">地圖</a>`
+▪ 冪2 La Miette Kitchen：<a href="https://www.google.com/maps?q=冪2 La Miette Kitchen" target="_blank">地圖</a><br>
+▪ TABLE JOE 喬桌子廚房：<a href="https://www.google.com/maps?q=TABLE JOE 喬桌子廚房" target="_blank">地圖</a><br>
+▪ 史坦利美式牛排：<a href="https://www.google.com/maps?q=史坦利美式牛排" target="_blank">地圖</a><br>
+▪ 金色三麥 新竹巨城店PARK15：<a href="https://www.google.com/maps?q=金色三麥 新竹巨城店PARK15" target="_blank">地圖</a>`
         },
         {
           q: "日式餐廳推薦？",
@@ -203,6 +203,7 @@
           q: "印度及異國料理推薦？",
           a: `
 ▪ 點22港式點心：<a href="https://maps.example.com/foreign1" target="_blank">地圖</a><br>
+▪ 132官舍餐酒館Bistro：<a href="https://maps.example.com/chinese2" target="_blank">地圖</a><br>
 ▪ 蘇丹土耳其廚房：<a href="https://maps.example.com/foreign2" target="_blank">地圖</a><br>
 ▪ 達達印度料理：<a href="https://maps.example.com/foreign3" target="_blank">地圖</a><br>
 ▪ MAS India Restaurant 媽媽印度料理：<a href="https://maps.example.com/foreign4" target="_blank">地圖</a>`
@@ -279,7 +280,7 @@
           q: "Where can I have breakfast?",
           a: `
 ▪ Garlic & Jazz Breakfast: <a href="https://www.google.com/maps?q=義式屋古拉爵 新竹迎曦店" target="_blank">Map</a><br>
-▪ Shandong Breakfast: <a href="https://www.google.com/maps?q=山東早點" target="_blank">Map</a><br>
+▪ Shandong Breakfast: <a href="https://www.google.com/maps?q=眷村龎" target="_blank">Map</a><br>
 ▪ Starbucks - Hsinchu State Library Store: <a href="https://www.google.com/maps?q=星巴克-新竹州圖門市" target="_blank">Map</a>`
         },
         {
@@ -295,18 +296,18 @@
         {
           q: "Chinese restaurant recommendations?",
           a: `
-▪ Vegetable Garden Shanghai Restaurant: <a href="https://maps.example.com/chinese1" target="_blank">Map</a><br>
-▪ Enjoy Duck Roasted Duck: <a href="https://maps.example.com/chinese2" target="_blank">Map</a><br>
-▪ Xishi Shantou Restaurant: <a href="https://maps.example.com/chinese3" target="_blank">Map</a><br>
-▪ New Bridge Alley: <a href="https://maps.example.com/chinese4" target="_blank">Map</a>`
+▪ Vegetable Garden Shanghai Restaurant: <a href="https://www.google.com/maps?q=菜園上海餐廳" target="_blank">Map</a><br>
+▪ Enjoy Duck Roasted Duck: <a href="https://www.google.com/maps?q=享鴨 烤鴨與中華料理 新竹北大店" target="_blank">Map</a><br>
+▪ Xishi Shantou Restaurant: <a href="https://www.google.com/maps?q=西市汕頭館 北大店" target="_blank">Map</a><br>
+▪ New Bridge Alley: <a href="https://www.google.com/maps?q=新橋弄堂"target="_blank">Map</a>`
         },
         {
           q: "Western restaurant recommendations?",
           a: `
-▪ La Miette Kitchen: <a href="https://maps.example.com/western1" target="_blank">Map</a><br>
-▪ TABLE JOE Kitchen: <a href="https://maps.example.com/western2" target="_blank">Map</a><br>
+▪ La Miette Kitchen: <a href="https://www.google.com/maps?q=冪2 La Miette Kitchen" target="_blank">Map</a><br>
+▪ TABLE JOE Kitchen: <a href="https://www.google.com/maps?q=TABLE JOE 喬桌子廚房" target="_blank">Map</a><br>
 ▪ Stanley American Steakhouse: <a href="https://maps.example.com/western3" target="_blank">Map</a><br>
-▪ Jinse Sanmai Park15, Hsinchu Big City: <a href="https://maps.example.com/western4" target="_blank">Map</a>`
+▪ Jinse Sanmai Park15, Hsinchu Big City: <a href="https://www.google.com/maps?q=金色三麥 新竹巨城店PARK15" target="_blank">Map</a>`
         },
         {
           q: "Japanese restaurant recommendations?",
@@ -330,6 +331,7 @@
           q: "Indian and international cuisine recommendations?",
           a: `
 ▪ Dim 22 Hong Kong Dim Sum: <a href="https://maps.example.com/foreign1" target="_blank">Map</a><br>
+▪ 132官舍餐酒館Bistro：<a href="https://maps.example.com/chinese2" target="_blank">地圖</a><br>
 ▪ Sultan Turkish Kitchen: <a href="https://maps.example.com/foreign2" target="_blank">Map</a><br>
 ▪ Dada Indian Cuisine: <a href="https://maps.example.com/foreign3" target="_blank">Map</a><br>
 ▪ MAS India Restaurant: <a href="https://maps.example.com/foreign4" target="_blank">Map</a>`
@@ -406,7 +408,7 @@
           q: "朝食のおすすめは？",
           a: `
 ▪ ガーリック＆ジャズ朝食：<a href="https://www.google.com/maps?q=義式屋古拉爵 新竹迎曦店" target="_blank">地図</a><br>
-▪ 山東の朝ごはん：<a href="https://www.google.com/maps?q=山東早點" target="_blank">地図</a><br>
+▪ 山東の朝食-眷村龎：<a href="https://www.google.com/maps?q=眷村龎" target="_blank">地図</a><br>
 ▪ スターバックス - 新竹州図書館店：<a href="https://maps.example.com/starbucks" target="_blank">地図</a>`
         },
         {
@@ -422,18 +424,18 @@
         {
           q: "中華料理店のおすすめは？",
           a: `
-▪ 菜園上海料理店：<a href="https://maps.example.com/chinese1" target="_blank">地図</a><br>
-▪ 享鴨ローストダック：<a href="https://maps.example.com/chinese2" target="_blank">地図</a><br>
-▪ 西市汕頭館：<a href="https://maps.example.com/chinese3" target="_blank">地図</a><br>
-▪ 新橋弄堂：<a href="https://maps.example.com/chinese4" target="_blank">地図</a>`
+▪ 菜園上海料理店：<a href="https://www.google.com/maps?q=菜園上海餐廳" target="_blank">地図</a><br>
+▪ 享鴨ローストダック：<a href="https://www.google.com/maps?q=享鴨 烤鴨與中華料理 新竹北大店" target="_blank">地図</a><br>
+▪ 西市汕頭館：<a href="https://www.google.com/maps?q=西市汕頭館 北大店" target="_blank">地図</a><br>
+▪ 新橋弄堂：<a href="https://www.google.com/maps?q=新橋弄堂" target="_blank">地図</a>`
         },
         {
           q: "西洋料理店のおすすめは？",
           a: `
 ▪ 冪2 La Miette キッチン：<a href="https://maps.example.com/western1" target="_blank">地図</a><br>
-▪ TABLE JOE キッチン：<a href="https://maps.example.com/western2" target="_blank">地図</a><br>
+▪ TABLE JOE キッチン：<a href="https://www.google.com/maps?q=TABLE JOE 喬桌子廚房" target="_blank">地図</a><br>
 ▪ スタンリーアメリカンステーキハウス：<a href="https://maps.example.com/western3" target="_blank">地図</a><br>
-▪ 金色三麥 新竹巨城店 PARK15：<a href="https://maps.example.com/western4" target="_blank">地図</a>`
+▪ 金色三麥 新竹巨城店 PARK15：<a href="https://www.google.com/maps?q=金色三麥 新竹巨城店PARK15" target="_blank">地図</a>`
         },
         {
           q: "和食レストランのおすすめは？",
@@ -457,6 +459,7 @@
           q: "インド料理・エスニック料理のおすすめは？",
           a: `
 ▪ 点22香港点心：<a href="https://maps.example.com/foreign1" target="_blank">地図</a><br>
+▪ 132官舍餐酒館Bistro：<a href="https://maps.example.com/chinese2" target="_blank">地圖</a><br>
 ▪ スルタン・トルコ料理店：<a href="https://maps.example.com/foreign2" target="_blank">地図</a><br>
 ▪ ダダ・インド料理：<a href="https://maps.example.com/foreign3" target="_blank">地図</a><br>
 ▪ MASインドレストラン：<a href="https://maps.example.com/foreign4" target="_blank">地図</a>`
