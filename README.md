@@ -34,11 +34,11 @@
       border-radius: 20px;
       padding: 30px 25px;
       width: 100%;
-      max-width: 800px;
+      max-width: 800px; /* 電腦最大寬度 */
+      margin: 0 20px;   /* 左右留空，手機桌面都適用 */
       box-sizing: border-box;
       overflow-y: auto;
       max-height: 85vh;
-       margin: 0 20px; /* 手機和桌面左右保留空間 */
       -webkit-overflow-scrolling: touch;
     }
     .qa-item {
