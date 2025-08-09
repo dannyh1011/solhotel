@@ -116,7 +116,7 @@
         {
           q: "有哪些古蹟與觀光景點？",
           a: `
-▪ 新竹州圖書館：<a href="https://maps.example.com/library" target="_blank">地圖</a><br>
+▪ 新竹州圖書館：<a href="https://www.google.com/maps?q=新竹州圖書館" target="_blank">地圖</a><br>
 ▪ 東門迎曦門：<a href="https://maps.example.com/eastgate" target="_blank">地圖</a><br>
 ▪ 辛志平校長故居：<a href="https://maps.example.com/principalhouse" target="_blank">地圖</a><br>
 ▪ 新竹市影像博物館：<a href="https://maps.example.com/museum" target="_blank">地圖</a><br>
@@ -241,7 +241,7 @@
         {
           q: "What historic sites and attractions are nearby?",
           a: `
-▪ Hsinchu State Library: <a href="https://maps.example.com/library" target="_blank">Map</a><br>
+▪ Hsinchu State Library: <a href="https://www.google.com/maps?q=新竹州圖書館" target="_blank">Map</a><br>
 ▪ East Gate Yingxi Gate: <a href="https://maps.example.com/eastgate" target="_blank">Map</a><br>
 ▪ Principal Xin Zhiping's Former Residence: <a href="https://maps.example.com/principalhouse" target="_blank">Map</a><br>
 ▪ Hsinchu Image Museum: <a href="https://maps.example.com/museum" target="_blank">Map</a><br>
@@ -366,7 +366,7 @@
         {
           q: "歴史的建造物と観光スポットは？",
           a: `
-▪ 新竹州図書館：<a href="https://maps.example.com/library" target="_blank">地図</a><br>
+▪ 新竹州図書館：<a href="https://www.google.com/maps?q=新竹州圖書館" target="_blank">地図</a><br>
 ▪ 東門迎曦門：<a href="https://maps.example.com/eastgate" target="_blank">地図</a><br>
 ▪ 辛志平校長旧宅：<a href="https://maps.example.com/principalhouse" target="_blank">地図</a><br>
 ▪ 新竹市映像博物館：<a href="https://maps.example.com/museum" target="_blank">地図</a><br>
