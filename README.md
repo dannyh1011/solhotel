@@ -136,9 +136,33 @@
             
         },
         {
-          q: "推薦景點2？",
+          q: "推薦2？",
           a: `城隍廟：<a href="https://www.google.com/maps?q=新竹城隍廟" target="_blank" style="color: #00bcd4;">點我查看地圖</a>`
-        }
+        },
+         {
+          q: "推薦3？",
+          a: `城隍廟：<a href="https://www.google.com/maps?q=新竹城隍廟" target="_blank" style="color: #00bcd4;">點我查看地圖</a>`
+        },
+         {
+          q: "推薦4？",
+          a: `城隍廟：<a href="https://www.google.com/maps?q=新竹城隍廟" target="_blank" style="color: #00bcd4;">點我查看地圖</a>`
+        },
+         {
+          q: "推薦5？",
+          a: `城隍廟：<a href="https://www.google.com/maps?q=新竹城隍廟" target="_blank" style="color: #00bcd4;">點我查看地圖</a>`
+        },
+         {
+          q: "推薦6？",
+          a: `城隍廟：<a href="https://www.google.com/maps?q=新竹城隍廟" target="_blank" style="color: #00bcd4;">點我查看地圖</a>`
+        },
+         {
+          q: "推薦7？",
+          a: `城隍廟：<a href="https://www.google.com/maps?q=新竹城隍廟" target="_blank" style="color: #00bcd4;">點我查看地圖</a>`
+        },
+         {
+          q: "推薦8？",
+          a: `城隍廟：<a href="https://www.google.com/maps?q=新竹城隍廟" target="_blank" style="color: #00bcd4;">點我查看地圖</a>`
+        },
       ],
       en: [
         {
