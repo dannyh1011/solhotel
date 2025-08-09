@@ -2,306 +2,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>QA 自動回覆</title>
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-      background-color: #1a1616;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: center;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
-    .lang-switcher {
-      margin: 20px;
-    }
-
-    .lang-switcher button {
-      margin: 0 10px;
-      padding: 8px 16px;
-      font-size: 1rem;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      background-color: #a67c52;
-      color: white;
-      transition: background 0.3s;
-    }
-
-    .lang-switcher button:hover {
-      background-color: #8b653f;
-    }
-
-    .qa-container {
-      background-color: #2c2c2c;
-      border: 6px solid #a67c52;
-      border-radius: 20px;
-      padding: 30px 25px;
-      width: 90%;
-      max-width: 1000px;
-      box-sizing: border-box;
-      overflow-y: auto;
-      max-height: 90vh;
-    }
-
-    .qa-item {
-      margin-bottom: 20px;
-    }
-
-    .question {
-      cursor: pointer;
-      font-size: 1.5rem;
-      color: #FFC107;
-      margin-bottom: 8px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: #444;
-      padding: 12px 16px;
-      border-radius: 10px;
-      transition: background 0.3s;
-    }
-
-    .question:hover {
-      background-color: #555;
-    }
-
-    .arrow {
-      font-size: 1.2rem;
-      color: #FFC107;
-    }
-
-    .answer {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.4s ease, padding 0.3s ease;
-      font-size: 1.1rem;
-      color: #ffffff;
-      padding-left: 20px;
-      line-height: 1.6;
-      background-color: #3a3a3a;
-      border-radius: 8px;
-      padding: 0 16px;
-    }
-
-    .answer.open {
-      max-height: 800px;
-      padding: 15px 16px;
-    }
-
-    a {
-      color: #00d4ff;
-      text-decoration: underline;
-    }
-
-    /* 手機版優化 */
-    @media (max-width: 600px) {
-      .qa-container {
-        padding: 20px 15px;
-      }
-
-      .question {
-        font-size: 1rem; /* 比原本更小，減少換行 */
-        padding: 8px 12px; /* 更緊湊 */
-      }
-
-      .answer {
-        font-size: 0.95rem;
-      }
-    }
-  </style>
-</head>
-<body>
-  <div class="lang-switcher">
-    <button onclick="switchLang('zh')">中文</button>
-    <button onclick="switchLang('en')">English</button>
-    <button onclick="switchLang('ja')">日本語</button>
-  </div>
-
-  <div class="qa-container" id="qa">
-    <!-- QA 將由 JS 注入 -->
-  </div>
-
-  <script>
-    const qaData = {
-      zh: [
-        {
-          q: "飯店周邊是否有夜市？",
-          a: `▪ 每日：城隍廟夜市：<a href="https://www.google.com/maps?q=新竹市城隍廟夜市" target="_blank" style="color: #00bcd4;">點我查看地圖</a><br>
-           ▪ 週二、週四：新竹後站夜市：<a href="https://www.google.com/maps?q=新竹後站夜市" target="_blank" style="color: #00bcd4;">點我查看地圖</a><br> 
-          ▪ 週三、週五：樹林頭夜市：<a href="https://www.google.com/maps?q=樹林頭夜市" target="_blank" style="color: #00bcd4;">點我查看地圖</a>`
-        }
-      ],
-      en: [
-        {
-          q: "Are there any night markets near the hotel?",
-          a: `▪ Daily – Chenghuang Temple Night Market – <a href="https://www.google.com/maps?q=新竹市城隍廟夜市" target="_blank" style="color: #00bcd4;">View on Google Maps</a><br>
-           ▪ Tue & Thu – Hsinchu Back Station Night Market: <a href="https://www.google.com/maps?q=新竹後站夜市" target="_blank" style="color: #00bcd4;">View on Google Maps</a><br>
-          ▪ Wed & Fri – Shulintou Night Market: <a href="https://www.google.com/maps?q=樹林頭夜市" target="_blank" style="color: #00bcd4;">View on Google Maps</a>`
-        }
-      ],
-      ja: [
-        {
-          q: "ホテルの周辺に夜市はありますか？",
-          a: `▪ 毎日・城隍廟夜市（チョンホアンミャオ夜市）– <a href="https://www.google.com/maps?q=新竹市城隍廟夜市" target="_blank" style="color: #00bcd4;">Googleマップで見る</a><br>
-          ▪ 火・木：新竹後駅夜市 – <a href="https://www.google.com/maps?q=新竹後站夜市" target="_blank" style="color: #00bcd4;">Googleマップで見る</a><br>
-          ▪ 水・金：樹林頭夜市 – <a href="https://www.google.com/maps?q=樹林頭夜市" target="_blank" style="color: #00bcd4;">Googleマップで見る</a>`
-        }
-      ]
-    };
-
-    const container = document.getElementById('qa');
-
-    function renderQA(lang) {
-      container.innerHTML = '';
-      qaData[lang].forEach((item, index) => {
-        const qaItem = document.createElement('div');
-        qaItem.className = 'qa-item';
-
-        const question = document.createElement('div');
-        question.className = 'question';
-        question.innerHTML = `・${item.q} <span class="arrow">▼</span>`;
-        question.onclick = () => toggleAnswer(index);
-
-        const answer = document.createElement('div');
-        answer.className = 'answer';
-        answer.innerHTML = item.a;
-
-        qaItem.appendChild(question);
-        qaItem.appendChild(answer);
-        container.appendChild(qaItem);
-      });
-
-      // 預設展開第一個並顯示 ▲
-      const firstAnswer = container.querySelectorAll('.answer')[0];
-      const firstArrow = container.querySelectorAll('.arrow')[0];
-      if (firstAnswer && firstArrow) {
-        firstAnswer.classList.add('open');
-        firstArrow.textContent = '▲';
-      }
-    }
-
-    function toggleAnswer(index) {
-      const answers = document.querySelectorAll('.answer');
-      const arrows = document.querySelectorAll('.arrow');
-      const answer = answers[index];
-      const arrow = arrows[index];
-      const isOpen = answer.classList.contains('open');
-
-      answer.classList.toggle('open');
-      arrow.textContent = isOpen ? '▼' : '▲';
-    }
-
-    function switchLang(lang) {
-      renderQA(lang);
-    }
-
-    // 預設語言為中文
-    window.onload = () => renderQA('zh');
-  </script>
-</body>
-</html>
-這版改好之後：
-
-手機版 .question 字體與 padding 變小，避免換行太多。
-
-初始展開 第一題時箭頭會直接顯示 ▲，而不是 ▼。
-
-你要我幫你把多個推薦景點的多語版本也加進去，讓 QA 更完整嗎？這樣你的頁面一次就能完成全語言內容。
-
-
-
-
-
-
-
-
-你說：
-你要我幫你把多個推薦景點的多語版本也加進去，讓 QA 更完整嗎？ 是的，需要增加20個QA
-
-
-ChatGPT 說：
-好，那我幫你把 HTML 改成包含 20 個 QA，而且三種語言（中文 / 英文 / 日文）都會對應好，並且保持你現在的樣式、手機版優化、初始箭頭方向等功能。
-
-這樣你會一次得到：
-
-你的原本夜市問題
-
-另外 19 個飯店常見旅客會問的問題（交通、景點、美食、設施等）
-
-每個問題的中、英、日對照翻譯與答案
-
-我先問一下，你要我用 真實的新竹景點與餐廳資訊（含 Google Maps 連結），還是要我用 示例資料 方便你後續自行替換？
-因為真實資料會更像正式上線版本，但我就需要幫你查資料。
-
-
-
-
-
-
-
-
-你說：
-示例資料
-
-
-ChatGPT 說：
-了解 👍
-那我會幫你用 20 組示例 QA，每組都會有 中文 / 英文 / 日文 三種語言，並且用假想的景點、美食與地圖連結（類似 https://maps.example.com/...）方便你之後替換。
-
-我會保留你原本的夜市 QA 內容，其他 19 題會涵蓋：
-
-周邊景點
-
-美食推薦
-
-交通方式
-
-飯店設施與服務
-
-特殊需求（嬰兒床、接駁車等）
-
-你要我直接給你 完整可用的 HTML 版本（含這 20 組多語 QA）嗎？
-這樣你貼上去就能跑了。
-
-
-
-
-
-
-
-
-你說：
-好的
-
-
-ChatGPT 說：
-好，那我就幫你整理成完整可用的 HTML，一次把 20 組多語 QA 全部放進去，保留你原本的手機版優化和初始箭頭修正。
-
-以下是範例版本（使用示例景點與地圖連結，你之後只要替換 URL 與文字即可）：
-
-html
-複製
-編輯
-<html lang="zh-Hant">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>飯店QA</title>
   <style>
     html, body {
-      margin: 0;
-      padding: 0;
+      margin: 0; padding: 0;
       background-color: #1a1616;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      display: flex; flex-direction: column; align-items: center;
+      height: 100vh;
     }
     .lang-switcher {
       margin: 20px;
@@ -315,6 +23,7 @@ html
       cursor: pointer;
       background-color: #a67c52;
       color: white;
+      transition: background-color 0.3s;
     }
     .lang-switcher button:hover {
       background-color: #8b653f;
@@ -328,7 +37,8 @@ html
       max-width: 1000px;
       box-sizing: border-box;
       overflow-y: auto;
-      max-height: 90vh;
+      max-height: 85vh;
+      -webkit-overflow-scrolling: touch;
     }
     .qa-item {
       margin-bottom: 20px;
@@ -344,8 +54,12 @@ html
       background-color: #444;
       padding: 12px 16px;
       border-radius: 10px;
+      user-select: none;
+      transition: background-color 0.3s;
     }
-    .question:hover { background-color: #555; }
+    .question:hover {
+      background-color: #555;
+    }
     .arrow {
       font-size: 1.2rem;
       color: #FFC107;
@@ -356,20 +70,27 @@ html
       transition: max-height 0.4s ease, padding 0.3s ease;
       font-size: 1.1rem;
       color: #fff;
-      padding-left: 20px;
       background-color: #3a3a3a;
       border-radius: 8px;
       padding: 0 16px;
+      line-height: 1.6;
     }
     .answer.open {
       max-height: 800px;
       padding: 15px 16px;
     }
-    a { color: #00d4ff; text-decoration: underline; }
+    a {
+      color: #00d4ff;
+      text-decoration: underline;
+    }
     @media (max-width: 600px) {
-      .qa-container { padding: 20px 15px; }
-      .question { font-size: 1rem; padding: 8px 12px; }
-      .answer { font-size: 0.95rem; }
+      .question {
+        font-size: 1.1rem;
+        padding: 8px 12px;
+      }
+      .answer {
+        font-size: 1rem;
+      }
     }
   </style>
 </head>
@@ -385,70 +106,376 @@ html
   <script>
     const qaData = {
       zh: [
-        { q: "飯店周邊是否有夜市？", a: "▪ 每日：城隍廟夜市：<a href='https://maps.example.com/1'>點我查看地圖</a><br>▪ 週二、週四：新竹後站夜市：<a href='https://maps.example.com/2'>點我查看地圖</a>" },
-        { q: "附近有哪些推薦景點？", a: "▪ XX公園：<a href='https://maps.example.com/3'>地圖</a><br>▪ XX博物館：<a href='https://maps.example.com/4'>地圖</a>" },
-        { q: "如何從飯店前往火車站？", a: "▪ 步行約15分鐘，或搭乘計程車約5分鐘。<br>▪ Google地圖：<a href='https://maps.example.com/5'>點此</a>" },
-        { q: "飯店有提供早餐嗎？", a: "▪ 有，早餐時間為 06:30 - 10:00。<br>▪ 地點：一樓餐廳。" },
-        { q: "有機場接駁服務嗎？", a: "▪ 有，需提前至少一天預約。<br>▪ 請洽櫃檯。" },
-        { q: "附近有便利商店嗎？", a: "▪ 7-11：<a href='https://maps.example.com/6'>地圖</a><br>▪ 全家便利商店：<a href='https://maps.example.com/7'>地圖</a>" },
-        { q: "可以寄放行李嗎？", a: "▪ 可於入住前或退房後免費寄放行李。" },
-        { q: "飯店有游泳池嗎？", a: "▪ 有，開放時間為 07:00 - 22:00。" },
-        { q: "有健身房嗎？", a: "▪ 有，24小時開放。" },
-        { q: "附近有推薦餐廳嗎？", a: "▪ XX牛肉麵：<a href='https://maps.example.com/8'>地圖</a><br>▪ XX燒烤：<a href='https://maps.example.com/9'>地圖</a>" },
-        { q: "房間有Wi-Fi嗎？", a: "▪ 全館提供免費Wi-Fi，密碼請參閱房卡套。" },
-        { q: "可以攜帶寵物嗎？", a: "▪ 抱歉，本飯店不接受寵物入住（導盲犬除外）。" },
-        { q: "有提供嬰兒床嗎？", a: "▪ 可免費提供，需提前預約。" },
-        { q: "附近有停車場嗎？", a: "▪ 有免費停車場，位於飯店旁。" },
-        { q: "入住與退房時間是？", a: "▪ 入住時間 15:00 以後，退房時間 11:00 前。" },
-        { q: "有提供洗衣服務嗎？", a: "▪ 有，需至櫃檯辦理付費洗衣。" },
-        { q: "飯店有會議室嗎？", a: "▪ 有，最多可容納50人，需預約。" },
-        { q: "附近有藥局嗎？", a: "▪ XX藥局：<a href='https://maps.example.com/10'>地圖</a>" },
-        { q: "可以叫計程車嗎？", a: "▪ 可至櫃檯請工作人員代叫。" },
-        { q: "附近有銀行或ATM嗎？", a: "▪ XX銀行：<a href='https://maps.example.com/11'>地圖</a>" }
+        {
+          q: "夜市有哪些？",
+          a: `
+▪ 樹林頭夜市：<a href="https://maps.example.com/shulintou" target="_blank">點我查看地圖</a><br>
+▪ 後火車站夜市：<a href="https://maps.example.com/backstation" target="_blank">點我查看地圖</a>`
+        },
+        {
+          q: "有哪些古蹟與觀光景點？",
+          a: `
+▪ 新竹州圖書館：<a href="https://maps.example.com/library" target="_blank">地圖</a><br>
+▪ 東門迎曦門：<a href="https://maps.example.com/eastgate" target="_blank">地圖</a><br>
+▪ 辛志平校長故居：<a href="https://maps.example.com/principalhouse" target="_blank">地圖</a><br>
+▪ 新竹市影像博物館：<a href="https://maps.example.com/museum" target="_blank">地圖</a><br>
+▪ 新竹市美術館：<a href="https://maps.example.com/artmuseum" target="_blank">地圖</a><br>
+▪ 東門市場：<a href="https://maps.example.com/eastmarket" target="_blank">地圖</a><br>
+▪ 新竹市政府：<a href="https://maps.example.com/cityhall" target="_blank">地圖</a><br>
+▪ 新竹市消防博物館：<a href="https://maps.example.com/firemuseum" target="_blank">地圖</a><br>
+▪ 新竹動物園：<a href="https://maps.example.com/zoo" target="_blank">地圖</a><br>
+▪ 新竹公園：<a href="https://maps.example.com/park" target="_blank">地圖</a>`
+        },
+        {
+          q: "有哪些宮廟？",
+          a: `
+▪ 東寧宮：<a href="https://maps.example.com/dongning" target="_blank">地圖</a><br>
+▪ 新竹都城隍廟：<a href="https://maps.example.com/citygod" target="_blank">地圖</a><br>
+▪ 新竹長和宮：<a href="https://maps.example.com/changhe" target="_blank">地圖</a><br>
+▪ 關帝廟：<a href="https://maps.example.com/guandi" target="_blank">地圖</a>`
+        },
+        {
+          q: "附近有哪裡可以購物？",
+          a: `
+▪ 巨城購物中心：<a href="https://maps.example.com/bigcity" target="_blank">地圖</a><br>
+▪ 新竹大遠百：<a href="https://maps.example.com/farcity" target="_blank">地圖</a>`
+        },
+        {
+          q: "Ubike在哪裡？",
+          a: `
+▪ 新竹市政府Ubike站：<a href="https://maps.example.com/ubike" target="_blank">地圖</a>`
+        },
+        {
+          q: "早餐推薦？",
+          a: `
+▪ 古拉爵早餐：<a href="https://maps.example.com/breakfast1" target="_blank">地圖</a><br>
+▪ 山東早點：<a href="https://maps.example.com/breakfast2" target="_blank">地圖</a><br>
+▪ 星巴克-新竹州圖門市：<a href="https://maps.example.com/starbucks" target="_blank">地圖</a>`
+        },
+        {
+          q: "咖啡和下午茶推薦？",
+          a: `
+▪ 星巴克-新竹州圖門市：<a href="https://maps.example.com/starbucks" target="_blank">地圖</a><br>
+▪ 九幕咖啡：<a href="https://maps.example.com/coffee1" target="_blank">地圖</a><br>
+▪ 饅饅好食：<a href="https://maps.example.com/coffee2" target="_blank">地圖</a><br>
+▪ 一百種味道(三民店)：<a href="https://maps.example.com/coffee3" target="_blank">地圖</a><br>
+▪ 夏.咖啡：<a href="https://maps.example.com/coffee4" target="_blank">地圖</a><br>
+▪ Float Dept.微生咖啡：<a href="https://maps.example.com/coffee5" target="_blank">地圖</a>`
+        },
+        {
+          q: "中式餐廳推薦？",
+          a: `
+▪ 菜園上海餐廳：<a href="https://maps.example.com/chinese1" target="_blank">地圖</a><br>
+▪ 享鴨烤鴨：<a href="https://maps.example.com/chinese2" target="_blank">地圖</a><br>
+▪ 西市汕頭館：<a href="https://maps.example.com/chinese3" target="_blank">地圖</a><br>
+▪ 新橋弄堂：<a href="https://maps.example.com/chinese4" target="_blank">地圖</a>`
+        },
+        {
+          q: "西式餐廳推薦？",
+          a: `
+▪ 冪2 La Miette Kitchen：<a href="https://maps.example.com/western1" target="_blank">地圖</a><br>
+▪ TABLE JOE 喬桌子廚房：<a href="https://maps.example.com/western2" target="_blank">地圖</a><br>
+▪ 史坦利美式牛排：<a href="https://maps.example.com/western3" target="_blank">地圖</a><br>
+▪ 金色三麥 新竹巨城店PARK15：<a href="https://maps.example.com/western4" target="_blank">地圖</a>`
+        },
+        {
+          q: "日式餐廳推薦？",
+          a: `
+▪ 柚子：<a href="https://maps.example.com/japanese1" target="_blank">地圖</a><br>
+▪ 皿富器食 minfood：<a href="https://maps.example.com/japanese2" target="_blank">地圖</a><br>
+▪ 橋燒肉府後店：<a href="https://maps.example.com/japanese3" target="_blank">地圖</a><br>
+▪ 私嚐串燒：<a href="https://maps.example.com/japanese4" target="_blank">地圖</a><br>
+▪ 大阪燒肉 燒魂Yakikon：<a href="https://maps.example.com/japanese5" target="_blank">地圖</a>`
+        },
+        {
+          q: "素食餐廳推薦？",
+          a: `
+▪ 活原素Ｖ：<a href="https://maps.example.com/vegan1" target="_blank">地圖</a><br>
+▪ 籽田野菜屋：<a href="https://maps.example.com/vegan2" target="_blank">地圖</a><br>
+▪ 井家：<a href="https://maps.example.com/vegan3" target="_blank">地圖</a><br>
+▪ 井町日式蔬食料理(大同店)：<a href="https://maps.example.com/vegan4" target="_blank">地圖</a><br>
+▪ 八二親食-三民店：<a href="https://maps.example.com/vegan5" target="_blank">地圖</a>`
+        },
+        {
+          q: "印度及異國料理推薦？",
+          a: `
+▪ 點22港式點心：<a href="https://maps.example.com/foreign1" target="_blank">地圖</a><br>
+▪ 蘇丹土耳其廚房：<a href="https://maps.example.com/foreign2" target="_blank">地圖</a><br>
+▪ 達達印度料理：<a href="https://maps.example.com/foreign3" target="_blank">地圖</a><br>
+▪ MAS India Restaurant 媽媽印度料理：<a href="https://maps.example.com/foreign4" target="_blank">地圖</a>`
+        },
+        {
+          q: "牛肉麵推薦？",
+          a: `
+▪ 段純貞牛肉麵：<a href="https://maps.example.com/beefnoodle1" target="_blank">地圖</a><br>
+▪ 熊川牛肉麵：<a href="https://maps.example.com/beefnoodle2" target="_blank">地圖</a><br>
+▪ 璽子牛肉麵（博愛店）：<a href="https://maps.example.com/beefnoodle3" target="_blank">地圖</a><br>
+▪ 貳壹村精緻麵點：<a href="https://maps.example.com/beefnoodle4" target="_blank">地圖</a>`
+        },
+        {
+          q: "推薦小吃？",
+          a: `
+▪ 喜劇收場(漢堡)：<a href="https://maps.example.com/snack1" target="_blank">地圖</a><br>
+▪ 戲棚下Under Six Pound炸雞：<a href="https://maps.example.com/snack2" target="_blank">地圖</a><br>
+▪ 覓雪Mixshare手作雪花冰：<a href="https://maps.example.com/snack3" target="_blank">地圖</a>`
+        },
+        {
+          q: "伴手禮推薦？",
+          a: `
+▪ 福源花生醬：<a href="https://maps.example.com/gift1" target="_blank">地圖</a><br>
+▪ 新復珍：<a href="https://maps.example.com/gift2" target="_blank">地圖</a><br>
+▪ 淵明餅舖：<a href="https://maps.example.com/gift3" target="_blank">地圖</a><br>
+▪ 進益貢丸：<a href="https://maps.example.com/gift4" target="_blank">地圖</a><br>
+▪ 海瑞貢丸：<a href="https://maps.example.com/gift5" target="_blank">地圖</a>`
+        }
       ],
       en: [
-        { q: "Are there any night markets near the hotel?", a: "▪ Daily – Chenghuang Temple Night Market: <a href='https://maps.example.com/1'>Map</a><br>▪ Tue & Thu – Hsinchu Back Station Night Market: <a href='https://maps.example.com/2'>Map</a>" },
-        { q: "What attractions are nearby?", a: "▪ XX Park: <a href='https://maps.example.com/3'>Map</a><br>▪ XX Museum: <a href='https://maps.example.com/4'>Map</a>" },
-        { q: "How to get to the train station from the hotel?", a: "▪ 15 min walk or 5 min taxi ride.<br>▪ Google Map: <a href='https://maps.example.com/5'>Click</a>" },
-        { q: "Does the hotel provide breakfast?", a: "▪ Yes, from 06:30 to 10:00 at the 1F restaurant." },
-        { q: "Is there an airport shuttle service?", a: "▪ Yes, booking required at least 1 day in advance." },
-        { q: "Any convenience stores nearby?", a: "▪ 7-11: <a href='https://maps.example.com/6'>Map</a><br>▪ FamilyMart: <a href='https://maps.example.com/7'>Map</a>" },
-        { q: "Can I store my luggage?", a: "▪ Yes, free before check-in and after check-out." },
-        { q: "Is there a swimming pool?", a: "▪ Yes, open 07:00 - 22:00." },
-        { q: "Is there a gym?", a: "▪ Yes, open 24 hours." },
-        { q: "Any restaurant recommendations?", a: "▪ XX Beef Noodles: <a href='https://maps.example.com/8'>Map</a><br>▪ XX BBQ: <a href='https://maps.example.com/9'>Map</a>" },
-        { q: "Is Wi-Fi available in the rooms?", a: "▪ Yes, free Wi-Fi is available." },
-        { q: "Are pets allowed?", a: "▪ Sorry, pets are not allowed except guide dogs." },
-        { q: "Is a baby cot available?", a: "▪ Yes, free upon reservation." },
-        { q: "Is there parking nearby?", a: "▪ Yes, free parking next to the hotel." },
-        { q: "What are the check-in and check-out times?", a: "▪ Check-in after 15:00, check-out before 11:00." },
-        { q: "Is laundry service available?", a: "▪ Yes, paid service at the front desk." },
-        { q: "Does the hotel have a meeting room?", a: "▪ Yes, up to 50 people, booking required." },
-        { q: "Any pharmacies nearby?", a: "▪ XX Pharmacy: <a href='https://maps.example.com/10'>Map</a>" },
-        { q: "Can I call a taxi from the hotel?", a: "▪ Yes, please ask the front desk." },
-        { q: "Any banks or ATMs nearby?", a: "▪ XX Bank: <a href='https://maps.example.com/11'>Map</a>" }
+        {
+          q: "What night markets are nearby?",
+          a: `
+▪ Shulintou Night Market: <a href="https://maps.example.com/shulintou" target="_blank">View Map</a><br>
+▪ Back Station Night Market: <a href="https://maps.example.com/backstation" target="_blank">View Map</a>`
+        },
+        {
+          q: "What historic sites and attractions are nearby?",
+          a: `
+▪ Hsinchu State Library: <a href="https://maps.example.com/library" target="_blank">Map</a><br>
+▪ East Gate Yingxi Gate: <a href="https://maps.example.com/eastgate" target="_blank">Map</a><br>
+▪ Principal Xin Zhiping's Former Residence: <a href="https://maps.example.com/principalhouse" target="_blank">Map</a><br>
+▪ Hsinchu Image Museum: <a href="https://maps.example.com/museum" target="_blank">Map</a><br>
+▪ Hsinchu Art Museum: <a href="https://maps.example.com/artmuseum" target="_blank">Map</a><br>
+▪ East Gate Market: <a href="https://maps.example.com/eastmarket" target="_blank">Map</a><br>
+▪ Hsinchu City Hall: <a href="https://maps.example.com/cityhall" target="_blank">Map</a><br>
+▪ Hsinchu Fire Museum: <a href="https://maps.example.com/firemuseum" target="_blank">Map</a><br>
+▪ Hsinchu Zoo: <a href="https://maps.example.com/zoo" target="_blank">Map</a><br>
+▪ Hsinchu Park: <a href="https://maps.example.com/park" target="_blank">Map</a>`
+        },
+        {
+          q: "What temples are nearby?",
+          a: `
+▪ Dongning Temple: <a href="https://maps.example.com/dongning" target="_blank">Map</a><br>
+▪ Hsinchu City God Temple: <a href="https://maps.example.com/citygod" target="_blank">Map</a><br>
+▪ Changhe Temple: <a href="https://maps.example.com/changhe" target="_blank">Map</a><br>
+▪ Guandi Temple: <a href="https://maps.example.com/guandi" target="_blank">Map</a>`
+        },
+        {
+          q: "Where can I shop nearby?",
+          a: `
+▪ Big City Shopping Center: <a href="https://maps.example.com/bigcity" target="_blank">Map</a><br>
+▪ Far Eastern Department Store Hsinchu: <a href="https://maps.example.com/farcity" target="_blank">Map</a>`
+        },
+        {
+          q: "Where is the Ubike station?",
+          a: `
+▪ Hsinchu City Hall Ubike Station: <a href="https://maps.example.com/ubike" target="_blank">Map</a>`
+        },
+        {
+          q: "Where can I have breakfast?",
+          a: `
+▪ Garlic & Jazz Breakfast: <a href="https://maps.example.com/breakfast1" target="_blank">Map</a><br>
+▪ Shandong Breakfast: <a href="https://maps.example.com/breakfast2" target="_blank">Map</a><br>
+▪ Starbucks - Hsinchu State Library Store: <a href="https://maps.example.com/starbucks" target="_blank">Map</a>`
+        },
+        {
+          q: "Coffee and afternoon tea recommendations?",
+          a: `
+▪ Starbucks - Hsinchu State Library Store: <a href="https://maps.example.com/starbucks" target="_blank">Map</a><br>
+▪ Jiumu Coffee: <a href="https://maps.example.com/coffee1" target="_blank">Map</a><br>
+▪ Manman Delicious: <a href="https://maps.example.com/coffee2" target="_blank">Map</a><br>
+▪ Hundred Flavors (Sanmin Store): <a href="https://maps.example.com/coffee3" target="_blank">Map</a><br>
+▪ Summer Coffee: <a href="https://maps.example.com/coffee4" target="_blank">Map</a><br>
+▪ Float Dept. Micro Roastery: <a href="https://maps.example.com/coffee5" target="_blank">Map</a>`
+        },
+        {
+          q: "Chinese restaurant recommendations?",
+          a: `
+▪ Vegetable Garden Shanghai Restaurant: <a href="https://maps.example.com/chinese1" target="_blank">Map</a><br>
+▪ Enjoy Duck Roasted Duck: <a href="https://maps.example.com/chinese2" target="_blank">Map</a><br>
+▪ Xishi Shantou Restaurant: <a href="https://maps.example.com/chinese3" target="_blank">Map</a><br>
+▪ New Bridge Alley: <a href="https://maps.example.com/chinese4" target="_blank">Map</a>`
+        },
+        {
+          q: "Western restaurant recommendations?",
+          a: `
+▪ La Miette Kitchen: <a href="https://maps.example.com/western1" target="_blank">Map</a><br>
+▪ TABLE JOE Kitchen: <a href="https://maps.example.com/western2" target="_blank">Map</a><br>
+▪ Stanley American Steakhouse: <a href="https://maps.example.com/western3" target="_blank">Map</a><br>
+▪ Jinse Sanmai Park15, Hsinchu Big City: <a href="https://maps.example.com/western4" target="_blank">Map</a>`
+        },
+        {
+          q: "Japanese restaurant recommendations?",
+          a: `
+▪ Yuzu: <a href="https://maps.example.com/japanese1" target="_blank">Map</a><br>
+▪ Minfood: <a href="https://maps.example.com/japanese2" target="_blank">Map</a><br>
+▪ Bridge Yakiniku Rear Store: <a href="https://maps.example.com/japanese3" target="_blank">Map</a><br>
+▪ Private Taste Skewers: <a href="https://maps.example.com/japanese4" target="_blank">Map</a><br>
+▪ Osaka Yakiniku Yakikon: <a href="https://maps.example.com/japanese5" target="_blank">Map</a>`
+        },
+        {
+          q: "Vegetarian restaurant recommendations?",
+          a: `
+▪ Huoyuan Vegan V: <a href="https://maps.example.com/vegan1" target="_blank">Map</a><br>
+▪ Zitian Vegetable House: <a href="https://maps.example.com/vegan2" target="_blank">Map</a><br>
+▪ Jingjia: <a href="https://maps.example.com/vegan3" target="_blank">Map</a><br>
+▪ Jingmachi Japanese Vegetarian (Datong Store): <a href="https://maps.example.com/vegan4" target="_blank">Map</a><br>
+▪ 82 Qin Shi - Sanmin Store: <a href="https://maps.example.com/vegan5" target="_blank">Map</a>`
+        },
+        {
+          q: "Indian and international cuisine recommendations?",
+          a: `
+▪ Dim 22 Hong Kong Dim Sum: <a href="https://maps.example.com/foreign1" target="_blank">Map</a><br>
+▪ Sultan Turkish Kitchen: <a href="https://maps.example.com/foreign2" target="_blank">Map</a><br>
+▪ Dada Indian Cuisine: <a href="https://maps.example.com/foreign3" target="_blank">Map</a><br>
+▪ MAS India Restaurant: <a href="https://maps.example.com/foreign4" target="_blank">Map</a>`
+        },
+        {
+          q: "Beef noodle recommendations?",
+          a: `
+▪ Duan Chun Zhen Beef Noodles: <a href="https://maps.example.com/beefnoodle1" target="_blank">Map</a><br>
+▪ Xiongchuan Beef Noodles: <a href="https://maps.example.com/beefnoodle2" target="_blank">Map</a><br>
+▪ Xi Zi Beef Noodles (Bo’ai Store): <a href="https://maps.example.com/beefnoodle3" target="_blank">Map</a><br>
+▪ Er Yi Cun Exquisite Noodles: <a href="https://maps.example.com/beefnoodle4" target="_blank">Map</a>`
+        },
+        {
+          q: "Snack recommendations?",
+          a: `
+▪ Comedy Ending (Burger): <a href="https://maps.example.com/snack1" target="_blank">Map</a><br>
+▪ Under Six Pound Fried Chicken: <a href="https://maps.example.com/snack2" target="_blank">Map</a><br>
+▪ Mixshare Handmade Shaved Ice: <a href="https://maps.example.com/snack3" target="_blank">Map</a>`
+        },
+        {
+          q: "Souvenir recommendations?",
+          a: `
+▪ Fuyuan Peanut Butter: <a href="https://maps.example.com/gift1" target="_blank">Map</a><br>
+▪ Xin Fuzhen: <a href="https://maps.example.com/gift2" target="_blank">Map</a><br>
+▪ Yuanming Bakery: <a href="https://maps.example.com/gift3" target="_blank">Map</a><br>
+▪ Jinyi Meatballs: <a href="https://maps.example.com/gift4" target="_blank">Map</a><br>
+▪ Hairui Meatballs: <a href="https://maps.example.com/gift5" target="_blank">Map</a>`
+        }
       ],
       ja: [
-        { q: "ホテルの周辺に夜市はありますか？", a: "▪ 毎日 – 城隍廟夜市：<a href='https://maps.example.com/1'>地図</a><br>▪ 火・木 – 新竹後駅夜市：<a href='https://maps.example.com/2'>地図</a>" },
-        { q: "近くにおすすめの観光地はありますか？", a: "▪ XX公園：<a href='https://maps.example.com/3'>地図</a><br>▪ XX博物館：<a href='https://maps.example.com/4'>地図</a>" },
-        { q: "ホテルから駅までの行き方は？", a: "▪ 徒歩約15分、タクシー約5分。<br>▪ Googleマップ：<a href='https://maps.example.com/5'>こちら</a>" },
-        { q: "朝食は提供していますか？", a: "▪ はい、06:30〜10:00、一階レストランにて。" },
-        { q: "空港シャトルサービスはありますか？", a: "▪ はい、1日前までの予約が必要です。" },
-        { q: "近くにコンビニはありますか？", a: "▪ セブンイレブン：<a href='https://maps.example.com/6'>地図</a><br>▪ ファミリーマート：<a href='https://maps.example.com/7'>地図</a>" },
-        { q: "荷物を預けられますか？", a: "▪ はい、チェックイン前・チェックアウト後に無料で預かります。" },
-        { q: "プールはありますか？", a: "▪ はい、07:00〜22:00まで利用可能です。" },
-        { q: "ジムはありますか？", a: "▪ はい、24時間利用可能です。" },
-        { q: "おすすめのレストランはありますか？", a: "▪ XX牛肉麺：<a href='https://maps.example.com/8'>地図</a><br>▪ XX焼肉：<a href='https://maps.example.com/9'>地図</a>" },
-        { q: "部屋にWi-Fiはありますか？", a: "▪ はい、無料Wi-Fiをご利用いただけます。" },
-        { q: "ペット同伴は可能ですか？", a: "▪ 申し訳ありませんが、盲導犬以外のペットはお断りしております。" },
-        { q: "ベビーベッドはありますか？", a: "▪ はい、無料で事前予約が必要です。" },
-        { q: "近くに駐車場はありますか？", a: "▪ はい、ホテル横に無料駐車場があります。" },
-        { q: "チェックイン・チェックアウト時間は？", a: "▪ チェックイン15:00以降、チェックアウト11:00まで。" },
-        { q: "ランドリーサービスはありますか？", a: "▪ はい、フロントで有料にて承ります。" },
-        { q: "会議室はありますか？", a: "▪ はい、最大50名まで、要予約。" },
-        { q: "近くに薬局はありますか？", a: "▪ XX薬局：<a href='https://maps.example.com/10'>地図</a>" },
-        { q: "ホテルからタクシーは呼べますか？", a: "▪ はい、フロントにお申し付けください。" },
-        { q: "近くに銀行やATMはありますか？", a: "▪ XX銀行：<a href='https://maps.example.com/11'>地図</a>" }
+        {
+          q: "夜市はどこですか？",
+          a: `
+▪ 樹林頭夜市：<a href="https://maps.example.com/shulintou" target="_blank">地図を見る</a><br>
+▪ 後火車駅夜市：<a href="https://maps.example.com/backstation" target="_blank">地図を見る</a>`
+        },
+        {
+          q: "歴史的建造物と観光スポットは？",
+          a: `
+▪ 新竹州図書館：<a href="https://maps.example.com/library" target="_blank">地図</a><br>
+▪ 東門迎曦門：<a href="https://maps.example.com/eastgate" target="_blank">地図</a><br>
+▪ 辛志平校長旧宅：<a href="https://maps.example.com/principalhouse" target="_blank">地図</a><br>
+▪ 新竹市映像博物館：<a href="https://maps.example.com/museum" target="_blank">地図</a><br>
+▪ 新竹市美術館：<a href="https://maps.example.com/artmuseum" target="_blank">地図</a><br>
+▪ 東門市場：<a href="https://maps.example.com/eastmarket" target="_blank">地図</a><br>
+▪ 新竹市政府：<a href="https://maps.example.com/cityhall" target="_blank">地図</a><br>
+▪ 新竹市消防博物館：<a href="https://maps.example.com/firemuseum" target="_blank">地図</a><br>
+▪ 新竹動物園：<a href="https://maps.example.com/zoo" target="_blank">地図</a><br>
+▪ 新竹公園：<a href="https://maps.example.com/park" target="_blank">地図</a>`
+        },
+        {
+          q: "近くの宮廟は？",
+          a: `
+▪ 東寧宮：<a href="https://maps.example.com/dongning" target="_blank">地図</a><br>
+▪ 新竹都城隍廟：<a href="https://maps.example.com/citygod" target="_blank">地図</a><br>
+▪ 新竹長和宮：<a href="https://maps.example.com/changhe" target="_blank">地図</a><br>
+▪ 関帝廟：<a href="https://maps.example.com/guandi" target="_blank">地図</a>`
+        },
+        {
+          q: "ショッピングはどこでできますか？",
+          a: `
+▪ 巨城ショッピングセンター：<a href="https://maps.example.com/bigcity" target="_blank">地図</a><br>
+▪ 新竹大遠百：<a href="https://maps.example.com/farcity" target="_blank">地図</a>`
+        },
+        {
+          q: "Ubikeの場所は？",
+          a: `
+▪ 新竹市政府Ubikeステーション：<a href="https://maps.example.com/ubike" target="_blank">地図</a>`
+        },
+        {
+          q: "朝食のおすすめは？",
+          a: `
+▪ ガーリック＆ジャズ朝食：<a href="https://maps.example.com/breakfast1" target="_blank">地図</a><br>
+▪ 山東の朝ごはん：<a href="https://maps.example.com/breakfast2" target="_blank">地図</a><br>
+▪ スターバックス - 新竹州図書館店：<a href="https://maps.example.com/starbucks" target="_blank">地図</a>`
+        },
+        {
+          q: "コーヒーとアフタヌーンティーのおすすめは？",
+          a: `
+▪ スターバックス - 新竹州図書館店：<a href="https://maps.example.com/starbucks" target="_blank">地図</a><br>
+▪ 九幕コーヒー：<a href="https://maps.example.com/coffee1" target="_blank">地図</a><br>
+▪ 饅饅好食：<a href="https://maps.example.com/coffee2" target="_blank">地図</a><br>
+▪ 百の味（三民店）：<a href="https://maps.example.com/coffee3" target="_blank">地図</a><br>
+▪ 夏コーヒー：<a href="https://maps.example.com/coffee4" target="_blank">地図</a><br>
+▪ Float Dept.微生コーヒー：<a href="https://maps.example.com/coffee5" target="_blank">地図</a>`
+        },
+        {
+          q: "中華料理店のおすすめは？",
+          a: `
+▪ 菜園上海料理店：<a href="https://maps.example.com/chinese1" target="_blank">地図</a><br>
+▪ 享鴨ローストダック：<a href="https://maps.example.com/chinese2" target="_blank">地図</a><br>
+▪ 西市汕頭館：<a href="https://maps.example.com/chinese3" target="_blank">地図</a><br>
+▪ 新橋弄堂：<a href="https://maps.example.com/chinese4" target="_blank">地図</a>`
+        },
+        {
+          q: "西洋料理店のおすすめは？",
+          a: `
+▪ 冪2 La Miette キッチン：<a href="https://maps.example.com/western1" target="_blank">地図</a><br>
+▪ TABLE JOE キッチン：<a href="https://maps.example.com/western2" target="_blank">地図</a><br>
+▪ スタンリーアメリカンステーキハウス：<a href="https://maps.example.com/western3" target="_blank">地図</a><br>
+▪ 金色三麥 新竹巨城店 PARK15：<a href="https://maps.example.com/western4" target="_blank">地図</a>`
+        },
+        {
+          q: "和食レストランのおすすめは？",
+          a: `
+▪ 柚子：<a href="https://maps.example.com/japanese1" target="_blank">地図</a><br>
+▪ 皿富器食 minfood：<a href="https://maps.example.com/japanese2" target="_blank">地図</a><br>
+▪ 橋焼肉府後店：<a href="https://maps.example.com/japanese3" target="_blank">地図</a><br>
+▪ 私嚐串焼：<a href="https://maps.example.com/japanese4" target="_blank">地図</a><br>
+▪ 大阪焼肉 燒魂Yakikon：<a href="https://maps.example.com/japanese5" target="_blank">地図</a>`
+        },
+        {
+          q: "ベジタリアンレストランのおすすめは？",
+          a: `
+▪ 活原素Ｖ：<a href="https://maps.example.com/vegan1" target="_blank">地図</a><br>
+▪ 籽田野菜屋：<a href="https://maps.example.com/vegan2" target="_blank">地図</a><br>
+▪ 井家：<a href="https://maps.example.com/vegan3" target="_blank">地図</a><br>
+▪ 井町日式蔬食料理（大同店）：<a href="https://maps.example.com/vegan4" target="_blank">地図</a><br>
+▪ 八二親食-三民店：<a href="https://maps.example.com/vegan5" target="_blank">地図</a>`
+        },
+        {
+          q: "インド料理・エスニック料理のおすすめは？",
+          a: `
+▪ 点22香港点心：<a href="https://maps.example.com/foreign1" target="_blank">地図</a><br>
+▪ スルタン・トルコ料理店：<a href="https://maps.example.com/foreign2" target="_blank">地図</a><br>
+▪ ダダ・インド料理：<a href="https://maps.example.com/foreign3" target="_blank">地図</a><br>
+▪ MASインドレストラン：<a href="https://maps.example.com/foreign4" target="_blank">地図</a>`
+        },
+        {
+          q: "牛肉麺のおすすめは？",
+          a: `
+▪ 段純貞牛肉麺：<a href="https://maps.example.com/beefnoodle1" target="_blank">地図</a><br>
+▪ 熊川牛肉麺：<a href="https://maps.example.com/beefnoodle2" target="_blank">地図</a><br>
+▪ 璽子牛肉麺（博愛店）：<a href="https://maps.example.com/beefnoodle3" target="_blank">地図</a><br>
+▪ 貳壹村精緻麺点：<a href="https://maps.example.com/beefnoodle4" target="_blank">地図</a>`
+        },
+        {
+          q: "おすすめの軽食は？",
+          a: `
+▪ 喜劇終了（バーガー）：<a href="https://maps.example.com/snack1" target="_blank">地図</a><br>
+▪ 劇場下アンダーシックスパウンド唐揚げ：<a href="https://maps.example.com/snack2" target="_blank">地図</a><br>
+▪ ミックスシェア手作りかき氷：<a href="https://maps.example.com/snack3" target="_blank">地図</a>`
+        },
+        {
+          q: "お土産のおすすめは？",
+          a: `
+▪ 福源ピーナッツバター：<a href="https://maps.example.com/gift1" target="_blank">地図</a><br>
+▪ 新復珍：<a href="https://maps.example.com/gift2" target="_blank">地図</a><br>
+▪ 淵明餅舗：<a href="https://maps.example.com/gift3" target="_blank">地図</a><br>
+▪ 進益貢丸：<a href="https://maps.example.com/gift4" target="_blank">地図</a><br>
+▪ 海瑞貢丸：<a href="https://maps.example.com/gift5" target="_blank">地図</a>`
+        }
       ]
     };
 
@@ -459,47 +486,53 @@ html
       qaData[lang].forEach((item, index) => {
         const qaItem = document.createElement('div');
         qaItem.className = 'qa-item';
+
         const question = document.createElement('div');
         question.className = 'question';
-        question.innerHTML = `・${item.q} <span class="arrow">▼</span>`;
+        question.innerHTML = `・${item.q} <span class="arrow">${index === 0 ? '▲' : '▼'}</span>`;
         question.onclick = () => toggleAnswer(index);
+
         const answer = document.createElement('div');
         answer.className = 'answer';
         answer.innerHTML = item.a;
+
+        if(index === 0) answer.classList.add('open');
+
         qaItem.appendChild(question);
         qaItem.appendChild(answer);
         container.appendChild(qaItem);
       });
-      // 預設展開第一個
-      const firstAnswer = container.querySelectorAll('.answer')[0];
-      const firstArrow = container.querySelectorAll('.arrow')[0];
-      if (firstAnswer && firstArrow) {
-        firstAnswer.classList.add('open');
-        firstArrow.textContent = '▲';
-      }
     }
 
     function toggleAnswer(index) {
       const answers = document.querySelectorAll('.answer');
       const arrows = document.querySelectorAll('.arrow');
-      const answer = answers[index];
-      const arrow = arrows[index];
-      const isOpen = answer.classList.contains('open');
-      answer.classList.toggle('open');
-      arrow.textContent = isOpen ? '▼' : '▲';
+
+      answers.forEach((answer, i) => {
+        const isCurrent = i === index;
+        if(isCurrent) {
+          if(answer.classList.contains('open')) {
+            answer.classList.remove('open');
+            arrows[i].textContent = '▼';
+          } else {
+            answer.classList.add('open');
+            arrows[i].textContent = '▲';
+          }
+        } else {
+          answer.classList.remove('open');
+          arrows[i].textContent = '▼';
+        }
+      });
     }
 
     function switchLang(lang) {
       renderQA(lang);
     }
 
-    window.onload = () => renderQA('zh');
+    // 預設載入中文
+    renderQA('zh');
   </script>
 </body>
 </html>
-
-    // 預設語言為中文
-    window.onload = () => renderQA('zh');
-  </script>
 </body>
 </html>
