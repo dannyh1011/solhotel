@@ -484,7 +484,7 @@
         {
           q: "おすすめの軽食は？",
           a: `
-▪ 喜劇終了（バーガー）：<a href="https://maps.example.com/snack1" target="_blank">地図</a><br>
+▪ 喜劇終了（バーガー）：<a href="https://www.google.com/maps?q=喜劇收場(漢堡)"_blank"_blank">地図</a><br>
 ▪ 劇場下アンダーシックスパウンド唐揚げ：<a href="https://www.google.com/maps?q=戲棚下Under Six Pound炸雞" target="_blank">地図</a><br>
 ▪ ミックスシェア手作りかき氷：<a href="https://www.google.com/maps?q=覓雪Mixshare手作雪花冰"_blank">地図</a>`
         },
