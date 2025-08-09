@@ -151,19 +151,19 @@
         {
           q: "早餐推薦？",
           a: `
-▪ 古拉爵早餐：<a href="https://maps.example.com/breakfast1" target="_blank">地圖</a><br>
-▪ 山東早點：<a href="https://maps.example.com/breakfast2" target="_blank">地圖</a><br>
-▪ 星巴克-新竹州圖門市：<a href="https://maps.example.com/starbucks" target="_blank">地圖</a>`
+▪ 義式屋古拉爵：<a href="https://www.google.com/maps?q=義式屋古拉爵 新竹迎曦店" target="_blank">地圖</a><br>
+▪ 山東早點：<a href="https://www.google.com/maps?q=山東早點"target="_blank">地圖</a><br>
+▪ 星巴克-新竹州圖門市：<a href="https://www.google.com/maps?q=星巴克-新竹州圖門市" target="_blank">地圖</a>`
         },
         {
           q: "咖啡和下午茶推薦？",
           a: `
-▪ 星巴克-新竹州圖門市：<a href="https://maps.example.com/starbucks" target="_blank">地圖</a><br>
-▪ 九幕咖啡：<a href="https://maps.example.com/coffee1" target="_blank">地圖</a><br>
-▪ 饅饅好食：<a href="https://maps.example.com/coffee2" target="_blank">地圖</a><br>
-▪ 一百種味道(三民店)：<a href="https://maps.example.com/coffee3" target="_blank">地圖</a><br>
-▪ 夏.咖啡：<a href="https://maps.example.com/coffee4" target="_blank">地圖</a><br>
-▪ Float Dept.微生咖啡：<a href="https://maps.example.com/coffee5" target="_blank">地圖</a>`
+▪ 星巴克-新竹州圖門市：<a href="https://www.google.com/maps?q=星巴克-新竹州圖門市" target="_blank">地圖</a><br>
+▪ 九幕咖啡：<a href="https://www.google.com/maps?q=九幕咖啡" target="_blank">地圖</a><br>
+▪ 饅饅好食：<a href="https://www.google.com/maps?q=饅饅好食" target="_blank">地圖</a><br>
+▪ 一百種味道(三民店)：<a href="https://www.google.com/maps?q=一百種味道(三民店)" target="_blank">地圖</a><br>
+▪ 夏.咖啡：<a href="https://www.google.com/maps?q=夏.咖啡" target="_blank">地圖</a><br>
+▪ Float Dept.微生咖啡：<a href="https://www.google.com/maps?q=Float Dept.微生咖啡" target="_blank">地圖</a>`
         },
         {
           q: "中式餐廳推薦？",
@@ -278,19 +278,19 @@
         {
           q: "Where can I have breakfast?",
           a: `
-▪ Garlic & Jazz Breakfast: <a href="https://maps.example.com/breakfast1" target="_blank">Map</a><br>
-▪ Shandong Breakfast: <a href="https://maps.example.com/breakfast2" target="_blank">Map</a><br>
-▪ Starbucks - Hsinchu State Library Store: <a href="https://maps.example.com/starbucks" target="_blank">Map</a>`
+▪ Garlic & Jazz Breakfast: <a href="https://www.google.com/maps?q=義式屋古拉爵 新竹迎曦店" target="_blank">Map</a><br>
+▪ Shandong Breakfast: <a href="https://www.google.com/maps?q=山東早點" target="_blank">Map</a><br>
+▪ Starbucks - Hsinchu State Library Store: <a href="https://www.google.com/maps?q=星巴克-新竹州圖門市" target="_blank">Map</a>`
         },
         {
           q: "Coffee and afternoon tea recommendations?",
           a: `
-▪ Starbucks - Hsinchu State Library Store: <a href="https://maps.example.com/starbucks" target="_blank">Map</a><br>
-▪ Jiumu Coffee: <a href="https://maps.example.com/coffee1" target="_blank">Map</a><br>
-▪ Manman Delicious: <a href="https://maps.example.com/coffee2" target="_blank">Map</a><br>
-▪ Hundred Flavors (Sanmin Store): <a href="https://maps.example.com/coffee3" target="_blank">Map</a><br>
-▪ Summer Coffee: <a href="https://maps.example.com/coffee4" target="_blank">Map</a><br>
-▪ Float Dept. Micro Roastery: <a href="https://maps.example.com/coffee5" target="_blank">Map</a>`
+▪ Starbucks - Hsinchu State Library Store: <a href="https://www.google.com/maps?q=星巴克-新竹州圖門市" target="_blank">Map</a><br>
+▪ Jiumu Coffee: <a href="https://www.google.com/maps?q=九幕咖啡" target="_blank">Map</a><br>
+▪ Manman Delicious: <a href="https://www.google.com/maps?q=饅饅好食" target="_blank">Map</a><br>
+▪ Hundred Flavors (Sanmin Store): <a href="https://www.google.com/maps?q=一百種味道(三民店)" target="_blank">Map</a><br>
+▪ Summer Coffee: <a href="https://www.google.com/maps?q=夏.咖啡" target="_blank">Map</a><br>
+▪ Float Dept. Micro Roastery: <a href="https://www.google.com/maps?q=Float Dept.微生咖啡" target="_blank">Map</a>`
         },
         {
           q: "Chinese restaurant recommendations?",
@@ -405,19 +405,19 @@
         {
           q: "朝食のおすすめは？",
           a: `
-▪ ガーリック＆ジャズ朝食：<a href="https://maps.example.com/breakfast1" target="_blank">地図</a><br>
-▪ 山東の朝ごはん：<a href="https://maps.example.com/breakfast2" target="_blank">地図</a><br>
+▪ ガーリック＆ジャズ朝食：<a href="https://www.google.com/maps?q=義式屋古拉爵 新竹迎曦店" target="_blank">地図</a><br>
+▪ 山東の朝ごはん：<a href="https://www.google.com/maps?q=山東早點" target="_blank">地図</a><br>
 ▪ スターバックス - 新竹州図書館店：<a href="https://maps.example.com/starbucks" target="_blank">地図</a>`
         },
         {
           q: "コーヒーとアフタヌーンティーのおすすめは？",
           a: `
 ▪ スターバックス - 新竹州図書館店：<a href="https://maps.example.com/starbucks" target="_blank">地図</a><br>
-▪ 九幕コーヒー：<a href="https://maps.example.com/coffee1" target="_blank">地図</a><br>
-▪ 饅饅好食：<a href="https://maps.example.com/coffee2" target="_blank">地図</a><br>
-▪ 百の味（三民店）：<a href="https://maps.example.com/coffee3" target="_blank">地図</a><br>
-▪ 夏コーヒー：<a href="https://maps.example.com/coffee4" target="_blank">地図</a><br>
-▪ Float Dept.微生コーヒー：<a href="https://maps.example.com/coffee5" target="_blank">地図</a>`
+▪ 九幕コーヒー：<a href="https://www.google.com/maps?q=九幕咖啡" target="_blank">地図</a><br>
+▪ 饅饅好食：<a href="https://www.google.com/maps?q=饅饅好食" target="_blank">地図</a><br>
+▪ 百の味（三民店）：<a href="https://www.google.com/maps?q=一百種味道(三民店)" target="_blank">地図</a><br>
+▪ 夏コーヒー：<a href="https://www.google.com/maps?q=夏.咖啡" target="_blank">地図</a><br>
+▪ Float Dept.微生コーヒー：<a href="https://www.google.com/maps?q=Float Dept.微生咖啡" target="_blank">地図</a>`
         },
         {
           q: "中華料理店のおすすめは？",
