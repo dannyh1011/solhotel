@@ -117,15 +117,15 @@
           q: "有哪些古蹟與觀光景點？",
           a: `
 ▪ 新竹州圖書館：<a href="https://www.google.com/maps?q=新竹州圖書館" target="_blank">地圖</a><br>
-▪ 東門迎曦門：<a href="https://maps.example.com/eastgate" target="_blank">地圖</a><br>
-▪ 辛志平校長故居：<a href="https://maps.example.com/principalhouse" target="_blank">地圖</a><br>
-▪ 新竹市影像博物館：<a href="https://maps.example.com/museum" target="_blank">地圖</a><br>
-▪ 新竹市美術館：<a href="https://maps.example.com/artmuseum" target="_blank">地圖</a><br>
-▪ 東門市場：<a href="https://maps.example.com/eastmarket" target="_blank">地圖</a><br>
-▪ 新竹市政府：<a href="https://maps.example.com/cityhall" target="_blank">地圖</a><br>
-▪ 新竹市消防博物館：<a href="https://maps.example.com/firemuseum" target="_blank">地圖</a><br>
-▪ 新竹動物園：<a href="https://maps.example.com/zoo" target="_blank">地圖</a><br>
-▪ 新竹公園：<a href="https://maps.example.com/park" target="_blank">地圖</a>`
+▪ 東門迎曦門：<a href="https://www.google.com/maps?q=東門迎曦門" target="_blank">地圖</a><br>
+▪ 辛志平校長故居：<a href="https://www.google.com/maps?q=辛志平校長故居" target="_blank">地圖</a><br>
+▪ 新竹市影像博物館：<a href="https://www.google.com/maps?q=新竹市影像博物館" target="_blank">地圖</a><br>
+▪ 新竹市美術館：<a href="https://www.google.com/maps?q=新竹市美術館" target="_blank">地圖</a><br>
+▪ 東門市場：<a href="https://www.google.com/maps?q=東門市場" target="_blank">地圖</a><br>
+▪ 新竹市政府：<a href="https://www.google.com/maps?q=新竹市政府" target="_blank">地圖</a><br>
+▪ 新竹市消防博物館：<a href="https://www.google.com/maps?q=新竹市消防博物館" target="_blank">地圖</a><br>
+▪ 新竹動物園：<a href="https://www.google.com/maps?q=新竹動物園" target="_blank">地圖</a><br>
+▪ 新竹公園：<a href="https://www.google.com/maps?q=新竹公園" target="_blank">地圖</a>`
         },
         {
           q: "有哪些宮廟？",
@@ -242,15 +242,15 @@
           q: "What historic sites and attractions are nearby?",
           a: `
 ▪ Hsinchu State Library: <a href="https://www.google.com/maps?q=新竹州圖書館" target="_blank">Map</a><br>
-▪ East Gate Yingxi Gate: <a href="https://maps.example.com/eastgate" target="_blank">Map</a><br>
-▪ Principal Xin Zhiping's Former Residence: <a href="https://maps.example.com/principalhouse" target="_blank">Map</a><br>
-▪ Hsinchu Image Museum: <a href="https://maps.example.com/museum" target="_blank">Map</a><br>
-▪ Hsinchu Art Museum: <a href="https://maps.example.com/artmuseum" target="_blank">Map</a><br>
-▪ East Gate Market: <a href="https://maps.example.com/eastmarket" target="_blank">Map</a><br>
-▪ Hsinchu City Hall: <a href="https://maps.example.com/cityhall" target="_blank">Map</a><br>
-▪ Hsinchu Fire Museum: <a href="https://maps.example.com/firemuseum" target="_blank">Map</a><br>
-▪ Hsinchu Zoo: <a href="https://maps.example.com/zoo" target="_blank">Map</a><br>
-▪ Hsinchu Park: <a href="https://maps.example.com/park" target="_blank">Map</a>`
+▪ East Gate Yingxi Gate: <a href="https://www.google.com/maps?q=東門迎曦門" target="_blank">Map</a><br>
+▪ Principal Xin Zhiping's Former Residence: <a href="https://www.google.com/maps?q=辛志平校長故居"  target="_blank">Map</a><br>
+▪ Hsinchu Image Museum: <a href="https://www.google.com/maps?q=新竹市影像博物館" target="_blank">Map</a><br>
+▪ Hsinchu Art Museum: <a href="https://www.google.com/maps?q=新竹市美術館" target="_blank">Map</a><br>
+▪ East Gate Market: <a href="https://www.google.com/maps?q=東門市場" target="_blank">Map</a><br>
+▪ Hsinchu City Hall: <a href="https://www.google.com/maps?q=新竹市政府" target="_blank">Map</a><br>
+▪ Hsinchu Fire Museum: <a href="https://www.google.com/maps?q=新竹市消防博物館" target="_blank">Map</a><br>
+▪ Hsinchu Zoo: <a href="https://www.google.com/maps?q=新竹動物園" target="_blank">Map</a><br>
+▪ Hsinchu Park: <a href="https://www.google.com/maps?q=新竹公園" target="_blank">Map</a>`
         },
         {
           q: "What temples are nearby?",
@@ -367,15 +367,15 @@
           q: "歴史的建造物と観光スポットは？",
           a: `
 ▪ 新竹州図書館：<a href="https://www.google.com/maps?q=新竹州圖書館" target="_blank">地図</a><br>
-▪ 東門迎曦門：<a href="https://maps.example.com/eastgate" target="_blank">地図</a><br>
-▪ 辛志平校長旧宅：<a href="https://maps.example.com/principalhouse" target="_blank">地図</a><br>
-▪ 新竹市映像博物館：<a href="https://maps.example.com/museum" target="_blank">地図</a><br>
-▪ 新竹市美術館：<a href="https://maps.example.com/artmuseum" target="_blank">地図</a><br>
-▪ 東門市場：<a href="https://maps.example.com/eastmarket" target="_blank">地図</a><br>
-▪ 新竹市政府：<a href="https://maps.example.com/cityhall" target="_blank">地図</a><br>
-▪ 新竹市消防博物館：<a href="https://maps.example.com/firemuseum" target="_blank">地図</a><br>
-▪ 新竹動物園：<a href="https://maps.example.com/zoo" target="_blank">地図</a><br>
-▪ 新竹公園：<a href="https://maps.example.com/park" target="_blank">地図</a>`
+▪ 東門迎曦門：<a href="https://www.google.com/maps?q=東門迎曦門" target="_blank">地図</a><br>
+▪ 辛志平校長旧宅：<a href="https://www.google.com/maps?q=辛志平校長故居"  target="_blank">地図</a><br>
+▪ 新竹市映像博物館：<a href="https://www.google.com/maps?q=新竹市影像博物館" target="_blank">地図</a><br>
+▪ 新竹市美術館：<a href="https://www.google.com/maps?q=新竹市美術館" target="_blank">地図</a><br>
+▪ 東門市場：<a href="https://www.google.com/maps?q=東門市場" target="_blank">地図</a><br>
+▪ 新竹市政府：<a href="https://www.google.com/maps?q=新竹市政府" target="_blank">地図</a><br>
+▪ 新竹市消防博物館：<a href="https://www.google.com/maps?q=新竹市消防博物館" target="_blank">地図</a><br>
+▪ 新竹動物園：<a href="https://www.google.com/maps?q=新竹動物園" target="_blank">地図</a><br>
+▪ 新竹公園：<a href="https://www.google.com/maps?q=新竹公園"_blank">地図</a>`
         },
         {
           q: "近くの宮廟は？",
