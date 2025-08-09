@@ -184,20 +184,21 @@
         {
           q: "日式餐廳推薦？",
           a: `
-▪ 柚子：<a href="https://maps.example.com/japanese1" target="_blank">地圖</a><br>
-▪ 皿富器食 minfood：<a href="https://maps.example.com/japanese2" target="_blank">地圖</a><br>
-▪ 橋燒肉府後店：<a href="https://maps.example.com/japanese3" target="_blank">地圖</a><br>
-▪ 私嚐串燒：<a href="https://maps.example.com/japanese4" target="_blank">地圖</a><br>
-▪ 大阪燒肉 燒魂Yakikon：<a href="https://maps.example.com/japanese5" target="_blank">地圖</a>`
+▪ 柚子：<a href="https://www.google.com/maps?q=柚子 文化街" target="_blank">地圖</a><br>
+▪ 皿富器食 minfood：<a href="https://www.google.com/maps?q=皿富器食 minfood" target="_blank">地圖</a><br>
+▪ 新橋燒肉屋：<a href="https://www.google.com/maps?q=新橋燒肉屋 府後店" target="_blank">地圖</a><br>
+▪ 私嚐串燒：<a href="https://www.google.com/maps?q=私嚐串燒 中正店"_blank">地圖</a><br>
+▪ 大阪燒肉 燒魂Yakikon：<a href="https://www.google.com/maps?q=大阪燒肉 燒魂Yakikon 新竹市東區" target="_blank">地圖</a>`
         },
         {
           q: "素食餐廳推薦？",
           a: `
-▪ 活原素Ｖ：<a href="https://maps.example.com/vegan1" target="_blank">地圖</a><br>
-▪ 籽田野菜屋：<a href="https://maps.example.com/vegan2" target="_blank">地圖</a><br>
-▪ 井家：<a href="https://maps.example.com/vegan3" target="_blank">地圖</a><br>
-▪ 井町日式蔬食料理(大同店)：<a href="https://maps.example.com/vegan4" target="_blank">地圖</a><br>
-▪ 八二親食-三民店：<a href="https://maps.example.com/vegan5" target="_blank">地圖</a>`
+▪ 果庭蔬食廚房：<a href="https://www.google.com/maps?q=果庭蔬食廚房" target="_blank">地圖</a><br>
+▪ 森活原素 V-Element 蔬食餐廳：<a href="https://www.google.com/maps?q=森活原素 V-Element 蔬食餐廳" target="_blank">地圖</a><br>
+▪ 籽田野菜屋：<a href="https://www.google.com/maps?q=籽田野菜屋" target="_blank">地圖</a><br>
+▪ 井家：<a href="https://www.google.com/maps?q=井家" target="_blank">地圖</a><br>
+▪ 井町日式蔬食料理(大同店)：<a href="https://www.google.com/maps?q=井町日式蔬食料理(大同店)" target="_blank">地圖</a><br>
+▪ 八二親食-三民店：<a href="https://www.google.com/maps?q=八二親食-三民店" target="_blank">地圖</a>`
         },
         {
           q: "印度及異國料理推薦？",
@@ -312,20 +313,21 @@
         {
           q: "Japanese restaurant recommendations?",
           a: `
-▪ Yuzu: <a href="https://maps.example.com/japanese1" target="_blank">Map</a><br>
-▪ Minfood: <a href="https://maps.example.com/japanese2" target="_blank">Map</a><br>
-▪ Bridge Yakiniku Rear Store: <a href="https://maps.example.com/japanese3" target="_blank">Map</a><br>
-▪ Private Taste Skewers: <a href="https://maps.example.com/japanese4" target="_blank">Map</a><br>
-▪ Osaka Yakiniku Yakikon: <a href="https://maps.example.com/japanese5" target="_blank">Map</a>`
+▪ Yuzu: <a href="https://www.google.com/maps?q=柚子 文化街" target="_blank">Map</a><br>
+▪ Minfood: <a href="https://www.google.com/maps?q=皿富器食 minfood" target="_blank">Map</a><br>
+▪ Shinbashi Yakiniku: <a href="https://www.google.com/maps?q=新橋燒肉屋 府後店" target="_blank">Map</a><br>
+▪ Private Taste Skewers: <a href="https://www.google.com/maps?q=私嚐串燒 中正店" target="_blank">Map</a><br>
+▪ Osaka Yakiniku Yakikon: <a href="https://www.google.com/maps?q=大阪燒肉 燒魂Yakikon 新竹市東區" target="_blank">Map</a>`
         },
         {
           q: "Vegetarian restaurant recommendations?",
           a: `
-▪ Huoyuan Vegan V: <a href="https://maps.example.com/vegan1" target="_blank">Map</a><br>
-▪ Zitian Vegetable House: <a href="https://maps.example.com/vegan2" target="_blank">Map</a><br>
+▪ Guoting Vegetarian Kitchen：<a href="https://www.google.com/maps?q=果庭蔬食廚房" target="_blank">Map</a><br>
+▪ V-Element Vegetarian Kitchen：<a href="https://www.google.com/maps?q=森活原素 V-Element 蔬食餐廳" target="_blank">Map</a><br>
+▪ Zitian Vegetable House: <a href="https://www.google.com/maps?q=籽田野菜屋" target="_blank">Map</a><br>
 ▪ Jingjia: <a href="https://maps.example.com/vegan3" target="_blank">Map</a><br>
-▪ Jingmachi Japanese Vegetarian (Datong Store): <a href="https://maps.example.com/vegan4" target="_blank">Map</a><br>
-▪ 82 Qin Shi - Sanmin Store: <a href="https://maps.example.com/vegan5" target="_blank">Map</a>`
+▪ Jingmachi Japanese Vegetarian: <a href="https://www.google.com/maps?q=井家" target="_blank">Map</a><br>
+▪ 82 Qin Shi: <a href="https://www.google.com/maps?q=八二親食-三民店" target="_blank">Map</a>`
         },
         {
           q: "Indian and international cuisine recommendations?",
@@ -440,20 +442,21 @@
         {
           q: "和食レストランのおすすめは？",
           a: `
-▪ 柚子：<a href="https://maps.example.com/japanese1" target="_blank">地図</a><br>
+▪ 柚子：<a href="https://www.google.com/maps?q=柚子 文化街" target="_blank">地図</a><br>
 ▪ 皿富器食 minfood：<a href="https://maps.example.com/japanese2" target="_blank">地図</a><br>
-▪ 橋焼肉府後店：<a href="https://maps.example.com/japanese3" target="_blank">地図</a><br>
-▪ 私嚐串焼：<a href="https://maps.example.com/japanese4" target="_blank">地図</a><br>
-▪ 大阪焼肉 燒魂Yakikon：<a href="https://maps.example.com/japanese5" target="_blank">地図</a>`
+▪ 新橋焼肉屋：<a href="https://www.google.com/maps?q=新橋燒肉屋 府後店" target="_blank">地図</a><br>
+▪ 私嚐串焼：<a href="https://www.google.com/maps?q=私嚐串燒 中正店" target="_blank">地図</a><br>
+▪ 大阪焼肉 燒魂Yakikon：<a href="https://www.google.com/maps?q=大阪燒肉 燒魂Yakikon 新竹市東區"" target="_blank">地図</a>`
         },
         {
           q: "ベジタリアンレストランのおすすめは？",
           a: `
-▪ 活原素Ｖ：<a href="https://maps.example.com/vegan1" target="_blank">地図</a><br>
-▪ 籽田野菜屋：<a href="https://maps.example.com/vegan2" target="_blank">地図</a><br>
-▪ 井家：<a href="https://maps.example.com/vegan3" target="_blank">地図</a><br>
+▪ 果庭ベジタリアンキッチン：<a href="https://www.google.com/maps?q=果庭蔬食廚房" target="_blank">地図</a><br>
+▪  V-Element ベジタリアンレストラン：<a href="https://www.google.com/maps?q=森活原素 V-Element 蔬食餐廳" target="_blank">地図</a><br>
+▪ 籽田野菜屋：<a href="https://www.google.com/maps?q=籽田野菜屋" target="_blank">地図</a><br>
+▪ 井家：<a href="https://www.google.com/maps?q=井家" target="_blank">地図</a><br>
 ▪ 井町日式蔬食料理（大同店）：<a href="https://maps.example.com/vegan4" target="_blank">地図</a><br>
-▪ 八二親食-三民店：<a href="https://maps.example.com/vegan5" target="_blank">地図</a>`
+▪ 八二親食：<a href="https://www.google.com/maps?q=八二親食-三民店" target="_blank">地図</a>`
         },
         {
           q: "インド料理・エスニック料理のおすすめは？",
