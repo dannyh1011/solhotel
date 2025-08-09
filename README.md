@@ -130,15 +130,17 @@
         {
           q: "有哪些宮廟？",
           a: `
-▪ 東寧宮：<a href="https://maps.example.com/dongning" target="_blank">地圖</a><br>
-▪ 新竹都城隍廟：<a href="https://maps.example.com/citygod" target="_blank">地圖</a><br>
-▪ 新竹長和宮：<a href="https://maps.example.com/changhe" target="_blank">地圖</a><br>
-▪ 關帝廟：<a href="https://maps.example.com/guandi" target="_blank">地圖</a>`
+▪ 東寧宮：<a href="https://www.google.com/maps?q=東寧宮" target="_blank">地圖</a><br>
+▪ 新竹都城隍廟：<a href="https://www.google.com/maps?q=新竹都城隍廟" target="_blank">地圖</a><br>
+▪ 新竹竹蓮寺：<a href="https://www.google.com/maps?q=新竹竹蓮寺" target="_blank">地圖</a><br>
+▪ 新竹長和宮：<a href="https://www.google.com/maps?q=新竹長和宮" target="_blank">地圖</a><br>
+▪ 關帝廟：<a href="https://www.google.com/maps?q=關帝廟" target="_blank">地圖</a>`
         },
         {
           q: "附近有哪裡可以購物？",
           a: `
 ▪ 巨城購物中心：<a href="https://www.google.com/maps?q=巨城購物中心" target="_blank">地圖</a><br>
+▪ 大魯閣湳雅廣場：<a href="https://www.google.com/maps?q=大魯閣湳雅廣場" target="_blank">地圖</a><br>
 ▪ 新竹大遠百：<a href="https://www.google.com/maps?q=新竹大遠百" target="_blank">地圖</a>`
         },
         {
@@ -255,15 +257,17 @@
         {
           q: "What temples are nearby?",
           a: `
-▪ Dongning Temple: <a href="https://maps.example.com/dongning" target="_blank">Map</a><br>
-▪ Hsinchu City God Temple: <a href="https://maps.example.com/citygod" target="_blank">Map</a><br>
-▪ Changhe Temple: <a href="https://maps.example.com/changhe" target="_blank">Map</a><br>
-▪ Guandi Temple: <a href="https://maps.example.com/guandi" target="_blank">Map</a>`
+▪ Dongning Temple: <a href="https://www.google.com/maps?q=東寧宮" target="_blank">Map</a><br>
+▪ Hsinchu City God Temple: <a href="https://www.google.com/maps?q=新竹都城隍廟" target="_blank">Map</a><br>
+▪ Hsinchu Zhulin Temple：<a href="https://www.google.com/maps?q=新竹竹蓮寺" target="_blank">地圖</a><br>
+▪ Changhe Temple: <a href="https://www.google.com/maps?q=新竹長和宮" target="_blank">Map</a><br>
+▪ Guandi Temple: <a href="https://www.google.com/maps?q=關帝廟" target="_blank">Map</a>`
         },
         {
           q: "Where can I shop nearby?",
           a: `
 ▪ Big City Shopping Center: <a href="https://www.google.com/maps?q=巨城購物中心" target="_blank">Map</a><br>
+▪ Taroko Nanya Plaza：<a href="https://www.google.com/maps?q=大魯閣湳雅廣場" target="_blank">地圖</a><br>
 ▪ Far Eastern Department Store Hsinchu: <a href="https://www.google.com/maps?q=新竹大遠百" target="_blank">Map</a>`
         },
         {
@@ -380,15 +384,17 @@
         {
           q: "近くの宮廟は？",
           a: `
-▪ 東寧宮：<a href="https://maps.example.com/dongning" target="_blank">地図</a><br>
-▪ 新竹都城隍廟：<a href="https://maps.example.com/citygod" target="_blank">地図</a><br>
-▪ 新竹長和宮：<a href="https://maps.example.com/changhe" target="_blank">地図</a><br>
-▪ 関帝廟：<a href="https://maps.example.com/guandi" target="_blank">地図</a>`
+▪ 東寧宮：<a href="https://www.google.com/maps?q=東寧宮" target="_blank">地図</a><br>
+▪ 新竹都城隍廟：<a href="https://www.google.com/maps?q=新竹都城隍廟" target="_blank">地図</a><br>
+▪ 新竹竹蓮寺：<a href="https://www.google.com/maps?q=新竹竹蓮寺" target="_blank">地圖</a><br>
+▪ 新竹長和宮：<a href="https://www.google.com/maps?q=新竹長和宮" target="_blank">地図</a><br>
+▪ 関帝廟：<a href="https://www.google.com/maps?q=關帝廟" target="_blank">地図</a>`
         },
         {
           q: "ショッピングはどこでできますか？",
           a: `
 ▪ 巨城ショッピングセンター：<a href="https://maps.example.com/bigcity" target="_blank">地図</a><br>
+▪ タロコ南雅プラザ：<a href="https://www.google.com/maps?q=大魯閣湳雅廣場" target="_blank">地圖</a><br>
 ▪ 新竹大遠百：<a href="https://www.google.com/maps?q=新竹大遠百" target="_blank">地図</a>`
         },
         {
