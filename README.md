@@ -33,8 +33,8 @@
       border: 6px solid #a67c52;
       border-radius: 20px;
       padding: 30px 25px;
-      width: 90%;
-      max-width: 1000px;
+      width: 100%;
+      max-width: none;
       box-sizing: border-box;
       overflow-y: auto;
       max-height: 85vh;
