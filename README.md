@@ -34,10 +34,11 @@
       border-radius: 20px;
       padding: 30px 25px;
       width: 100%;
-      max-width: none;
+      max-width: 800px;
       box-sizing: border-box;
       overflow-y: auto;
       max-height: 85vh;
+       margin: 0 20px; /* 手機和桌面左右保留空間 */
       -webkit-overflow-scrolling: touch;
     }
     .qa-item {
