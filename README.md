@@ -107,10 +107,11 @@
     const qaData = {
       zh: [
         {
-          q: "夜市有哪些？",
-          a: `
-▪ 樹林頭夜市：<a href="https://maps.example.com/shulintou" target="_blank">點我查看地圖</a><br>
-▪ 後火車站夜市：<a href="https://maps.example.com/backstation" target="_blank">點我查看地圖</a>`
+          q: "飯店周邊是否有夜市？",
+          a: `▪ 每日：城隍廟夜市：<a href="https://www.google.com/maps?q=新竹市城隍廟夜市" target="_blank" style="color: #00bcd4;">點我查看地圖</a><br>
+           ▪ 週二、週四：新竹後站夜市：<a href="https://www.google.com/maps?q=新竹後站夜市" target="_blank" style="color: #00bcd4;">點我查看地圖</a><br> 
+          ▪ 週三、週五：樹林頭夜市：<a href="https://www.google.com/maps?q=樹林頭夜市" target="_blank" style="color: #00bcd4;">點我查看地圖</a>`
+
         },
         {
           q: "有哪些古蹟與觀光景點？",
