@@ -138,8 +138,8 @@
         {
           q: "附近有哪裡可以購物？",
           a: `
-▪ 巨城購物中心：<a href="https://maps.example.com/bigcity" target="_blank">地圖</a><br>
-▪ 新竹大遠百：<a href="https://maps.example.com/farcity" target="_blank">地圖</a>`
+▪ 巨城購物中心：<a href="https://www.google.com/maps?q=巨城購物中心" target="_blank">地圖</a><br>
+▪ 新竹大遠百：<a href="https://www.google.com/maps?q=新竹大遠百" target="_blank">地圖</a>`
         },
         {
           q: "Ubike在哪裡？",
@@ -263,8 +263,8 @@
         {
           q: "Where can I shop nearby?",
           a: `
-▪ Big City Shopping Center: <a href="https://maps.example.com/bigcity" target="_blank">Map</a><br>
-▪ Far Eastern Department Store Hsinchu: <a href="https://maps.example.com/farcity" target="_blank">Map</a>`
+▪ Big City Shopping Center: <a href="https://www.google.com/maps?q=巨城購物中心" target="_blank">Map</a><br>
+▪ Far Eastern Department Store Hsinchu: <a href="https://www.google.com/maps?q=新竹大遠百" target="_blank">Map</a>`
         },
         {
           q: "Where is the Ubike station?",
@@ -389,7 +389,7 @@
           q: "ショッピングはどこでできますか？",
           a: `
 ▪ 巨城ショッピングセンター：<a href="https://maps.example.com/bigcity" target="_blank">地図</a><br>
-▪ 新竹大遠百：<a href="https://maps.example.com/farcity" target="_blank">地図</a>`
+▪ 新竹大遠百：<a href="https://www.google.com/maps?q=新竹大遠百" target="_blank">地図</a>`
         },
         {
           q: "Ubikeの場所は？",
