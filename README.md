@@ -214,17 +214,17 @@
         {
           q: "牛肉麵推薦？",
           a: `
-▪ 段純貞牛肉麵：<a href="https://maps.example.com/beefnoodle1" target="_blank">地圖</a><br>
-▪ 熊川牛肉麵：<a href="https://maps.example.com/beefnoodle2" target="_blank">地圖</a><br>
-▪ 璽子牛肉麵（博愛店）：<a href="https://maps.example.com/beefnoodle3" target="_blank">地圖</a><br>
-▪ 貳壹村精緻麵點：<a href="https://maps.example.com/beefnoodle4" target="_blank">地圖</a>`
+▪ 段純貞牛肉麵：<a href="https://www.google.com/maps?q=段純貞牛肉麵新竹市北區武陵路" target="_blank">地圖</a><br>
+▪ 熊川牛肉麵：<a href="https://www.google.com/maps?q=熊川牛肉麵" target="_blank">地圖</a><br>
+▪ 璽子牛肉麵（博愛店）：<a href="https://www.google.com/maps?q=璽子牛肉麵（博愛店)" target="_blank">地圖</a><br>
+▪ 貳壹村精緻麵點：<a href="https://www.google.com/maps?q=貳壹村精緻麵點" target="_blank">地圖</a>`
         },
         {
           q: "推薦小吃？",
           a: `
-▪ 喜劇收場(漢堡)：<a href="https://maps.example.com/snack1" target="_blank">地圖</a><br>
-▪ 戲棚下Under Six Pound炸雞：<a href="https://maps.example.com/snack2" target="_blank">地圖</a><br>
-▪ 覓雪Mixshare手作雪花冰：<a href="https://maps.example.com/snack3" target="_blank">地圖</a>`
+▪ 喜劇收場(漢堡)：<a href="https://www.google.com/maps?q=喜劇收場(漢堡)"_blank">地圖</a><br>
+▪ 戲棚下Under Six Pound炸雞：<a href="https://www.google.com/maps?q=戲棚下Under Six Pound炸雞" target="_blank">地圖</a><br>
+▪ 覓雪Mixshare手作雪花冰：<a href="https://www.google.com/maps?q=覓雪Mixshare手作雪花冰" target="_blank">地圖</a>`
         },
         {
           q: "伴手禮推薦？",
@@ -340,22 +340,22 @@
 ▪ El Mundo墨多：<a href="https://www.google.com/maps?q=El Mundo墨多" target="_blank">Map</a><br>
 ▪ Sultan Turkish Kitchen: <a href="https://maps.example.com/foreign2" target="_blank">Map</a><br>
 ▪ Dada Indian Cuisine: <a href="https://maps.example.com/foreign3" target="_blank">Map</a><br>
-▪ MAS India Restaurant: <a href="https://maps.example.com/foreign4" target="_blank">Map</a>`
+▪ MAS India Restaurant: <a href="https://www.google.com/maps?q=MAS India Restaurant 媽媽印度料理" target="_blank">Map</a>`
         },
         {
           q: "Beef noodle recommendations?",
           a: `
-▪ Duan Chun Zhen Beef Noodles: <a href="https://maps.example.com/beefnoodle1" target="_blank">Map</a><br>
-▪ Xiongchuan Beef Noodles: <a href="https://maps.example.com/beefnoodle2" target="_blank">Map</a><br>
-▪ Xi Zi Beef Noodles (Bo’ai Store): <a href="https://maps.example.com/beefnoodle3" target="_blank">Map</a><br>
-▪ Er Yi Cun Exquisite Noodles: <a href="https://maps.example.com/beefnoodle4" target="_blank">Map</a>`
+▪ Duan Chun Zhen Beef Noodles: <a href="https://www.google.com/maps?q=段純貞牛肉麵新竹市北區武陵路" target="_blank">Map</a><br>
+▪ Xiongchuan Beef Noodles: <a href="https://www.google.com/maps?q=熊川牛肉麵" target="_blank">Map</a><br>
+▪ Xi Zi Beef Noodles: <a href="https://www.google.com/maps?q=璽子牛肉麵（博愛店)" target="_blank">Map</a><br>
+▪ Er Yi Cun Exquisite Noodles: <a href="https://www.google.com/maps?q=貳壹村精緻麵點" target="_blank">Map</a>`
         },
         {
           q: "Snack recommendations?",
           a: `
-▪ Comedy Ending (Burger): <a href="https://maps.example.com/snack1" target="_blank">Map</a><br>
-▪ Under Six Pound Fried Chicken: <a href="https://maps.example.com/snack2" target="_blank">Map</a><br>
-▪ Mixshare Handmade Shaved Ice: <a href="https://maps.example.com/snack3" target="_blank">Map</a>`
+▪ Comedy Ending (Burger): <a href="https://www.google.com/maps?q=喜劇收場(漢堡)" target="_blank">Map</a><br>
+▪ Under Six Pound Fried Chicken: <a href="https://www.google.com/maps?q=戲棚下Under Six Pound炸雞" target="_blank">Map</a><br>
+▪ Mixshare Handmade Shaved Ice: <a href="https://www.google.com/maps?q=覓雪Mixshare手作雪花冰" target="_blank">Map</a>`
         },
         {
           q: "Souvenir recommendations?",
@@ -476,17 +476,17 @@
         {
           q: "牛肉麺のおすすめは？",
           a: `
-▪ 段純貞牛肉麺：<a href="https://maps.example.com/beefnoodle1" target="_blank">地図</a><br>
-▪ 熊川牛肉麺：<a href="https://maps.example.com/beefnoodle2" target="_blank">地図</a><br>
+▪ 段純貞牛肉麺：<a href="https://www.google.com/maps?q=段純貞牛肉麵新竹市北區武陵路" target="_blank">地図</a><br>
+▪ 熊川牛肉麺：<a href="https://www.google.com/maps?q=熊川牛肉麵" target="_blank">地図</a><br>
 ▪ 璽子牛肉麺（博愛店）：<a href="https://maps.example.com/beefnoodle3" target="_blank">地図</a><br>
-▪ 貳壹村精緻麺点：<a href="https://maps.example.com/beefnoodle4" target="_blank">地図</a>`
+▪ 貳壹村精緻麺点：<a href="https://www.google.com/maps?q=貳壹村精緻麵點" target="_blank">地図</a>`
         },
         {
           q: "おすすめの軽食は？",
           a: `
 ▪ 喜劇終了（バーガー）：<a href="https://maps.example.com/snack1" target="_blank">地図</a><br>
-▪ 劇場下アンダーシックスパウンド唐揚げ：<a href="https://maps.example.com/snack2" target="_blank">地図</a><br>
-▪ ミックスシェア手作りかき氷：<a href="https://maps.example.com/snack3" target="_blank">地図</a>`
+▪ 劇場下アンダーシックスパウンド唐揚げ：<a href="https://www.google.com/maps?q=戲棚下Under Six Pound炸雞" target="_blank">地図</a><br>
+▪ ミックスシェア手作りかき氷：<a href="https://www.google.com/maps?q=覓雪Mixshare手作雪花冰"_blank">地図</a>`
         },
         {
           q: "お土産のおすすめは？",
