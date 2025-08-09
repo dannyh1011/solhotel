@@ -336,7 +336,7 @@
           a: `
 ▪ Dim 22 Hong Kong Dim Sum：<a href="https://www.google.com/maps?q=點22港式點心-新竹東門店" target="_blank">Map</a><br>
 ▪ 132 Officer’s Residence Bistro：<a href="https://www.google.com/maps?q=132官舍/新竹州警務部部長官舍(餐酒館Bistro)" target="_blank">Map</a><br>
-▪ Yanli Pondok Sunny Singaporean and Malaysian Cuisine：<a href="https://www.google.com/maps?q=艷麗Pondok Sunny" target="_blank">Map</a><br>
+▪ Yanli Pondok Sunny-Singaporean and Malaysian Cuisine：<a href="https://www.google.com/maps?q=艷麗Pondok Sunny" target="_blank">Map</a><br>
 ▪ El Mundo Mexican Cuisine：<a href="https://www.google.com/maps?q=El Mundo墨多" target="_blank">Map</a><br>
 ▪ Sultan Turkish Kitchen: <a href="https://maps.example.com/foreign2" target="_blank">Map</a><br>
 ▪ Dada Indian Cuisine: <a href="https://maps.example.com/foreign3" target="_blank">Map</a><br>
