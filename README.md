@@ -286,6 +286,7 @@
         {
           q: "Where is the Ubike station?",
           a: `
+          ▪ Before signing up, please prepare the following: <a href="https://en.youbike.com.tw/region/main/register/" target="_blank"> Ubike</a><br>
 ▪ Hsinchu City Hall Ubike Station: <a href="https://www.google.com/maps?q=YouBike 新竹市政府" target="_blank">Map</a>`
         },
         {
