@@ -11,8 +11,29 @@
       display: flex; flex-direction: column; align-items: center;
       height: 100vh;
     }
+    .header {
+      text-align: center;
+      margin: 20px 0 10px 0;
+    }
+    .title {
+      font-size: 2rem;
+      color: #00d4ff;
+    }
+    #newsInput {
+      display: block;
+      margin: 10px auto 0 auto;
+      padding: 8px 12px;
+      font-size: 1rem;
+      border: 2px solid #a67c52;
+      border-radius: 8px;
+      width: 100%;
+      max-width: 500px;
+      background-color: #2c2c2c;
+      color: #fff;
+      text-align: center;
+    }
     .lang-switcher {
-      margin: 20px;
+      margin: 10px 0 20px 0;
     }
     .lang-switcher button {
       margin: 0 10px;
@@ -34,8 +55,8 @@
       border-radius: 20px;
       padding: 30px 25px;
       width: 100%;
-      max-width: 800px; /* 電腦最大寬度 */
-      margin: 0 20px;   /* 左右留空，手機桌面都適用 */
+      max-width: 800px;
+      margin: 0 20px;
       box-sizing: border-box;
       overflow-y: auto;
       max-height: 85vh;
@@ -96,6 +117,11 @@
   </style>
 </head>
 <body>
+  <div class="header">
+    <div class="title">solhotel</div>
+    <input id="newsInput" type="text" placeholder="可放置中英日文最新消息" />
+  </div>
+
   <div class="lang-switcher">
     <button onclick="switchLang('zh')">中文</button>
     <button onclick="switchLang('en')">English</button>
@@ -105,6 +131,11 @@
   <div class="qa-container" id="qa"></div>
 
   <script>
+    const newsData = {
+      zh: "歡迎入住 Solhotel！",
+      en: "Welcome to Solhotel!",
+      ja: "ソルホテルへようこそ！"
+    };
     const qaData = {
       zh: [
         {
