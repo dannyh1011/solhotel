@@ -108,8 +108,8 @@
     const qaData = {
       zh: [
          {
-          q: "最新消息:                                                                                  ",
-          a: `目前無最新消息</a>`
+          q: "飯店公告訊息 :                                                                                  ",
+          a: `日前無公告訊息。</a>`
         },
         {
           q: "飯店周邊是否有夜市？                                                                                  ",
@@ -242,6 +242,10 @@
         }
       ],
       en: [
+         {
+          q: "Hotel Announcements :                                                                                  ",
+          a: `No announcements at the moment.</a>`
+        },
         {
           q: "Are there any night markets near the hotel?                                                                                  ",
           a:  `▪ Daily – Chenghuang Temple Night Market – <a href="https://www.google.com/maps?q=新竹市城隍廟夜市" target="_blank">Map</a><br>
@@ -373,6 +377,10 @@
         }
       ],
       ja: [
+        {
+          q: "ホテルからのお知らせ:                                                                                  ",
+          a: `現在お知らせはありません。</a>`
+        },
         {
           q: "ホテルの周辺に夜市はありますか？                                                                                              ",
           a: `▪ 毎日・城隍廟夜市（チョンホアンミャオ夜市）– <a href="https://www.google.com/maps?q=新竹市城隍廟夜市"  target="_blank">地図</a><br>
