@@ -107,6 +107,10 @@
   <script>
     const qaData = {
       zh: [
+         {
+          q: "最新消息:                                                                                  ",
+          a: `目前無最新消息</a>`
+        },
         {
           q: "飯店周邊是否有夜市？                                                                                  ",
           a: `▪ 每日：城隍廟夜市：<a href="https://www.google.com/maps?q=新竹市城隍廟夜市" target="_blank">地圖</a><br>
