@@ -286,7 +286,7 @@
         {
           q: "Where is the Ubike station?",
           a: `
-          ▪ Before signing up, please prepare the following: <a href="https://en.youbike.com.tw/region/main/register/" target="_blank"> Ubike</a><br>
+          ▪ Before signing up, please prepare the following. <a href="https://en.youbike.com.tw/region/main/register/" target="_blank"> Ubike official website</a><br>
 ▪ Hsinchu City Hall Ubike Station: <a href="https://www.google.com/maps?q=YouBike 新竹市政府" target="_blank">Map</a>`
         },
         {
@@ -422,6 +422,7 @@
         {
           q: "Ubikeの場所は？",
           a: `
+          ▪ ご登録の前に、以下のものをご準備ください。<a href="https://en.youbike.com.tw/region/main/register/" target="_blank"> Ubike公式ウェブサイト-英語のみ</a><br>
 ▪ 新竹市政府Ubikeステーション：<a href="https://www.google.com/maps?q=YouBike 新竹市政府" target="_blank">地図</a>`
         },
         {
