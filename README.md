@@ -4,7 +4,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>飯店QA</title>
 <h1 id="site-title" style="display:none;">solhotel</h1>
-<h1>Welcome to Solhotel</h1>
+<h1>Welcome to Solhotel！<br>
+ソルホテルへようこそ！</h1>
   <style>
     html, body {
       margin: 0; padding: 0;
