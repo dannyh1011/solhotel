@@ -108,7 +108,7 @@
     const qaData = {
       zh: [
          {
-          q: "飯店公告訊息 :                                                                                  ",
+          q: "🔔飯店公告訊息                                                                                 ",
           a: `日前無公告訊息。</a>`
         },
         {
@@ -227,7 +227,7 @@
         {
           q: "推薦小吃？",
           a: `
-▪ 喜劇收場(漢堡)：<a href="https://www.google.com/maps?q=喜劇收場(漢堡)"_blank">地圖</a><br>
+▪ 喜劇收場(漢堡)：<a href="https://www.google.com/maps?q=喜劇收場(漢堡)" target="_blank">地圖</a><br>
 ▪ 戲棚下Under Six Pound炸雞：<a href="https://www.google.com/maps?q=戲棚下Under Six Pound炸雞" target="_blank">地圖</a><br>
 ▪ 覓雪Mixshare手作雪花冰：<a href="https://www.google.com/maps?q=覓雪Mixshare手作雪花冰" target="_blank">地圖</a>`
         },
@@ -243,7 +243,7 @@
       ],
       en: [
          {
-          q: "Hotel Announcements :                                                                                  ",
+          q: "🔔Hotel Announcements                                                                                ",
           a: `No announcements at the moment.</a>`
         },
         {
