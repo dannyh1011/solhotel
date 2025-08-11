@@ -243,7 +243,7 @@
       ],
       en: [
          {
-          q: "🔔Hotel Announcements                                                                                ",
+          q: " 📢 Hotel Announcements                                                                                ",
           a: `No announcements at the moment.</a>`
         },
         {
@@ -379,7 +379,7 @@
       ],
       ja: [
         {
-          q: "ホテルからのお知らせ:                                                                                  ",
+          q: "  📢 ホテルからのお知らせ                                                                                  ",
           a: `現在お知らせはありません。</a>`
         },
         {
