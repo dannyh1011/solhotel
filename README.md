@@ -167,7 +167,8 @@
         {
           q: "鄰近YouBike單車借用站",
           a: `
-▪ 新竹市政府YouBike站：<a href="https://www.google.com/maps?q=YouBike 新竹市政府" target="_blank">地圖</a>`
+⚠️YouBike使用說明：<a href="https://www.youbike.com.tw/region/main/" target="_blank"> YouBike官網</a><br>
+▪ 新竹市政府YouBike站 <a href="https://www.google.com/maps?q=YouBike 新竹市政府" target="_blank">地圖</a>`
         },
         {
           q: "鄰近早餐店推薦？",
