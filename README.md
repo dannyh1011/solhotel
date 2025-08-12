@@ -294,7 +294,7 @@
 ▪ Hsinchu City Zoo：<a href="https://www.google.com/maps?q=新竹市立動物園" target="_blank">Map</a><br>
 ▪ Hsinchu Glass Museum：<a href="https://www.google.com/maps?q=新竹市玻璃工藝博物館" target="_blank">Map</a><br>
 ▪ General’s Village：<a href="https://www.google.com/maps?q=將軍村" target="_blank">Map</a><br>
-▪ City Designated Historic Site - Hsinchu Waterway Intake Exhibition Hall (Splash pools closed for cleaning and disinfection on Mondays and Fridays)：<a href="https://www.google.com/maps?q=市定古蹟-新竹水道取水口展示館(周一及周五戲水池清潔消毒不開放)" target="_blank">地圖</a><br>
+▪ Hsinchu Waterway Intake Exhibition Hall (Splash pools closed for cleaning and disinfection on Mondays and Fridays)：<a href="https://www.google.com/maps?q=市定古蹟-新竹水道取水口展示館(周一及周五戲水池清潔消毒不開放)" target="_blank">地圖</a><br>
 ▪ Qingcao Lake (Green Grass Lake)：<a href="https://www.google.com/maps?q=青草湖" target="_blank">Map</a><br>
 ▪ Qingqing Grassland：<a href="https://www.google.com/maps?q=青青草原 香山" target="_blank">Map</a><br>
 ▪ Hsinchu (Nanliao Fishing Harbor) 17 km Coastal Scenic Area：<a href="https://www.google.com/maps?q=新竹17公里海岸風景區" target="_blank">Map</a><br>
@@ -436,6 +436,21 @@
 ▪ 新竹市消防博物館：<a href="https://www.google.com/maps?q=新竹市消防博物館" target="_blank">地図</a><br>
 ▪ 新竹動物園：<a href="https://www.google.com/maps?q=新竹動物園" target="_blank">地図</a><br>
 ▪ 新竹公園：<a href="https://www.google.com/maps?q=新竹公園"_blank">地図</a>`
+        },
+         {
+          q: "新竹の観光スポットおすすめ",
+          a: `
+▪ 新竹都城隍廟：<a href="https://www.google.com/maps?q=新竹都城隍廟" target="_blank">地図</a><br>
+▪ 新竹公園：<a href="https://www.google.com/maps?q=新竹公園 都會公園" target="_blank">地図</a><br>
+▪ 新竹市立動物園：<a href="https://www.google.com/maps?q=新竹市立動物園" target="_blank">地図</a><br>
+▪ 新竹市ガラス工芸博物館：<a href="https://www.google.com/maps?q=新竹市玻璃工藝博物館" target="_blank">地図</a><br>
+▪ 将軍村：<a href="https://www.google.com/maps?q=將軍村" target="_blank">地図</a><br>
+▪ 新竹水道取水口展示館（月曜と金曜は水遊びプールの清掃消毒のため閉館）：<a href="https://www.google.com/maps?q=市定古蹟-新竹水道取水口展示館(周一及周五戲水池清潔消毒不開放)" target="_blank">地図</a><br>
+▪ 青草湖：<a href="https://www.google.com/maps?q=青草湖" target="_blank">地図</a><br>
+▪ 青青草原：<a href="https://www.google.com/maps?q=青青草原 香山" target="_blank">地図</a><br>
+▪ 新竹（南寮漁港）17キロの海岸風景区：<a href="https://www.google.com/maps?q=新竹17公里海岸風景區" target="_blank">地図</a><br>
+▪ 香山湿地のカニ観察歩道：<a href="https://www.google.com/maps?q=香山濕地賞蟹步道" target="_blank">地図</a><br>
+▪ 風情海岸：<a href="https://www.google.com/maps?q=風情海岸" target="_blank">地図</a>`
         },
         {
           q: "ホテル周辺の寺院・神社スポット",
