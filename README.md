@@ -108,7 +108,7 @@
     const qaData = {
       zh: [
          {
-          q: " 📢 飯店公告訊息_______________________________________________",
+          q: " 📢 飯店公告訊息_________________________________________",
           a: `日前無公告訊息。</a>`
         },
         {
@@ -284,7 +284,7 @@
 ▪ East Gate Market: <a href="https://www.google.com/maps?q=東門市場" target="_blank">Map</a><br>
 ▪ Hsinchu City Hall: <a href="https://www.google.com/maps?q=新竹市政府" target="_blank">Map</a><br>
 ▪ Hsinchu Fire Museum: <a href="https://www.google.com/maps?q=新竹市消防博物館" target="_blank">Map</a><br>
-▪ National Hsinchu Living Arts Center (Former Hsinchu Public Hall)：<a href="https://www.google.com/maps?q=國立新竹生活美學館（原新竹公會堂）" target="_blank">地圖</a><br>
+▪ National Hsinchu Living Arts Center (Former Hsinchu Public Hall)：<a href="https://www.google.com/maps?q=國立新竹生活美學館（原新竹公會堂）" target="_blank">Map</a><br>
 ▪ Hsinchu Zoo: <a href="https://www.google.com/maps?q=新竹動物園" target="_blank">Map</a><br>
 ▪ Hsinchu Park: <a href="https://www.google.com/maps?q=新竹公園" target="_blank">Map</a>`
         },
@@ -296,7 +296,7 @@
 ▪ Hsinchu City Zoo：<a href="https://www.google.com/maps?q=新竹市立動物園" target="_blank">Map</a><br>
 ▪ Hsinchu Glass Museum：<a href="https://www.google.com/maps?q=新竹市玻璃工藝博物館" target="_blank">Map</a><br>
 ▪ General’s Village：<a href="https://www.google.com/maps?q=將軍村" target="_blank">Map</a><br>
-▪ Hsinchu Waterway Intake Exhibition Hall (Splash pools closed for cleaning and disinfection on Mondays and Fridays)：<a href="https://www.google.com/maps?q=市定古蹟-新竹水道取水口展示館(周一及周五戲水池清潔消毒不開放)" target="_blank">地圖</a><br>
+▪ Hsinchu Waterway Intake Exhibition Hall (Splash pools closed for cleaning and disinfection on Mondays and Fridays)：<a href="https://www.google.com/maps?q=市定古蹟-新竹水道取水口展示館(周一及周五戲水池清潔消毒不開放)" target="_blank">Map</a><br>
 ▪ Qingcao Lake (Green Grass Lake)：<a href="https://www.google.com/maps?q=青草湖" target="_blank">Map</a><br>
 ▪ Qingqing Grassland：<a href="https://www.google.com/maps?q=青青草原 香山" target="_blank">Map</a><br>
 ▪ Hsinchu (Nanliao Fishing Harbor) 17 km Coastal Scenic Area：<a href="https://www.google.com/maps?q=新竹17公里海岸風景區" target="_blank">Map</a><br>
@@ -439,7 +439,7 @@
 ▪ 東門市場：<a href="https://www.google.com/maps?q=東門市場" target="_blank">地図</a><br>
 ▪ 新竹市政府：<a href="https://www.google.com/maps?q=新竹市政府" target="_blank">地図</a><br>
 ▪ 新竹市消防博物館：<a href="https://www.google.com/maps?q=新竹市消防博物館" target="_blank">地図</a><br>
-▪ 国立新竹生活美学館（旧新竹公会堂）：<a href="https://www.google.com/maps?q=國立新竹生活美學館（原新竹公會堂）" target="_blank">地圖</a><br>
+▪ 国立新竹生活美学館（旧新竹公会堂）：<a href="https://www.google.com/maps?q=國立新竹生活美學館（原新竹公會堂）" target="_blank">Map</a><br>
 ▪ 新竹動物園：<a href="https://www.google.com/maps?q=新竹動物園" target="_blank">地図</a><br>
 ▪ 新竹公園：<a href="https://www.google.com/maps?q=新竹公園"_blank">地図</a>`
         },
