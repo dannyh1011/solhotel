@@ -290,10 +290,10 @@
 ▪ Hsinchu City Hall Ubike Station: <a href="https://www.google.com/maps?q=YouBike 新竹市政府" target="_blank">Map</a>`
         },
         {
-          q: "WRecommended nearby breakfast shops",
+          q: "Recommended nearby breakfast shops",
           a: `
 ▪ Garlic & Jazz Breakfast: <a href="https://www.google.com/maps?q=義式屋古拉爵 新竹迎曦店" target="_blank">Map</a><br>
-▪ Shandong Breakfast: <a href="https://www.google.com/maps?q=眷村龎" target="_blank">Map</a><br>
+▪ Shandong Breakfast - Xiao Long Bao (steamed soup dumplings), Taiwanese egg crepes: <a href="https://www.google.com/maps?q=眷村龎" target="_blank">Map</a><br>
 ▪ Starbucks - Hsinchu State Library Store: <a href="https://www.google.com/maps?q=星巴克-新竹州圖門市" target="_blank">Map</a>`
         },
         {
@@ -429,7 +429,7 @@
           q: "近隣のおすすめ朝食店",
           a: `
 ▪ ガーリック＆ジャズ朝食：<a href="https://www.google.com/maps?q=義式屋古拉爵 新竹迎曦店" target="_blank">地図</a><br>
-▪ 山東の朝食-眷村龎：<a href="https://www.google.com/maps?q=眷村龎" target="_blank">地図</a><br>
+▪ 山東の朝食・眷村龎 - 小籠包（ショウロンポー）、台湾式卵クレープ（ダンビン）：<a href="https://www.google.com/maps?q=眷村龎" target="_blank">地図</a><br>
 ▪ スターバックス - 新竹州図書館店：<a href="https://maps.example.com/starbucks" target="_blank">地図</a>`
         },
         {
