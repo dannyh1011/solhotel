@@ -263,7 +263,8 @@
       ],
       en: [
          {
-          q: " 📢 Hotel Announcements",
+          q: " 📢 Hotel Announcements | Address: No. 10, Wenhua St., East District, Hsinchu City 30042, Taiwan
+Tel: +886-3-5347266                                                                              ",
           a: `No announcements at the moment.</a>`
         },
         {
