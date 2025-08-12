@@ -112,7 +112,7 @@
           a: `日前無公告訊息。</a>`
         },
         {
-          q: "飯店周邊是否有夜市？                                                                                  ",
+          q: "飯店鄰近夜市",
           a: `▪ 每日：城隍廟夜市：<a href="https://www.google.com/maps?q=新竹市城隍廟夜市" target="_blank">地圖</a><br>
            ▪ 週二、週四：新竹後站夜市：<a href="https://www.google.com/maps?q=新竹後站夜市" target="_blank">地圖</a><br>
           ▪ 週三、週五：樹林頭夜市：<a href="https://www.google.com/maps?q=樹林頭夜市" target="_blank">地圖</a>`
@@ -247,7 +247,7 @@
           a: `No announcements at the moment.</a>`
         },
         {
-          q: "Are there any night markets near the hotel?                                                                                  ",
+          q: "Nearby Night Markets",
           a:  `▪ Daily – Chenghuang Temple Night Market – <a href="https://www.google.com/maps?q=新竹市城隍廟夜市" target="_blank">Map</a><br>
            ▪ Tue & Thu – Hsinchu Back Station Night Market: <a href="https://www.google.com/maps?q=新竹後站夜市"  target="_blank">Map</a><br>
           ▪ Wed & Fri – Shulintou Night Market: <a href="https://www.google.com/maps?q=樹林頭夜市" target="_blank">Map</a>`
@@ -383,14 +383,14 @@
           a: `現在お知らせはありません。</a>`
         },
         {
-          q: "ホテルの周辺に夜市はありますか？                                                                                              ",
+          q: "ホテル近くの夜市（よいち）",
           a: `▪ 毎日・城隍廟夜市（チョンホアンミャオ夜市）– <a href="https://www.google.com/maps?q=新竹市城隍廟夜市"  target="_blank">地図</a><br>
           ▪ 火・木：新竹後駅夜市 – <a href="https://www.google.com/maps?q=新竹後站夜市"  target="_blank">地図</a><br>
           ▪ 水・金：樹林頭夜市 – <a href="https://www.google.com/maps?q=樹林頭夜市"  target="_blank">地図</a>`
 
         },
         {
-          q: "歴史的建造物と観光スポットは？",
+          q: "ホテル周辺の史跡・観光スポット",
           a: `
 ▪ 新竹州図書館：<a href="https://www.google.com/maps?q=新竹州圖書館" target="_blank">地図</a><br>
 ▪ 東門迎曦門：<a href="https://www.google.com/maps?q=東門迎曦門" target="_blank">地図</a><br>
@@ -404,7 +404,7 @@
 ▪ 新竹公園：<a href="https://www.google.com/maps?q=新竹公園"_blank">地図</a>`
         },
         {
-          q: "近くの宮廟は？",
+          q: "ホテル周辺の寺院・神社スポット",
           a: `
 ▪ 東寧宮：<a href="https://www.google.com/maps?q=東寧宮" target="_blank">地図</a><br>
 ▪ 新竹都城隍廟：<a href="https://www.google.com/maps?q=新竹都城隍廟" target="_blank">地図</a><br>
@@ -413,20 +413,20 @@
 ▪ 関帝廟：<a href="https://www.google.com/maps?q=關帝廟" target="_blank">地図</a>`
         },
         {
-          q: "ショッピングはどこでできますか？",
+          q: "近隣のショッピングモール",
           a: `
 ▪ 巨城ショッピングセンター：<a href="https://maps.example.com/bigcity" target="_blank">地図</a><br>
 ▪ タロコ南雅プラザ：<a href="https://www.google.com/maps?q=大魯閣湳雅廣場" target="_blank">地圖</a><br>
 ▪ 新竹大遠百：<a href="https://www.google.com/maps?q=新竹大遠百" target="_blank">地図</a>`
         },
         {
-          q: "🚲YouBikeの場所は？",
+          q: "近くYouBikeレンタルステーション",
           a: `
           ⚠️ご登録の前に、以下のものをご準備ください。<a href="https://en.youbike.com.tw/region/main/register/" target="_blank"> YouBike公式ウェブサイト-英語のみ</a><br>
 ▪ 新竹市政府Ubikeステーション：<a href="https://www.google.com/maps?q=YouBike 新竹市政府" target="_blank">地図</a>`
         },
         {
-          q: "朝食のおすすめは？",
+          q: "近隣のおすすめ朝食店",
           a: `
 ▪ ガーリック＆ジャズ朝食：<a href="https://www.google.com/maps?q=義式屋古拉爵 新竹迎曦店" target="_blank">地図</a><br>
 ▪ 山東の朝食-眷村龎：<a href="https://www.google.com/maps?q=眷村龎" target="_blank">地図</a><br>
