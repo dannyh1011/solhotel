@@ -149,7 +149,7 @@
 ▪ 新竹大遠百：<a href="https://www.google.com/maps?q=新竹大遠百" target="_blank">地圖</a>`
         },
         {
-          q: "鄰近(步行5分鐘)🚲YouBike單車借用站",
+          q: "鄰近YouBike單車借用站",
           a: `
 ▪ 新竹市政府YouBike站：<a href="https://www.google.com/maps?q=YouBike 新竹市政府" target="_blank">地圖</a>`
         },
@@ -254,7 +254,7 @@
 
         },
         {
-          q: "What historic sites and attractions are nearby?",
+          q: "Historical sites and attractions near the hotel",
           a: `
 ▪ Hsinchu State Library: <a href="https://www.google.com/maps?q=新竹州圖書館" target="_blank">Map</a><br>
 ▪ East Gate Yingxi Gate: <a href="https://www.google.com/maps?q=東門迎曦門" target="_blank">Map</a><br>
@@ -268,7 +268,7 @@
 ▪ Hsinchu Park: <a href="https://www.google.com/maps?q=新竹公園" target="_blank">Map</a>`
         },
         {
-          q: "What temples are nearby?",
+          q: "Temple attractions near the hotel",
           a: `
 ▪ Dongning Temple: <a href="https://www.google.com/maps?q=東寧宮" target="_blank">Map</a><br>
 ▪ Hsinchu City God Temple: <a href="https://www.google.com/maps?q=新竹都城隍廟" target="_blank">Map</a><br>
@@ -277,20 +277,20 @@
 ▪ Guandi Temple: <a href="https://www.google.com/maps?q=關帝廟" target="_blank">Map</a>`
         },
         {
-          q: "Where can I shop nearby?",
+          q: "Nearby shopping malls",
           a: `
 ▪ Big City Shopping Center: <a href="https://www.google.com/maps?q=巨城購物中心" target="_blank">Map</a><br>
 ▪ Taroko Nanya Plaza：<a href="https://www.google.com/maps?q=大魯閣湳雅廣場" target="_blank">Map</a><br>
 ▪ Far Eastern Department Store Hsinchu: <a href="https://www.google.com/maps?q=新竹大遠百" target="_blank">Map</a>`
         },
         {
-          q: "🚲Where is the YouBike station?",
+          q: "Nearby YouBike rental station",
           a: `
          ⚠️Before signing up, please prepare the following. <a href="https://en.youbike.com.tw/region/main/register/" target="_blank"> YouBike official website</a><br>
 ▪ Hsinchu City Hall Ubike Station: <a href="https://www.google.com/maps?q=YouBike 新竹市政府" target="_blank">Map</a>`
         },
         {
-          q: "Where can I have breakfast?",
+          q: "WRecommended nearby breakfast shops",
           a: `
 ▪ Garlic & Jazz Breakfast: <a href="https://www.google.com/maps?q=義式屋古拉爵 新竹迎曦店" target="_blank">Map</a><br>
 ▪ Shandong Breakfast: <a href="https://www.google.com/maps?q=眷村龎" target="_blank">Map</a><br>
