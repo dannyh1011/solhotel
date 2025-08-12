@@ -283,6 +283,7 @@
 ▪ East Gate Market: <a href="https://www.google.com/maps?q=東門市場" target="_blank">Map</a><br>
 ▪ Hsinchu City Hall: <a href="https://www.google.com/maps?q=新竹市政府" target="_blank">Map</a><br>
 ▪ Hsinchu Fire Museum: <a href="https://www.google.com/maps?q=新竹市消防博物館" target="_blank">Map</a><br>
+▪ National Hsinchu Living Arts Center (Former Hsinchu Public Hall)：<a href="https://www.google.com/maps?q=國立新竹生活美學館（原新竹公會堂）" target="_blank">地圖</a><br>
 ▪ Hsinchu Zoo: <a href="https://www.google.com/maps?q=新竹動物園" target="_blank">Map</a><br>
 ▪ Hsinchu Park: <a href="https://www.google.com/maps?q=新竹公園" target="_blank">Map</a>`
         },
@@ -437,6 +438,7 @@
 ▪ 東門市場：<a href="https://www.google.com/maps?q=東門市場" target="_blank">地図</a><br>
 ▪ 新竹市政府：<a href="https://www.google.com/maps?q=新竹市政府" target="_blank">地図</a><br>
 ▪ 新竹市消防博物館：<a href="https://www.google.com/maps?q=新竹市消防博物館" target="_blank">地図</a><br>
+▪ 国立新竹生活美学館（旧新竹公会堂）：<a href="https://www.google.com/maps?q=國立新竹生活美學館（原新竹公會堂）" target="_blank">地圖</a><br>
 ▪ 新竹動物園：<a href="https://www.google.com/maps?q=新竹動物園" target="_blank">地図</a><br>
 ▪ 新竹公園：<a href="https://www.google.com/maps?q=新竹公園"_blank">地図</a>`
         },
@@ -487,7 +489,7 @@
         {
           q: "コーヒーとアフタヌーンティーのおすすめは？",
           a: `
-▪ スターバックス - 新竹州図書館店：<a href="https://maps.example.com/starbucks" target="_blank">地図</a><br>
+▪ スターバックス -(Starbucks 新竹州図書館店)：<a href="https://maps.example.com/starbucks" target="_blank">地図</a><br>
 ▪ 九幕コーヒー：<a href="https://www.google.com/maps?q=九幕咖啡" target="_blank">地図</a><br>
  春室 SPRING POOL GLASS STUDIO + The POOL：<a href="https://www.google.com/maps?q=春室 SPRING POOL GLASS STUDIO + The POOL" target="_blank">地圖</a><br>
 ▪ ルイーザコーヒー（Louisa Coffee 新竹公園店）：<a href="https://www.google.com/maps?q=Louisa Coffee 路易莎咖啡 (新竹公園門市)" target="_blank">地圖</a><br>
