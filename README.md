@@ -119,7 +119,7 @@
 
         },
         {
-          q: "飯店周邊古蹟景點",
+          q: "有哪些古蹟與觀光景點？",
           a: `
 ▪ 新竹州圖書館：<a href="https://www.google.com/maps?q=新竹州圖書館" target="_blank">地圖</a><br>
 ▪ 東門迎曦門：<a href="https://www.google.com/maps?q=東門迎曦門" target="_blank">地圖</a><br>
@@ -133,7 +133,7 @@
 ▪ 新竹公園：<a href="https://www.google.com/maps?q=新竹公園" target="_blank">地圖</a>`
         },
         {
-          q: "飯店周邊公廟景點",
+          q: "有哪些宮廟？",
           a: `
 ▪ 東寧宮：<a href="https://www.google.com/maps?q=東寧宮" target="_blank">地圖</a><br>
 ▪ 新竹都城隍廟：<a href="https://www.google.com/maps?q=新竹都城隍廟" target="_blank">地圖</a><br>
@@ -142,19 +142,19 @@
 ▪ 關帝廟：<a href="https://www.google.com/maps?q=關帝廟" target="_blank">地圖</a>`
         },
         {
-          q: "鄰近購物百貨",
+          q: "附近有哪裡可以購物？",
           a: `
 ▪ 巨城購物中心：<a href="https://www.google.com/maps?q=巨城購物中心" target="_blank">地圖</a><br>
 ▪ 大魯閣湳雅廣場：<a href="https://www.google.com/maps?q=大魯閣湳雅廣場" target="_blank">地圖</a><br>
 ▪ 新竹大遠百：<a href="https://www.google.com/maps?q=新竹大遠百" target="_blank">地圖</a>`
         },
         {
-          q: "鄰近(步行5分鐘)🚲YouBike單車借用站",
+          q: "🚲YouBike在哪裡？",
           a: `
 ▪ 新竹市政府YouBike站：<a href="https://www.google.com/maps?q=YouBike 新竹市政府" target="_blank">地圖</a>`
         },
         {
-          q: "鄰近早餐店推薦",
+          q: "早餐推薦？",
           a: `
 ▪ 義式屋古拉爵：<a href="https://www.google.com/maps?q=義式屋古拉爵 新竹迎曦店" target="_blank">地圖</a><br>
 ▪ 山東早點-眷村龎：<a href="https://www.google.com/maps?q=眷村龎"target="_blank">地圖</a><br>
@@ -254,7 +254,7 @@
 
         },
         {
-          q: "Historical sites and attractions near the hotel",
+          q: "What historic sites and attractions are nearby?",
           a: `
 ▪ Hsinchu State Library: <a href="https://www.google.com/maps?q=新竹州圖書館" target="_blank">Map</a><br>
 ▪ East Gate Yingxi Gate: <a href="https://www.google.com/maps?q=東門迎曦門" target="_blank">Map</a><br>
@@ -268,7 +268,7 @@
 ▪ Hsinchu Park: <a href="https://www.google.com/maps?q=新竹公園" target="_blank">Map</a>`
         },
         {
-          q: "Temple attractions near the hotel",
+          q: "What temples are nearby?",
           a: `
 ▪ Dongning Temple: <a href="https://www.google.com/maps?q=東寧宮" target="_blank">Map</a><br>
 ▪ Hsinchu City God Temple: <a href="https://www.google.com/maps?q=新竹都城隍廟" target="_blank">Map</a><br>
@@ -277,23 +277,23 @@
 ▪ Guandi Temple: <a href="https://www.google.com/maps?q=關帝廟" target="_blank">Map</a>`
         },
         {
-          q: "Nearby shopping malls",
+          q: "Where can I shop nearby?",
           a: `
 ▪ Big City Shopping Center: <a href="https://www.google.com/maps?q=巨城購物中心" target="_blank">Map</a><br>
 ▪ Taroko Nanya Plaza：<a href="https://www.google.com/maps?q=大魯閣湳雅廣場" target="_blank">Map</a><br>
 ▪ Far Eastern Department Store Hsinchu: <a href="https://www.google.com/maps?q=新竹大遠百" target="_blank">Map</a>`
         },
         {
-          q: "Nearby (5-minute walk) 🚲 YouBike rental station",
+          q: "🚲Where is the YouBike station?",
           a: `
          ⚠️Before signing up, please prepare the following. <a href="https://en.youbike.com.tw/region/main/register/" target="_blank"> YouBike official website</a><br>
 ▪ Hsinchu City Hall Ubike Station: <a href="https://www.google.com/maps?q=YouBike 新竹市政府" target="_blank">Map</a>`
         },
         {
-          q: "Recommended nearby breakfast shops",
+          q: "Where can I have breakfast?",
           a: `
 ▪ Garlic & Jazz Breakfast: <a href="https://www.google.com/maps?q=義式屋古拉爵 新竹迎曦店" target="_blank">Map</a><br>
-▪ Shandong Breakfast -Xiao Long Bao (steamed soup dumplings), Taiwanese egg crepes: <a href="https://www.google.com/maps?q=眷村龎" target="_blank">Map</a><br>
+▪ Shandong Breakfast: <a href="https://www.google.com/maps?q=眷村龎" target="_blank">Map</a><br>
 ▪ Starbucks - Hsinchu State Library Store: <a href="https://www.google.com/maps?q=星巴克-新竹州圖門市" target="_blank">Map</a>`
         },
         {
@@ -390,7 +390,7 @@
 
         },
         {
-          q: "ホテル周辺の史跡・観光スポット",
+          q: "歴史的建造物と観光スポットは？",
           a: `
 ▪ 新竹州図書館：<a href="https://www.google.com/maps?q=新竹州圖書館" target="_blank">地図</a><br>
 ▪ 東門迎曦門：<a href="https://www.google.com/maps?q=東門迎曦門" target="_blank">地図</a><br>
@@ -404,7 +404,7 @@
 ▪ 新竹公園：<a href="https://www.google.com/maps?q=新竹公園"_blank">地図</a>`
         },
         {
-          q: "ホテル周辺の寺院・神社スポット",
+          q: "近くの宮廟は？",
           a: `
 ▪ 東寧宮：<a href="https://www.google.com/maps?q=東寧宮" target="_blank">地図</a><br>
 ▪ 新竹都城隍廟：<a href="https://www.google.com/maps?q=新竹都城隍廟" target="_blank">地図</a><br>
@@ -413,23 +413,23 @@
 ▪ 関帝廟：<a href="https://www.google.com/maps?q=關帝廟" target="_blank">地図</a>`
         },
         {
-          q: "近隣のショッピングモール,
+          q: "ショッピングはどこでできますか？",
           a: `
 ▪ 巨城ショッピングセンター：<a href="https://maps.example.com/bigcity" target="_blank">地図</a><br>
 ▪ タロコ南雅プラザ：<a href="https://www.google.com/maps?q=大魯閣湳雅廣場" target="_blank">地圖</a><br>
 ▪ 新竹大遠百：<a href="https://www.google.com/maps?q=新竹大遠百" target="_blank">地図</a>`
         },
         {
-          q: "近く（徒歩5分）🚲 YouBikeレンタルステーション",
+          q: "🚲YouBikeの場所は？",
           a: `
           ⚠️ご登録の前に、以下のものをご準備ください。<a href="https://en.youbike.com.tw/region/main/register/" target="_blank"> YouBike公式ウェブサイト-英語のみ</a><br>
 ▪ 新竹市政府Ubikeステーション：<a href="https://www.google.com/maps?q=YouBike 新竹市政府" target="_blank">地図</a>`
         },
         {
-          q: "近隣のおすすめ朝食店",
+          q: "朝食のおすすめは？",
           a: `
 ▪ ガーリック＆ジャズ朝食：<a href="https://www.google.com/maps?q=義式屋古拉爵 新竹迎曦店" target="_blank">地図</a><br>
-▪ 山東の朝食・眷村龎 - 小籠包（ショウロンポー）、台湾式卵クレープ（ダンビン）：<a href="https://www.google.com/maps?q=眷村龎" target="_blank">地図</a><br>
+▪ 山東の朝食-眷村龎：<a href="https://www.google.com/maps?q=眷村龎" target="_blank">地図</a><br>
 ▪ スターバックス - 新竹州図書館店：<a href="https://maps.example.com/starbucks" target="_blank">地図</a>`
         },
         {
