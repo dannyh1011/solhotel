@@ -119,7 +119,7 @@
 
         },
         {
-          q: "有哪些古蹟與觀光景點？",
+          q: "飯店周邊古蹟景點",
           a: `
 ▪ 新竹州圖書館：<a href="https://www.google.com/maps?q=新竹州圖書館" target="_blank">地圖</a><br>
 ▪ 東門迎曦門：<a href="https://www.google.com/maps?q=東門迎曦門" target="_blank">地圖</a><br>
@@ -133,7 +133,7 @@
 ▪ 新竹公園：<a href="https://www.google.com/maps?q=新竹公園" target="_blank">地圖</a>`
         },
         {
-          q: "有哪些宮廟？",
+          q: "飯店周邊宮廟景點",
           a: `
 ▪ 東寧宮：<a href="https://www.google.com/maps?q=東寧宮" target="_blank">地圖</a><br>
 ▪ 新竹都城隍廟：<a href="https://www.google.com/maps?q=新竹都城隍廟" target="_blank">地圖</a><br>
@@ -142,19 +142,19 @@
 ▪ 關帝廟：<a href="https://www.google.com/maps?q=關帝廟" target="_blank">地圖</a>`
         },
         {
-          q: "附近有哪裡可以購物？",
+          q: "鄰近購物百貨",
           a: `
 ▪ 巨城購物中心：<a href="https://www.google.com/maps?q=巨城購物中心" target="_blank">地圖</a><br>
 ▪ 大魯閣湳雅廣場：<a href="https://www.google.com/maps?q=大魯閣湳雅廣場" target="_blank">地圖</a><br>
 ▪ 新竹大遠百：<a href="https://www.google.com/maps?q=新竹大遠百" target="_blank">地圖</a>`
         },
         {
-          q: "🚲YouBike在哪裡？",
+          q: "鄰近(步行5分鐘)🚲YouBike單車借用站",
           a: `
 ▪ 新竹市政府YouBike站：<a href="https://www.google.com/maps?q=YouBike 新竹市政府" target="_blank">地圖</a>`
         },
         {
-          q: "早餐推薦？",
+          q: "鄰近早餐店推薦？",
           a: `
 ▪ 義式屋古拉爵：<a href="https://www.google.com/maps?q=義式屋古拉爵 新竹迎曦店" target="_blank">地圖</a><br>
 ▪ 山東早點-眷村龎：<a href="https://www.google.com/maps?q=眷村龎"target="_blank">地圖</a><br>
