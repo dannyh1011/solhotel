@@ -139,12 +139,13 @@
 ▪ 新竹公園：<a href="https://www.google.com/maps?q=新竹公園 都會公園" target="_blank">地圖</a><br>
 ▪ 新竹市立動物園：<a href="https://www.google.com/maps?q=新竹市立動物園" target="_blank">地圖</a><br>
 ▪ 新竹市玻璃工藝博物館：<a href="https://www.google.com/maps?q=新竹市玻璃工藝博物館" target="_blank">地圖</a><br>
-▪ 新竹市美術館：<a href="https://www.google.com/maps?q=新竹市美術館" target="_blank">地圖</a><br>
-▪ 東門市場：<a href="https://www.google.com/maps?q=東門市場" target="_blank">地圖</a><br>
-▪ 新竹市政府：<a href="https://www.google.com/maps?q=新竹市政府" target="_blank">地圖</a><br>
-▪ 新竹市消防博物館：<a href="https://www.google.com/maps?q=新竹市消防博物館" target="_blank">地圖</a><br>
-▪ 新竹動物園：<a href="https://www.google.com/maps?q=新竹動物園" target="_blank">地圖</a><br>
-▪ 新竹公園：<a href="https://www.google.com/maps?q=新竹公園" target="_blank">地圖</a>`
+▪ 將軍村：<a href="https://www.google.com/maps?q=將軍村" target="_blank">地圖</a><br>
+▪ 市定古蹟-新竹水道取水口展示館(周一及周五戲水池清潔消毒不開放)：<a href="https://www.google.com/maps?q=市定古蹟-新竹水道取水口展示館(周一及周五戲水池清潔消毒不開放)" target="_blank">地圖</a><br>
+▪ 青草湖：<a href="https://www.google.com/maps?q=青草湖" target="_blank">地圖</a><br>
+▪ 青青草原：<a href="https://www.google.com/maps?q=青青草原 香山" target="_blank">地圖</a><br>
+▪ 新竹(南寮漁港)17公里海岸風景區：<a href="https://www.google.com/maps?q=新竹17公里海岸風景區" target="_blank">地圖</a><br>
+▪ 香山濕地賞蟹步道：<a href="https://www.google.com/maps?q=香山濕地賞蟹步道" target="_blank">地圖</a><br>
+▪ 風情海岸：<a href="https://www.google.com/maps?q=風情海岸" target="_blank">地圖</a>`
         },
         {
           q: "飯店周邊宮廟景點",
@@ -180,6 +181,8 @@
 ▪ 星巴克-新竹州圖門市：<a href="https://www.google.com/maps?q=星巴克-新竹州圖門市" target="_blank">地圖</a><br>
 ▪ 九幕咖啡：<a href="https://www.google.com/maps?q=九幕咖啡" target="_blank">地圖</a><br>
 ▪ 春室 SPRING POOL GLASS STUDIO + The POOL：<a href="https://www.google.com/maps?q=春室 SPRING POOL GLASS STUDIO + The POOL" target="_blank">地圖</a><br>
+▪ Louisa Coffee 路易莎咖啡 (新竹公園門市)：<a href="https://www.google.com/maps?q=Louisa Coffee 路易莎咖啡 (新竹公園門市)" target="_blank">地圖</a><br>
+▪ 墨咖啡 INK COFFEE：<a href="https://www.google.com/maps?q=墨咖啡 INK COFFEE" target="_blank">地圖</a><br>
 ▪ 饅饅好食：<a href="https://www.google.com/maps?q=饅饅好食" target="_blank">地圖</a><br>
 ▪ 一百種味道(三民店)：<a href="https://www.google.com/maps?q=一百種味道(三民店)" target="_blank">地圖</a><br>
 ▪ 夏.咖啡：<a href="https://www.google.com/maps?q=夏.咖啡" target="_blank">地圖</a><br>
