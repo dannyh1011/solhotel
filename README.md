@@ -174,6 +174,7 @@
           q: "南寮漁港、清華大學、交通大學交通方式",
           a: `
 ▪ 南寮漁港-新竹客運0150_藍15區公車：<a href="http://www.hcbus.com.tw/big5/information-2.asp?select=7&button=%E9%80%81%E5%87%BA" target="_blank"> 新竹客運官網</a><br>
+▪ 交通大學雙校區-科技之星83路公車：<a href="https://www.yosemite-bus.com.tw/no81_bus.asp#no83" target="_blank"> 科技之星官網</a><br>
 ▪ 清華大學(光復校區)、交通大學雙校區-新竹客運0020_2路公車：<a href="http://www.hcbus.com.tw/big5/information-2.asp?select=2&button=%E9%80%81%E5%87%BA" target="_blank"> 新竹客運官網</a>`
         },
         {
