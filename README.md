@@ -170,6 +170,12 @@
 ⚠️YouBike使用說明：<a href="https://www.youbike.com.tw/region/main/" target="_blank"> YouBike官網</a><br>
 ▪ 新竹市政府YouBike站 <a href="https://www.google.com/maps?q=YouBike 新竹市政府" target="_blank">地圖</a>`
         },
+         {
+          q: "南寮漁港、清華大學、交通大學交通方式",
+          a: `
+▪ 南寮漁港-新竹客運0150_藍15區公車：<a href="http://www.hcbus.com.tw/big5/information-2.asp?select=7&button=%E9%80%81%E5%87%BA"_blank"> 新竹客運官網</a><br>
+▪ 清華大學(光復校區)、交通大學雙校區-新竹客運0020_2路公車：<a href="http://www.hcbus.com.tw/big5/information-2.asp?select=2&button=%E9%80%81%E5%87%BA"_blank"> 新竹客運官網</a>`
+        },
         {
           q: "鄰近早餐店推薦？",
           a: `
