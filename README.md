@@ -226,9 +226,11 @@
           q: "咖啡☕和下午茶",
           a: `
 ▪ 🚶星巴克-新竹州圖門市：<a href="https://www.google.com/maps?q=星巴克-新竹州圖門市" target="_blank">地圖</a><br>
+▪ 🚶THE FOX COFFEE CLUB：<a href="https://www.google.com/maps?q=THE FOX COFFEE CLUB" target="_blank">地圖</a><br>
 ▪ 🚶九幕咖啡：<a href="https://www.google.com/maps?q=九幕咖啡" target="_blank">地圖</a><br>
 ▪ 🚶MANO MANO | 新州屋門市：<a href="https://www.google.com/maps?q=MANO MANO | 新州屋門市" target="_blank">地圖</a><br>
 ▪ 種甜：<a href="https://www.google.com/maps?q=種甜" target="_blank">地圖</a><br>
+▪ Hidden off：<a href="https://www.google.com/maps?q=Hidden off" target="_blank">地圖</a><br>
 ▪ 一想一響咖啡：<a href="https://www.google.com/maps?q=一想一響咖啡" target="_blank">地圖</a><br>
 ▪ 李克承博士故居 a-moom：<a href="https://www.google.com/maps?q=李克承博士故居 a-moom(新竹市)" target="_blank">地圖</a><br>
 ▪ 春室 SPRING POOL GLASS STUDIO + The POOL：<a href="https://www.google.com/maps?q=春室 SPRING POOL GLASS STUDIO + The POOL" target="_blank">地圖</a><br>
@@ -291,6 +293,7 @@
 ▪ ラーメン 鷄白湯：<a href="https://www.google.com/maps?q=ラーメン 鷄白湯"_blank">地圖</a><br>
 ▪ 隱川居酒屋_いざかや：<a href="https://www.google.com/maps?q=隱川居酒屋_いざかや" target="_blank">地圖</a><br>
 ▪ 和食川上日本料理🍣：<a href="https://www.google.com/maps?q=和食川上日本料理"_blank">地圖</a><br>
+▪ 麺宮浦島 ：<a href="https://www.google.com/maps?q=麺宮浦島"_blank">地圖</a><br>
 ▪ 福氣廚房🍣-新竹世界店：<a href="https://www.google.com/maps?q=福氣廚房-新竹世界店"_blank">地圖</a><br>
 ▪ 🚕Musha Musha 熟成咖哩：<a href="https://www.google.com/maps?q=Musha Musha 熟成咖哩 武昌" target="_blank">地圖</a><br>
 ▪ 🚕新竹燒肉 (モルディブ馬爾地夫)本店🍖：<a href="https://www.google.com/maps?q=新竹燒肉 モルディブ馬爾地夫本店" target="_blank">地圖</a><br>
@@ -455,9 +458,11 @@
           q: "Coffee☕ and afternoon tea",
           a: `
 ▪ 🚶Starbucks - Hsinchu State Library Store: <a href="https://www.google.com/maps?q=星巴克-新竹州圖門市" target="_blank">Map</a><br>
+▪ 🚶THE FOX COFFEE CLUB：<a href="https://www.google.com/maps?q=THE FOX COFFEE CLUB" target="_blank">Map</a><br>
 ▪ 🚶Jiumu Coffee: <a href="https://www.google.com/maps?q=九幕咖啡" target="_blank">Map</a><br>
 ▪ 🚶MANO MANO：<a href="https://www.google.com/maps?q=MANO MANO | 新州屋門市" target="_blank">Map</a><br>
 ▪ 🚶Seed Sweet Coffee(No Fixed Holidays)：<a href="https://www.google.com/maps?q=種甜" target="_blank">Map</a><br>
+▪ Hidden off：<a href="https://www.google.com/maps?q=Hidden off" target="_blank">Map</a><br>
 ▪ ReEcho Coffee：<a href="https://www.google.com/maps?q=一想一響咖啡" target="_blank">Map</a><br>
 ▪ Former Residence of Dr. Lee Ko-Cheng (A-Moom)：<a href="https://www.google.com/maps?q=李克承博士故居 a-moom(新竹市)" target="_blank">Map</a><br>
 ▪ Spring Room SPRING POOL GLASS STUDIO + The POOL：<a href="https://www.google.com/maps?q=春室 SPRING POOL GLASS STUDIO + The POOL" target="_blank">Map</a><br>
@@ -513,13 +518,14 @@
           a: `
 ▪ Yuzu: <a href="https://www.google.com/maps?q=柚子 文化街" target="_blank">Map</a><br>
 ▪ Minfood:<a href="https://www.google.com/maps?q=皿富器食 minfood" target="_blank">Map</a><br>
-▪ Kyoto Machiya Japanese Skewers🍢 Izakaya：<a href="https://www.google.com/maps?q=京町家日式串燒居酒屋"_blank">地圖</a><br>
+▪ Kyoto Machiya Japanese Skewers🍢 Izakaya：<a href="https://www.google.com/maps?q=京町家日式串燒居酒屋"_blank">Map</a><br>
 ▪ Yokohama Iekei Ramen House：<a href="https://www.google.com/maps?q=横浜家系ラーメン拉麵家"_blank">Map</a><br>
 ▪ Ramen Chicken Paitan：<a href="https://www.google.com/maps?q=ラーメン 鷄白湯"_blank">Map</a><br>
 ▪ Musha Musha Curry：<a href="https://www.google.com/maps?q=Musha Musha 熟成咖哩 武昌" target="_blank">Map</a><br>
-▪ Inkawa Izakaya：<a href="https://www.google.com/maps?q=隱川居酒屋_いざかや" target="_blank">地圖</a><br>
+▪ Inkawa Izakaya：<a href="https://www.google.com/maps?q=隱川居酒屋_いざかや" target="_blank">Map</a><br>
 ▪ Fortune Kitchen🍣：<a href="https://www.google.com/maps?q=福氣廚房-新竹世界店"_blank">Map</a><br>
 ▪ Kawakami Japanese Cuisine🍣：<a href="https://www.google.com/maps?q=和食川上日本料理"_blank">Map</a><br>
+▪ Menmiya Urashima：<a href="https://www.google.com/maps?q=麺宮浦島"_blank">Map</a><br>
 ▪ 🚕Hsinchu Yakiniku – Maldives🍖：<a href="https://www.google.com/maps?q=新竹燒肉 モルディブ馬爾地夫本店" target="_blank">Map</a><br>
 ▪ Shinbashi Yakiniku🍖: <a href="https://www.google.com/maps?q=新橋燒肉屋 府後店" target="_blank">Map</a><br>
 ▪ Private Taste Skewers🍢: <a href="https://www.google.com/maps?q=私嚐串燒 中正店" target="_blank">Map</a><br>
@@ -686,9 +692,11 @@
           q: "コーヒー☕とアフタヌーンティー",
           a: `
 ▪ 🚶スターバックス -(Starbucks 新竹州図書館店)：<a href="https://www.google.com/maps?q=新竹州圖書館" target="_blank">地図</a><br>
+▪ 🚶THE FOX COFFEE CLUB：<a href="https://www.google.com/maps?q=THE FOX COFFEE CLUB" target="_blank">地図</a><br>
 ▪ 🚶九幕コーヒー：<a href="https://www.google.com/maps?q=九幕咖啡" target="_blank">地図</a><br>
 ▪ 🚶MANO MANO：<a href="https://www.google.com/maps?q=MANO MANO | 新州屋門市" target="_blank">地図</a><br>
 ▪ 種甜 (不定休)：<a href="https://www.google.com/maps?q=種甜" target="_blank">地図</a><br>
+▪ Hidden off：<a href="https://www.google.com/maps?q=Hidden off" target="_blank">Map</a><br>
 ▪ リ・エコー・コーヒー：<a href="https://www.google.com/maps?q=一想一響咖啡" target="_blank">地図</a><br>
 ▪ 李克承博士旧宅（エームーム・A-Moom)：<a href="https://www.google.com/maps?q=李克承博士故居 a-moom(新竹市)" target="_blank">地図</a><br>
 ▪ 春室 SPRING POOL GLASS STUDIO + The POOL：<a href="https://www.google.com/maps?q=春室 SPRING POOL GLASS STUDIO + The POOL" target="_blank">地図</a><br>
@@ -747,6 +755,7 @@
 ▪ 和食川上日本料理🍣：<a href="https://www.google.com/maps?q=和食川上日本料理"_blank">地図</a><br>
 ▪ 横浜家系ラーメン拉麵家：<a href="https://www.google.com/maps?q=横浜家系ラーメン拉麵家"_blank">地図</a><br>
 ▪ ラーメン 鶏白湯 ：<a href="https://www.google.com/maps?q=ラーメン 鷄白湯"_blank">地図</a><br>
+▪ 麺宮浦島 ：<a href="https://www.google.com/maps?q=麺宮浦島"_blank">地図</a><br>
 ▪ 🚕 Musha Musha カレー：<a href="https://www.google.com/maps?q=Musha Musha 熟成咖哩 武昌" target="_blank">地図</a><br>
 ▪ 🚕新竹焼肉 モルディブ本店🍖：<a href="https://www.google.com/maps?q=新竹燒肉 モルディブ馬爾地夫本店" target="_blank">地図</a><br>
 ▪ 新橋焼肉屋🍖：<a href="https://www.google.com/maps?q=新橋燒肉屋 府後店" target="_blank">地図</a><br>
