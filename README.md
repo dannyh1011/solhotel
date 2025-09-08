@@ -263,7 +263,9 @@
 ▪ 菜園上海餐廳・🏅2025必比登：<a href="https://www.google.com/maps?q=菜園上海餐廳" target="_blank">地圖</a><br>
 ▪ 享鴨烤鴨：<a href="https://www.google.com/maps?q=享鴨 烤鴨與中華料理 新竹北大店" target="_blank">地圖</a><br>
 ▪ 西市汕頭館：<a href="https://www.google.com/maps?q=西市汕頭館 北大店" target="_blank">地圖</a><br>
+▪ 🚕海底撈火鍋・新竹：<a href="https://www.google.com/maps?q=海底撈火鍋 新竹" target="_blank">地圖</a><br>
 ▪ 新陶芳・客家菜：<a href="https://www.google.com/maps?q=新陶芳 東大路" target="_blank">地圖</a><br>
+
 ▪ 🚕弄味小廚・客家菜・🏅2025必比登：<a href="https://www.google.com/maps?q=弄味小廚 客家菜系" target="_blank">地圖</a><br>
 ▪ 新橋弄堂：<a href="https://www.google.com/maps?q=新橋弄堂" target="_blank">地圖</a>`
         },
@@ -285,9 +287,12 @@
 ▪ 柚子：<a href="https://www.google.com/maps?q=柚子 文化街" target="_blank">地圖</a><br>
 ▪ 皿富器食 minfood：<a href="https://www.google.com/maps?q=皿富器食 minfood" target="_blank">地圖</a><br>
 ▪ 京町家日式串燒🍢居酒屋：<a href="https://www.google.com/maps?q=京町家日式串燒居酒屋"_blank">地圖</a><br>
+▪ 横浜家系ラーメン拉麵家：<a href="https://www.google.com/maps?q=横浜家系ラーメン拉麵家"_blank">地圖</a><br>
+▪ ラーメン 鷄白湯：<a href="https://www.google.com/maps?q=ラーメン 鷄白湯"_blank">地圖</a><br>
 ▪ 隱川居酒屋_いざかや：<a href="https://www.google.com/maps?q=隱川居酒屋_いざかや" target="_blank">地圖</a><br>
 ▪ 和食川上日本料理🍣：<a href="https://www.google.com/maps?q=和食川上日本料理"_blank">地圖</a><br>
 ▪ 福氣廚房🍣-新竹世界店：<a href="https://www.google.com/maps?q=福氣廚房-新竹世界店"_blank">地圖</a><br>
+▪ 🚕Musha Musha 熟成咖哩：<a href="https://www.google.com/maps?q=Musha Musha 熟成咖哩 武昌" target="_blank">地圖</a><br>
 ▪ 🚕新竹燒肉 (モルディブ馬爾地夫)本店🍖：<a href="https://www.google.com/maps?q=新竹燒肉 モルディブ馬爾地夫本店" target="_blank">地圖</a><br>
 ▪ 新橋燒肉屋🍖：<a href="https://www.google.com/maps?q=新橋燒肉屋 府後店" target="_blank">地圖</a><br>
 ▪ 私嚐串燒🍢：<a href="https://www.google.com/maps?q=私嚐串燒 中正店"_blank">地圖</a><br>
@@ -487,6 +492,7 @@
 ▪ Enjoy Duck Roasted Duck: <a href="https://www.google.com/maps?q=享鴨 烤鴨與中華料理 新竹北大店" target="_blank">Map</a><br>
 ▪ Xishi Shantou Restaurant: <a href="https://www.google.com/maps?q=西市汕頭館 北大店" target="_blank">Map</a><br>
 ▪ Xin Taofang ・ Hakka Cuisine：<a href="https://www.google.com/maps?q=新陶芳 東大路" target="_blank">Map</a><br>
+▪ 🚕 Haidilao Hot Pot：<a href="https://www.google.com/maps?q=海底撈火鍋 新竹" target="_blank">Map</a><br>
 ▪ 🚕 Nongwei Bistro・Hakka Cuisine・🏅2025 Michelin Bib Gourmand<a href="https://www.google.com/maps?q=弄味小廚 客家菜系" target="_blank">Map</a><br>
 ▪ New Bridge Alley: <a href="https://www.google.com/maps?q=新橋弄堂"target="_blank">Map</a>`
         },
@@ -508,6 +514,9 @@
 ▪ Yuzu: <a href="https://www.google.com/maps?q=柚子 文化街" target="_blank">Map</a><br>
 ▪ Minfood:<a href="https://www.google.com/maps?q=皿富器食 minfood" target="_blank">Map</a><br>
 ▪ Kyoto Machiya Japanese Skewers🍢 Izakaya：<a href="https://www.google.com/maps?q=京町家日式串燒居酒屋"_blank">地圖</a><br>
+▪ Yokohama Iekei Ramen House：<a href="https://www.google.com/maps?q=横浜家系ラーメン拉麵家"_blank">Map</a><br>
+▪ Ramen Chicken Paitan：<a href="https://www.google.com/maps?q=ラーメン 鷄白湯"_blank">Map</a><br>
+▪ Musha Musha Curry：<a href="https://www.google.com/maps?q=Musha Musha 熟成咖哩 武昌" target="_blank">Map</a><br>
 ▪ Inkawa Izakaya：<a href="https://www.google.com/maps?q=隱川居酒屋_いざかや" target="_blank">地圖</a><br>
 ▪ Fortune Kitchen🍣：<a href="https://www.google.com/maps?q=福氣廚房-新竹世界店"_blank">Map</a><br>
 ▪ Kawakami Japanese Cuisine🍣：<a href="https://www.google.com/maps?q=和食川上日本料理"_blank">Map</a><br>
@@ -713,6 +722,7 @@
 ▪ 享鴨ローストダック：<a href="https://www.google.com/maps?q=享鴨 烤鴨與中華料理 新竹北大店" target="_blank">地図</a><br>
 ▪ 西市汕頭館：<a href="https://www.google.com/maps?q=西市汕頭館 北大店" target="_blank">地図</a><br>
 ▪ 新陶芳（シン タオファン）・ 客家料理：<a href="https://www.google.com/maps?q=新陶芳 東大路" target="_blank">地図</a><br>
+▪ 🚕 海底撈火鍋（ハイディーラオ火鍋）：<a href="https://www.google.com/maps?q=海底撈火鍋 新竹" target="_blank">地図</a><br>
 ▪ 🚕 ノンウェイ ビストロ（弄味小廚）・客家料理・🏅2025 ミシュラン ビブグルマン<a href="https://www.google.com/maps?q=弄味小廚 客家菜系" target="_blank">地図</a><br>
 ▪ 新橋弄堂：<a href="https://www.google.com/maps?q=新橋弄堂" target="_blank">地図</a>`
         },
@@ -735,7 +745,10 @@
 ▪ 皿富器食 minfood：<a href="https://www.google.com/maps?q=皿富器食 minfood" target="_blank">地図</a><br>
 ▪ 福気キッチン🍣：<a href="https://www.google.com/maps?q=福氣廚房-新竹世界店"_blank">地図</a><br>
 ▪ 和食川上日本料理🍣：<a href="https://www.google.com/maps?q=和食川上日本料理"_blank">地図</a><br>
-▪ 🚕新竹焼肉 モルディブ本店🍖：<a href="https://www.google.com/maps?q=地図" target="_blank">地図</a><br>
+▪ 横浜家系ラーメン拉麵家：<a href="https://www.google.com/maps?q=横浜家系ラーメン拉麵家"_blank">地図</a><br>
+▪ ラーメン 鶏白湯 ：<a href="https://www.google.com/maps?q=ラーメン 鷄白湯"_blank">地図</a><br>
+▪ 🚕 Musha Musha カレー：<a href="https://www.google.com/maps?q=Musha Musha 熟成咖哩 武昌" target="_blank">地図</a><br>
+▪ 🚕新竹焼肉 モルディブ本店🍖：<a href="https://www.google.com/maps?q=新竹燒肉 モルディブ馬爾地夫本店" target="_blank">地図</a><br>
 ▪ 新橋焼肉屋🍖：<a href="https://www.google.com/maps?q=新橋燒肉屋 府後店" target="_blank">地図</a><br>
 ▪ 私嚐串焼🍢：<a href="https://www.google.com/maps?q=私嚐串燒 中正店" target="_blank">地図</a><br>
 ▪ 大阪焼肉 燒魂Yakikon🍖：<a href="https://www.google.com/maps?q=大阪燒肉 燒魂Yakikon 新竹市東區"" target="_blank">地図</a>`
