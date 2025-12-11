@@ -316,7 +316,6 @@
         {
           q: "印度料理與國際美食",
           a: `
-▪ 🚶點22港式點心：<a href="https://www.google.com/maps?q=點22港式點心-新竹東門店" target="_blank">地圖</a><br>
 ▪ 🚶132官舍餐酒館Bistro：<a href="https://www.google.com/maps?q=132官舍/新竹州警務部部長官舍(餐酒館Bistro)" target="_blank">地圖</a><br>
 ▪ 蔣好的味道 (台越小吃)：<a href="https://www.google.com/maps?q=蔣好的味道 台越特色小館" target="_blank">地圖</a><br>
 ▪ 艷麗Pondok Sunny(星馬料理)：<a href="https://www.google.com/maps?q=艷麗Pondok Sunny" target="_blank">地圖</a><br>
@@ -546,7 +545,6 @@
         {
           q: "Indian & International Cuisine",
           a: `
-▪ 🚶Dim 22 Hong Kong Dim Sum：<a href="https://www.google.com/maps?q=點22港式點心-新竹東門店" target="_blank">Map</a><br>
 ▪ 🚶132 Officer’s Residence Bistro：<a href="https://www.google.com/maps?q=132官舍/新竹州警務部部長官舍(餐酒館Bistro)" target="_blank">Map</a><br>
 ▪ Jiang’s Good Taste (Taiwanese & Vietnamese Eats)：<a href="https://www.google.com/maps?q=蔣好的味道 台越特色小館" target="_blank">Map</a><br>
 ▪ Yanli Pondok Sunny-Singaporean and Malaysian Cuisine：<a href="https://www.google.com/maps?q=艷麗Pondok Sunny" target="_blank">Map</a><br>
@@ -787,7 +785,6 @@
         {
           q: "インド料理＆各国料理",
           a: `
-▪ 🚶点22 香港飲茶：<a href="https://www.google.com/maps?q=點22港式點心-新竹東門店" target="_blank">地図</a><br>
 ▪ 🚶132官舎ビストロ：<a href="https://www.google.com/maps?q=132官舍/新竹州警務部部長官舍(餐酒館Bistro)" target="_blank">地図</a><br>
 ▪ 艷麗ポンドック・サニー(シンガポール・マレーシア料理)：<a href="https://www.google.com/maps?q=艷麗Pondok Sunny" target="_blank">地図</a><br>
 ▪ 蔣好的味道（ジャン ハオ ディ ウェイダオ）台湾・ベトナム小吃：<a href="https://www.google.com/maps?q=蔣好的味道 台越特色小館" target="_blank">地図</a><br>
