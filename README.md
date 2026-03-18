@@ -145,7 +145,7 @@
         {
           q: "飯店鄰近夜市",
           a: `▪ 🚶每日：城隍廟夜市：<a href="https://www.google.com/maps?q=新竹市城隍廟夜市" target="_blank">地圖</a><br>
-           ▪ 🚶週二、週四：新竹後站夜市：<a href="https://www.google.com/maps?q=新竹後站夜市" target="_blank">地圖</a><br>
+           ▪ 🚶週二、週五：新竹後站夜市：<a href="https://www.google.com/maps?q=新竹後站夜市" target="_blank">地圖</a><br>
          ▪ 🚕週六、週日 11:00~19:00：新竹假日花市：<a href="https://www.google.com/maps?q=新竹假日花市" target="_blank">地圖</a>`
         },
          {
@@ -386,7 +386,7 @@
          {
           q: "Nearby Night Markets",
           a:  `▪ 🚶Daily – Chenghuang Temple Night Market – <a href="https://www.google.com/maps?q=新竹市城隍廟夜市" target="_blank">Map</a><br><br>
-           ▪ 🚶Tue & Thu – Hsinchu Back Station Night Market: <a href="https://www.google.com/maps?q=新竹後站夜市"  target="_blank">Map</a><br><br>
+           ▪ 🚶Tuesday and Friday – Hsinchu Back Station Night Market: <a href="https://www.google.com/maps?q=新竹後站夜市"  target="_blank">Map</a><br><br>
             ▪ 🚕Saturday and Sunday 11:00~19:00：Holiday Flower Market：<a href="https://www.google.com/maps?q=新竹假日花市" target="_blank">Map</a>`
         },
          {
@@ -611,7 +611,7 @@
         {
           q: "ホテル近くの夜市（よいち）",
           a: `▪🚶 毎日・城隍廟夜市（チョンホアンミャオ夜市）– <a href="https://www.google.com/maps?q=新竹市城隍廟夜市"  target="_blank">地図</a><br>
-          ▪ 🚶火・木：新竹後駅夜市 – <a href="https://www.google.com/maps?q=新竹後站夜市"  target="_blank">地図</a><br>
+          ▪ 🚶火曜日・金曜日：新竹後駅夜市 – <a href="https://www.google.com/maps?q=新竹後站夜市"  target="_blank">地図</a><br>
           ▪ 🚕土曜日・日曜日 11:00~19:00：ホリデー花市場：<a href="https://www.google.com/maps?q=新竹假日花市" target="_blank">地図</a>`
 
         },
